@@ -23,7 +23,8 @@ TEST_APP_SOURCES = src/student.cpp src/utils/grading-utils.cpp
 TEST_OBJECTS = $(patsubst src/%.cpp,$(TEST_OBJDIR)/%.o,$(TEST_APP_SOURCES)) \
 	$(TEST_OBJDIR)/vendor/catch2/catch_amalgamated.o \
 	$(TEST_OBJDIR)/test/catch2-main.o \
-	$(TEST_OBJDIR)/test/unit-test/student-catch2-test.o
+	$(TEST_OBJDIR)/test/unit-test/student-catch2-test.o \
+	$(TEST_OBJDIR)/test/unit-test/custom-vector-catch2-test.o
 
 $(TARGET): $(APP_OBJECTS)
 	$(CXX) $(CXXFLAGS) -o $@ $(APP_OBJECTS)
