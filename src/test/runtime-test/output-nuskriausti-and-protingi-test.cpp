@@ -1,4 +1,5 @@
 #include "output-nuskriausti-and-protingi-test.h"
+#include "custom-vector.h"
 #include "input-utils.h"
 #include "create-student.h"
 #include "sort-students.h"
@@ -80,8 +81,9 @@ void outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles() {
     cout << "1 - vector<Student>" << endl;
     cout << "2 - list<Student>" << endl;
     cout << "3 - deque<Student>" << endl;
+    cout << "4 - CustomVector<Student>" << endl;
 
-    const int containerChoice = readIntInRange("Pasirinkimas: ", 1, 3);
+    const int containerChoice = readIntInRange("Pasirinkimas: ", 1, 4);
 
     cout << "\nPasirinkite strategija:" << endl;
     cout << "1 - Pirma" << endl;
@@ -102,6 +104,9 @@ void outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles() {
                 break;
             case 3:
                 outputNuskriaustiAndProtingiTestForContainer<std::deque<Student>>(filename, strategyChoice);
+                break;
+            case 4:
+                outputNuskriaustiAndProtingiTestForContainer<CustomVector<Student>>(filename, strategyChoice);
                 break;
         }
     }
