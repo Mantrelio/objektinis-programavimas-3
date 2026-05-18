@@ -379,37 +379,37 @@ Abu konteineriai naudoja talpos padvigubinimą, todėl rezultatas turėtų **sut
 
 Meniu punktas `8` matuoja failo nuskaitymą, studentų rūšiavimą (pagal galutinį pažymį) ir skirstymą į `nuskriausti` / `protingi` pasirinkta strategija. Konteineris — `1` (`std::vector<Student>`) arba `4` (`CustomVector<Student>`); strategija — `1` (Pirma), `2` (Antra) arba `3` (Trečia).
 
-Žemiau — bendro laiko (**Iš viso**) vidurkiai per 5 iteracijas (sekundėmis; žr. [Sistemos specifikacijas](#sistemos-specifikacijos)).
+Žemiau — bendras laikas (**Iš viso**), sekundėmis (žr. [Sistemos specifikacijas](#sistemos-specifikacijos)). `CustomVector` — programos vidurkis; `std::vector` — vidurkis per 5 iteracijas (kaip išvestyje).
 
 #### Strategija 1 — Pirma
 
 | Failas | `CustomVector<Student>` (s) | `std::vector<Student>` (s) |
 | --- | ---: | ---: |
-| `students1000` | 0.002202 | 0.006700 |
-| `students10000` | 0.021714 | 0.055347 |
-| `students100000` | 0.243164 | 0.594252 |
-| `students1000000` | 2.848959 | 6.451447 |
-| `students10000000` | 34.240719 | 72.983393 |
+| `students1000` | 0.011010 | 0.006700 |
+| `students10000` | 0.108570 | 0.055347 |
+| `students100000` | 1.215820 | 0.594252 |
+| `students1000000` | 14.244795 | 6.451447 |
+| `students10000000` | 171.203595 | 72.983393 |
 
 #### Strategija 2 — Antra
 
 | Failas | `CustomVector<Student>` (s) | `std::vector<Student>` (s) |
 | --- | ---: | ---: |
-| `students1000` | 0.379980 | 0.005223 |
-| `students10000` | 0.036150 | 0.053774 |
-| `students100000` | 0.317306 | 0.595528 |
-| `students1000000` | 2.829029 | 6.951227 |
-| `students10000000` | 32.586835 | 74.755801 |
+| `students1000` | 1.899900 | 0.005223 |
+| `students10000` | 0.180750 | 0.053774 |
+| `students100000` | 1.586530 | 0.595528 |
+| `students1000000` | 14.145145 | 6.951227 |
+| `students10000000` | 162.934175 | 74.755801 |
 
 #### Strategija 3 — Trečia
 
 | Failas | `CustomVector<Student>` (s) | `std::vector<Student>` (s) |
 | --- | ---: | ---: |
-| `students1000` | 0.340612 | 0.006150 |
-| `students10000` | 0.021888 | 0.063072 |
-| `students100000` | 0.257629 | 0.597970 |
-| `students1000000` | 2.959265 | 6.506724 |
-| `students10000000` | 34.551087 | 78.380378 |
+| `students1000` | 1.703060 | 0.006150 |
+| `students10000` | 0.109440 | 0.063072 |
+| `students100000` | 1.288145 | 0.597970 |
+| `students1000000` | 14.796325 | 6.506724 |
+| `students10000000` | 172.755435 | 78.380378 |
 
 ## Testų rezultatai: `struct` ir `class`
 
