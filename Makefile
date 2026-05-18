@@ -14,6 +14,7 @@ APP_SOURCES = src/main.cpp src/main-menu.cpp src/utils/input-utils.cpp \
 	src/test/runtime-test/output-nuskriausti-and-protingi-test.cpp \
 	src/test/runtime-test/student-rule-of-five-operators-test.cpp \
 	src/test/runtime-test/custom-vector-push-back-test.cpp \
+	src/test/runtime-test/custom-vector-reallocation-test.cpp \
 	src/data-sorting/sort-students.cpp \
 	src/data-sorting/sort-nuskriausti-and-protingi.cpp \
 	src/output-results.cpp \
@@ -41,6 +42,9 @@ $(OBJDIR)/%.o: src/%.cpp
 
 $(OBJDIR)/test/runtime-test/custom-vector-push-back-test.o: \
 		src/test/runtime-test/custom-vector-push-back-test.cpp $(CUSTOM_VECTOR_HEADERS)
+
+$(OBJDIR)/test/runtime-test/custom-vector-reallocation-test.o: \
+		src/test/runtime-test/custom-vector-reallocation-test.cpp $(CUSTOM_VECTOR_HEADERS)
 
 $(TEST_OBJDIR)/%.o: src/%.cpp
 	mkdir -p $(@D)

@@ -8,6 +8,7 @@
 #include "output-nuskriausti-and-protingi-test.h"
 #include "student-rule-of-five-operators-test.h"
 #include "custom-vector-push-back-test.h"
+#include "custom-vector-reallocation-test.h"
 #include "sort-nuskriausti-and-protingi.h"
 #include "sort-students.h"
 
@@ -36,7 +37,8 @@ void showMainMenu() {
     cout << "8 - Testuoti studentu skirstyma i nuskriaustus ir protingus" << endl;
     cout << "9 - Testuoti Student Rule of Five ir operatorius" << endl;
     cout << "10 - Palyginti CustomVector ir std::vector push_back" << endl;
-    cout << "11 - Baigti ir peržiūrėti rezultatus" << endl;
+    cout << "11 - Palyginti CustomVector ir std::vector atminties perskirstymus" << endl;
+    cout << "12 - Baigti ir peržiūrėti rezultatus" << endl;
 }
 
 template <typename T>
@@ -89,6 +91,9 @@ void handleMenuChoice(int choice, T& students) {
             handleCustomVectorPushBackTest();
             break;
         case 11:
+            handleCustomVectorReallocationTest();
+            break;
+        case 12:
             runSortStudentsChoicePrompt(students);
             chooseOutputAndPrint(students);
             break;
@@ -105,9 +110,9 @@ void startMainMenu() {
 
     int choice = 0;
 
-    while (choice != 11) {
+    while (choice != 12) {
         showMainMenu();
-        choice = readIntInRange("Pasirinkimas: ", 1, 11);
+        choice = readIntInRange("Pasirinkimas: ", 1, 12);
         handleMenuChoice(choice, students);
     }
 }
