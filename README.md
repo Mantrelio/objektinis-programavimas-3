@@ -193,7 +193,7 @@ T* CustomVector<T>::end() noexcept {
 }
 ```
 
-`max_size()` — viršutinė elementų riba prieš `reserve` / `insert` / `emplace`:
+`max_size()` — viršutinė elementų riba prieš `reserve` / `insert`:
 
 ```cpp
 typename CustomVector<T>::size_type CustomVector<T>::max_size() const noexcept {
@@ -215,41 +215,17 @@ void CustomVector<T>::reset() noexcept {
 
 ### `push_back(const T& value)`
 
-Viešas metodas perduoda darbą `emplace(end(), value)`:
+Prideda elemento kopiją į konteinerio galą: elementai neperstumiami, reikšmė priskiriama į `data_[size_++]`.
+
+Kai `size_ >= capacity_`, prieš įrašymą talpa padvigubinama (tuščiam konteineriui — `1`) kviečiant `reserve`. Kitu atveju naudojama jau rezervuota vieta buferyje.
 
 ```cpp
 void CustomVector<T>::push_back(const T& value) {
-    emplace(end(), value);
-}
-```
-
-`emplace` tikrina poziciją (`begin()`, `end()`), ribas (`max_size()`), prireikus kviečia `reserve`, perstumia elementus ir sukuria objektą vietoje:
-
-```cpp
-template <typename... Args>
-T* CustomVector<T>::emplace(T* pos, Args&&... args) {
-    if (pos < begin() || pos > end()) {
-        throw std::out_of_range("CustomVector::emplace");
-    }
-    if (size_ >= max_size()) {
-        throw std::length_error("CustomVector::emplace");
-    }
-
-    const size_type index = static_cast<size_type>(pos - begin());
-
     if (size_ >= capacity_) {
         const size_type new_cap = capacity_ == 0 ? 1 : capacity_ * 2;
         reserve(new_cap);
     }
-
-    for (size_type i = size_; i > index; --i) {
-        data_[i] = std::move(data_[i - 1]);
-    }
-
-    data_[index].~T();
-    new (data_.get() + index) T(std::forward<Args>(args)...);
-    ++size_;
-    return data_.get() + index;
+    data_[size_++] = value;
 }
 ```
 
@@ -350,8 +326,6 @@ T* CustomVector<T>::insert(T* pos, const T& value) {
 }
 ```
 
-Skirtumas nuo `emplace`: `insert` priskiria kopiją (`data_[index] = value`), o `emplace` naudoja `~T()` ir placement `new`.
-
 ### `CustomVector` unit testai
 
 Catch2 testai: `src/test/unit-test/custom-vector-catch2-test.cpp`.
@@ -360,6 +334,20 @@ Catch2 testai: `src/test/unit-test/custom-vector-catch2-test.cpp`.
 make test
 ./test "[custom-vector]"
 ```
+
+### `push_back` našumo palyginimas
+
+Interaktyviame meniu pasirinkite `10 - Palyginti CustomVector ir std::vector push_back`, tada elementų skaičių (10 000 … 100 000 000). Testas vienoje sesijoje iš eilės matuoja `CustomVector<int>::push_back` ir `std::vector<int>::push_back`, kiekvienam dydžiui į galą įdedant `int` reikšmes `0 … count - 1`. Išvedamas kiekvienos iteracijos laikas ir **vidurkis** (sekundėmis).
+
+Žemiau — vidurkiai po vienos iteracijos šioje mašinoje (žr. [Sistemos specifikacijas](#sistemos-specifikacijos)). `CustomVector` dažniausiai ~2× lėtesnis už `std::vector`, nes `reserve` per `make_unique<T[]>` konstruoja visą naują buferį, o ne tik naudojamus elementus.
+
+| Elementų skaičius | `CustomVector<int>` (s) | `std::vector<int>` (s) |
+| --- | ---: | ---: |
+| 10 000 | 0.001414 | 0.000468 |
+| 100 000 | 0.011501 | 0.005285 |
+| 1 000 000 | 0.075264 | 0.036119 |
+| 10 000 000 | 1.202800 | 0.428530 |
+| 100 000 000 | 9.594113 | 4.196679 |
 
 ## Testų rezultatai: `struct` ir `class`
 
