@@ -1,5 +1,6 @@
 #include "output-results.h"
 
+#include "custom-vector.h"
 #include "input-utils.h"
 
 #include <deque>
@@ -38,6 +39,7 @@ void outputResults(const T& students, std::ostream& out) {
 template void outputResults(const vector<Student>& students, std::ostream& out);
 template void outputResults(const std::list<Student>& students, std::ostream& out);
 template void outputResults(const std::deque<Student>& students, std::ostream& out);
+template void outputResults(const CustomVector<Student>& students, std::ostream& out);
 
 template <typename T>
 void chooseOutputAndPrint(T& students) {
@@ -69,3 +71,4 @@ void chooseOutputAndPrint(T& students) {
 template void chooseOutputAndPrint(vector<Student>& students);
 template void chooseOutputAndPrint(std::list<Student>& students);
 template void chooseOutputAndPrint(std::deque<Student>& students);
+template void chooseOutputAndPrint(CustomVector<Student>& students);

@@ -1,5 +1,7 @@
 #include "sort-nuskriausti-and-protingi.h"
 
+#include "custom-vector.h"
+
 #include <exception>
 #include <iostream>
 
@@ -26,6 +28,7 @@ std::pair<T, T> sortNuskriaustiAndProtingiFirstStrategy(const T& students) {
 template std::pair<vector<Student>, vector<Student>> sortNuskriaustiAndProtingiFirstStrategy(const vector<Student>&);
 template std::pair<std::list<Student>, std::list<Student>> sortNuskriaustiAndProtingiFirstStrategy(const std::list<Student>&);
 template std::pair<std::deque<Student>, std::deque<Student>> sortNuskriaustiAndProtingiFirstStrategy(const std::deque<Student>&);
+template std::pair<CustomVector<Student>, CustomVector<Student>> sortNuskriaustiAndProtingiFirstStrategy(const CustomVector<Student>&);
 
 template <typename T>
 T sortNuskriaustiAndProtingiSecondStrategy(T& students) {
@@ -50,6 +53,7 @@ T sortNuskriaustiAndProtingiSecondStrategy(T& students) {
 template vector<Student> sortNuskriaustiAndProtingiSecondStrategy(vector<Student>&);
 template std::list<Student> sortNuskriaustiAndProtingiSecondStrategy(std::list<Student>&);
 template std::deque<Student> sortNuskriaustiAndProtingiSecondStrategy(std::deque<Student>&);
+template CustomVector<Student> sortNuskriaustiAndProtingiSecondStrategy(CustomVector<Student>&);
 
 template <typename T>
 std::pair<T, T> sortNuskriaustiAndProtingiThirdStrategy(T& students) {
@@ -69,6 +73,7 @@ std::pair<T, T> sortNuskriaustiAndProtingiThirdStrategy(T& students) {
 template std::pair<vector<Student>, vector<Student>> sortNuskriaustiAndProtingiThirdStrategy(vector<Student>&);
 template std::pair<std::list<Student>, std::list<Student>> sortNuskriaustiAndProtingiThirdStrategy(std::list<Student>&);
 template std::pair<std::deque<Student>, std::deque<Student>> sortNuskriaustiAndProtingiThirdStrategy(std::deque<Student>&);
+template std::pair<CustomVector<Student>, CustomVector<Student>> sortNuskriaustiAndProtingiThirdStrategy(CustomVector<Student>&);
 
 template <typename T>
 void handleSortNuskriaustiAndProtingiFromFile() {
@@ -121,3 +126,4 @@ void handleSortNuskriaustiAndProtingiFromFile() {
 template void handleSortNuskriaustiAndProtingiFromFile<vector<Student>>();
 template void handleSortNuskriaustiAndProtingiFromFile<std::list<Student>>();
 template void handleSortNuskriaustiAndProtingiFromFile<std::deque<Student>>();
+template void handleSortNuskriaustiAndProtingiFromFile<CustomVector<Student>>();

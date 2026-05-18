@@ -26,6 +26,11 @@ public:
     template <typename InputIt>
     T* insert_range(T* pos, InputIt first, InputIt last);
 
+    template <typename InputIt>
+    T* insert(T* pos, InputIt first, InputIt last) {
+        return insert_range(pos, first, last);
+    }
+
     template <typename... Args>
     T* emplace(T* pos, Args&&... args);
 
@@ -56,8 +61,10 @@ public:
     bool empty() const noexcept;
     T* data() noexcept;
     T* begin() noexcept;
+    const T* begin() const noexcept;
     const T* cbegin() const noexcept;
     T* end() noexcept;
+    const T* end() const noexcept;
     const T* cend() const noexcept;
     std::reverse_iterator<T*> rbegin() noexcept;
     std::reverse_iterator<const T*> crbegin() const noexcept;

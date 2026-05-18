@@ -1,5 +1,6 @@
 #include "sort-students.h"
 
+#include "custom-vector.h"
 #include "input-utils.h"
 
 #include <algorithm>
@@ -58,6 +59,7 @@ void sortStudents(T& students, int sortChoice, bool ascending) {
 template void sortStudents(vector<Student>&, int, bool);
 template void sortStudents(std::list<Student>&, int, bool);
 template void sortStudents(std::deque<Student>&, int, bool);
+template void sortStudents(CustomVector<Student>&, int, bool);
 
 template <typename T>
 void runSortStudentsChoicePrompt(T& students) {
@@ -85,3 +87,4 @@ void runSortStudentsChoicePrompt(T& students) {
 template void runSortStudentsChoicePrompt(vector<Student>&);
 template void runSortStudentsChoicePrompt(std::list<Student>&);
 template void runSortStudentsChoicePrompt(std::deque<Student>&);
+template void runSortStudentsChoicePrompt(CustomVector<Student>&);

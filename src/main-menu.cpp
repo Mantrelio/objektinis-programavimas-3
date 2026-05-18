@@ -1,5 +1,6 @@
 #include "student-menu.h"
 
+#include "custom-vector.h"
 #include "create-student.h"
 #include "input-utils.h"
 #include "output-results.h"
@@ -103,6 +104,7 @@ void handleMenuChoice(int choice, T& students) {
 template void handleMenuChoice<vector<Student>>(int, vector<Student>&);
 template void handleMenuChoice<std::list<Student>>(int, std::list<Student>&);
 template void handleMenuChoice<std::deque<Student>>(int, std::deque<Student>&);
+template void handleMenuChoice<CustomVector<Student>>(int, CustomVector<Student>&);
 
 template <typename T>
 void startMainMenu() {
@@ -120,3 +122,4 @@ void startMainMenu() {
 template void startMainMenu<vector<Student>>();
 template void startMainMenu<std::list<Student>>();
 template void startMainMenu<std::deque<Student>>();
+template void startMainMenu<CustomVector<Student>>();

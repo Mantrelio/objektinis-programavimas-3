@@ -1,5 +1,7 @@
 #include "create-student.h"
 
+#include "custom-vector.h"
+
 #include "input-utils.h"
 #include "grading-utils.h"
 
@@ -127,3 +129,4 @@ T createStudentsFromFile(const string& filename) {
 template vector<Student> createStudentsFromFile(const string& filename);
 template std::list<Student> createStudentsFromFile(const string& filename);
 template std::deque<Student> createStudentsFromFile(const string& filename);
+template CustomVector<Student> createStudentsFromFile(const string& filename);

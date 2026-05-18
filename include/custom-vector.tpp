@@ -189,6 +189,7 @@ T* CustomVector<T>::erase(T* first, T* last) {
 
     for (size_type i = new_size; i < old_size; ++i) {
         data_[i].~T();
+        new (data_.get() + i) T();
     }
 
     size_ = new_size;
@@ -239,7 +240,9 @@ void CustomVector<T>::emplace_back(Args&&... args) {
 
 template <typename T>
 void CustomVector<T>::pop_back() {
-    data_[--size_].~T();
+    if (size_ > 0) {
+        size_--;
+    }
 }
 
 template <typename T>
@@ -289,9 +292,6 @@ void CustomVector<T>::resize(size_type count, const T& value) {
     }
 
     if (count < size_) {
-        for (size_type i = count; i < size_; ++i) {
-            data_[i].~T();
-        }
         size_ = count;
         return;
     }
@@ -328,10 +328,7 @@ void CustomVector<T>::shrink_to_fit() {
 
 template <typename T>
 void CustomVector<T>::clear() noexcept {
-    for (size_type i = 0; i < size_; ++i) {
-        data_[i].~T();
-    }
-    size_ = 0;
+    reset();
 }
 
 template <typename T>
@@ -350,12 +347,22 @@ T* CustomVector<T>::begin() noexcept {
 }
 
 template <typename T>
+const T* CustomVector<T>::begin() const noexcept {
+    return data_.get();
+}
+
+template <typename T>
 const T* CustomVector<T>::cbegin() const noexcept {
     return data_.get();
 }
 
 template <typename T>
 T* CustomVector<T>::end() noexcept {
+    return data_.get() + size_;
+}
+
+template <typename T>
+const T* CustomVector<T>::end() const noexcept {
     return data_.get() + size_;
 }
 
