@@ -171,6 +171,107 @@ Papildomai galima paleisti tik pasirinktus Catch2 testus pagal žymes (tags):
 ./test "[operators]"
 ```
 
+## `CustomVector` klasė
+
+`CustomVector<T>` yra projekte naudojamas dinaminis masyvas (šabloninė klasė failuose `include/custom-vector.h` ir `include/custom-vector.tpp`). Viduje elementai saugomi `std::unique_ptr<T[]>` buferyje; seka `size_` (elementų skaičius) ir `capacity_` (rezervuota vieta).
+
+### `push_back(const T& value)`
+
+Prideda kopiją į konteinerio galą.
+
+- Implementacija kviečia `emplace(end(), value)`, t. y. elementas įterpiamas prieš `end()` žymeklį.
+- Jei `size_ >= capacity_`, talpa padidinama: tuščiam vektoriui `reserve(1)`, kitu atveju `reserve(capacity_ * 2)`.
+- `size()` padidėja vienetu; esami elementai išlieka savo vietose.
+
+```cpp
+CustomVector<std::string> v;
+v.push_back("a");
+v.push_back("b");  // v == {"a", "b"}
+```
+
+### `reserve(size_type new_cap)`
+
+Iš anksto rezervuoja atmintį bent `new_cap` elementams **nekeisdamas** `size()`.
+
+- Jei `new_cap <= capacity_`, metodas nieko nedaro.
+- Jei `new_cap > max_size()`, metamas `std::length_error`.
+- Priešingu atveju alokuojamas naujas masyvas, esami elementai perkeliami (`std::move`), atnaujinama tik `capacity_`.
+
+Tai naudinga, kai iš anksto žinomas apytikslis elementų skaičius ir norima sumažinti perteklinius perskirstymus kviečiant `push_back` ar `insert`.
+
+```cpp
+CustomVector<int> v;
+v.reserve(8);     // capacity >= 8, size() vis dar 0
+v.push_back(1);
+v.push_back(2);   // dažnai be papildomo perskirstymo
+```
+
+### `shrink_to_fit()`
+
+Sumažina `capacity_` iki `size_` (atlaisvina nenaudojamą atmintį).
+
+- Jei `size_ == capacity_`, nieko nedaro.
+- Jei konteineris tuščias (`size_ == 0`), iškviečiamas `reset()` — buferis atlaisvinamas, `capacity_` tampa 0.
+- Kitu atveju alokuojamas masyvas tik `size_` ilgio, elementai perkeliami, `capacity_ = size_`.
+
+Elementų turinys ir eilės tvarka nepasikeičia.
+
+```cpp
+CustomVector<int> v = {1, 2, 3};
+v.reserve(16);
+v.shrink_to_fit();  // capacity() == 3, turinys {1, 2, 3}
+```
+
+### `operator[](size_type pos)`
+
+Grąžina nuorodą į elementą pozicijoje `pos`: `return data_[pos]`.
+
+- Skirtingai nuo `at(pos)`, **netikrina** ribų — neegzistuojantis indeksas yra neapibrėžtas elgesys (kaip ir `std::vector::operator[]`).
+- Tinka, kai indeksas jau patikrintas arba garantuotai teisingas (ciklai `0 .. size()-1`).
+
+Palyginimui, `at(pos)` meta `std::out_of_range`, jei `pos >= size()`.
+
+```cpp
+CustomVector<int> v = {10, 20, 30};
+v[1] = 21;           // leidžiama, jei size() > 1
+int x = v.at(2);     // saugiau: meta išimtį, jei pos >= size()
+```
+
+### `insert(T* pos, const T& value)`
+
+Įterpia **kopiją** `value` prieš poziciją `pos` ir grąžina žymeklį į naują elementą.
+
+**Pozicija:**
+
+- `pos` turi būti intervale `[begin(), end()]` (įskaitant `end()` — įterpimas į galą).
+- Jei `pos` už šio intervalo, metama `std::out_of_range`.
+
+**Talpa ir dydis:**
+
+- Jei po įterpimo `size_` viršytų `max_size()`, metama `std::length_error`.
+- Jei `size_ >= capacity_`, talpa padidinama (`reserve` su dvigubinimu arba `1` tuščiam konteineriui).
+- Elementai nuo `pos` iki senojo `end()` perstumiami į dešinę (`std::move`), tada įrašomas naujas elementas, `size_` padidinamas vienetu.
+
+**Grąžinama reikšmė:** žymeklis į įterptą elementą (`data_.get() + index`).
+
+```cpp
+CustomVector<int> v = {1, 3};
+v.insert(v.begin(), 0);           // {0, 1, 3}
+v.insert(v.begin() + 2, 2);       // {0, 1, 2, 3}
+v.insert(v.end(), 4);             // {0, 1, 2, 3, 4}
+```
+
+Papildomai klasėje yra `insert_range(pos, first, last)` (keliems elementams iš iteratoriaus diapazono) ir `emplace(pos, args...)` (konstravimas vietoje).
+
+### `CustomVector` unit testai
+
+Catch2 testai: `src/test/unit-test/custom-vector-catch2-test.cpp`.
+
+```bash
+make test
+./test "[custom-vector]"
+```
+
 ## Testų rezultatai: `struct` ir `class`
 
 Žemiau pateikti testai, kuriuose buvo lyginama, kaip programa veikia naudojant `struct` ir `class` studentų aprašymui.
