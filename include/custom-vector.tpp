@@ -220,13 +220,21 @@ T& CustomVector<T>::back() {
 
 template <typename T>
 void CustomVector<T>::push_back(const T& value) {
-    emplace(end(), value);
+    if (size_ >= capacity_) {
+        const size_type new_cap = capacity_ == 0 ? 1 : capacity_ * 2;
+        reserve(new_cap);
+    }
+    data_[size_++] = value;
 }
 
 template <typename T>
 template <typename... Args>
 void CustomVector<T>::emplace_back(Args&&... args) {
-    emplace(end(), std::forward<Args>(args)...);
+    if (size_ >= capacity_) {
+        const size_type new_cap = capacity_ == 0 ? 1 : capacity_ * 2;
+        reserve(new_cap);
+    }
+    data_[size_++] = T(std::forward<Args>(args)...);
 }
 
 template <typename T>
