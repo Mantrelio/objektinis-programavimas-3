@@ -175,12 +175,28 @@ Papildomai galima paleisti tik pasirinktus Catch2 testus pagal žymes (tags):
 
 `CustomVector<T>` yra projekte naudojamas dinaminis masyvas (šabloninė klasė failuose `include/custom-vector.h` ir `include/custom-vector.tpp`). Viduje elementai saugomi `std::unique_ptr<T[]>` buferyje; seka `size_` (elementų skaičius) ir `capacity_` (rezervuota vieta).
 
+### Bendros vidinės / pagalbinės funkcijos
+
+Šios funkcijos dažnai pasitaiko keliuose viešuosiuose metoduose:
+
+| Funkcija | Paskirtis |
+| --- | --- |
+| `begin()` | Grąžina žymeklį į pirmą elementą: `data_.get()`. |
+| `end()` | Grąžina žymeklį **už paskutinio** elemento: `data_.get() + size_`. Naudojama ciklams ir įterpimui į galą (`insert` / `emplace` su `end()`). |
+| `data()` | Tas pats buferis kaip `begin()` — žaliųjų rodyklių prieiga prie masyvo. |
+| `size()` / `capacity()` | Grąžina `size_` ir `capacity_` (tik skaitymas, `noexcept`). |
+| `max_size()` | Didžiausias leistinas elementų skaičius: ribojamas `std::ptrdiff_t` ir `sizeof(T)`. Naudojama prieš augimą — jei viršyta, metama `std::length_error`. |
+| `reset()` (private) | `data_.reset()`, `size_ = 0`, `capacity_ = 0` — visiškai ištuština buferį. |
+| `reserve(new_cap)` | Perskirsto buferį į didesnį masyvą (žr. žemiau). |
+| `std::move` | Perkelia esamus elementus į naują vietą be perteklinių kopijų (svarbu `reserve`, `insert`, `shrink_to_fit`). |
+| `std::make_unique<T[]>(n)` | Alokuoja naują dinaminį masyvą `n` elementų. |
+| Placement `new` | `emplace` sunaikina seną objektą ir **vietoje** sukuria naują: `new (data_.get() + index) T(...)`. |
+
 ### `push_back(const T& value)`
 
 Prideda kopiją į konteinerio galą.
 
-- Implementacija kviečia `emplace(end(), value)`, t. y. elementas įterpiamas prieš `end()` žymeklį.
-- Jei `size_ >= capacity_`, talpa padidinama: tuščiam vektoriui `reserve(1)`, kitu atveju `reserve(capacity_ * 2)`.
+- Viešas metodas tik perduoda darbą: `emplace(end(), value)`.
 - `size()` padidėja vienetu; esami elementai išlieka savo vietose.
 
 ```cpp
@@ -189,13 +205,25 @@ v.push_back("a");
 v.push_back("b");  // v == {"a", "b"}
 ```
 
+**Viduje kviečiama:**
+
+1. **`end()`** — nustato įterpimo vietą gale (indeksas lygus `size_`).
+2. **`emplace(pos, value)`** — tikrasis darbas:
+   - **`begin()`** ir **`end()`** — tikrinama, ar `pos` intervale `[begin(), end()]`; kitaip `std::out_of_range`.
+   - **`max_size()`** — jei `size_ >= max_size()`, `std::length_error`.
+   - Indeksas: `index = pos - begin()` (žymeklių aritmetika).
+   - Jei `size_ >= capacity_`: **`reserve`** su `new_cap = (capacity_ == 0) ? 1 : capacity_ * 2`.
+   - Ciklas `i` nuo `size_` žemyn iki `index`: `data_[i] = std::move(data_[i - 1])` — atlaisvina vietą.
+   - **`data_[index].~T()`** ir placement **`new (data_.get() + index) T(value)`** — elementas sukuriamas vietoje.
+   - `++size_`; grąžinama `data_.get() + index` (čia `push_back` grąžinamos reikšmės nenaudoja).
+
 ### `reserve(size_type new_cap)`
 
 Iš anksto rezervuoja atmintį bent `new_cap` elementams **nekeisdamas** `size()`.
 
 - Jei `new_cap <= capacity_`, metodas nieko nedaro.
 - Jei `new_cap > max_size()`, metamas `std::length_error`.
-- Priešingu atveju alokuojamas naujas masyvas, esami elementai perkeliami (`std::move`), atnaujinama tik `capacity_`.
+- Priešingu atveju alokuojamas naujas masyvas, esami elementai perkeliami, atnaujinama tik `capacity_`.
 
 Tai naudinga, kai iš anksto žinomas apytikslis elementų skaičius ir norima sumažinti perteklinius perskirstymus kviečiant `push_back` ar `insert`.
 
@@ -206,21 +234,38 @@ v.push_back(1);
 v.push_back(2);   // dažnai be papildomo perskirstymo
 ```
 
+**Viduje naudojama:**
+
+1. **`max_size()`** — viršutinė riba prieš alokaciją.
+2. **`std::make_unique<T[]>(new_cap)`** — naujas buferis `new_data`.
+3. Ciklas `for (i = 0; i < size_; ++i)`: **`new_data[i] = std::move(data_[i])`** — perkeliami tik jau egzistuojantys (`size_`) elementai; `size_` nesikeičia.
+4. **`data_ = std::move(new_data)`** — senas masyvas automatiškai sunaikinamas per `unique_ptr`.
+5. **`capacity_ = new_cap`** — atnaujinama tik talpa.
+
+`reserve` **nekviečia** `reset()`, `shrink_to_fit()` ar `resize()` — tik didina talpą, jei reikia.
+
 ### `shrink_to_fit()`
 
-Sumažina `capacity_` iki `size_` (atlaisvina nenaudojamą atmintį).
-
-- Jei `size_ == capacity_`, nieko nedaro.
-- Jei konteineris tuščias (`size_ == 0`), iškviečiamas `reset()` — buferis atlaisvinamas, `capacity_` tampa 0.
-- Kitu atveju alokuojamas masyvas tik `size_` ilgio, elementai perkeliami, `capacity_ = size_`.
-
-Elementų turinys ir eilės tvarka nepasikeičia.
+Sumažina `capacity_` iki `size_` (atlaisvina nenaudojamą atmintį). Elementų turinys ir eilės tvarka nepasikeičia.
 
 ```cpp
 CustomVector<int> v = {1, 2, 3};
 v.reserve(16);
 v.shrink_to_fit();  // capacity() == 3, turinys {1, 2, 3}
 ```
+
+**Viduje naudojama:**
+
+1. Palyginimas **`size_ == capacity_`** — ankstyvas išėjimas, jei pertekliaus nėra.
+2. Jei **`size_ == 0`**: kviečiamas **`reset()`**:
+   - **`data_.reset()`** — atlaisvina buferį;
+   - **`size_ = 0`**, **`capacity_ = 0`**.
+3. Kitu atveju:
+   - **`std::make_unique<T[]>(size_)`** — masyvas tik reikiamo dydžio;
+   - ciklas su **`std::move(data_[i])`** į `new_data[i]` (`i` nuo `0` iki `size_ - 1`);
+   - **`data_ = std::move(new_data)`**, **`capacity_ = size_`**.
+
+`shrink_to_fit` **nekviečia** `reserve()` — talpa tik mažinama, ne didinama.
 
 ### `operator[](size_type pos)`
 
@@ -229,30 +274,22 @@ Grąžina nuorodą į elementą pozicijoje `pos`: `return data_[pos]`.
 - Skirtingai nuo `at(pos)`, **netikrina** ribų — neegzistuojantis indeksas yra neapibrėžtas elgesys (kaip ir `std::vector::operator[]`).
 - Tinka, kai indeksas jau patikrintas arba garantuotai teisingas (ciklai `0 .. size()-1`).
 
-Palyginimui, `at(pos)` meta `std::out_of_range`, jei `pos >= size()`.
-
 ```cpp
 CustomVector<int> v = {10, 20, 30};
 v[1] = 21;           // leidžiama, jei size() > 1
 int x = v.at(2);     // saugiau: meta išimtį, jei pos >= size()
 ```
 
+**Viduje naudojama:**
+
+- Tiesiog **`data_[pos]`** per `std::unique_ptr<T[]>::operator[]` — jokio `begin()`, `size()` ar `capacity()` kvietimo.
+- **`at(pos)`** (alternatyva): pirmiausia **`if (pos >= size_)`** → `std::out_of_range`, tada taip pat `return data_[pos]`.
+
+`operator[]` yra paprasčiausias prieigos metodas; saugumą užtikrina tik kvietėjas arba `at()`.
+
 ### `insert(T* pos, const T& value)`
 
 Įterpia **kopiją** `value` prieš poziciją `pos` ir grąžina žymeklį į naują elementą.
-
-**Pozicija:**
-
-- `pos` turi būti intervale `[begin(), end()]` (įskaitant `end()` — įterpimas į galą).
-- Jei `pos` už šio intervalo, metama `std::out_of_range`.
-
-**Talpa ir dydis:**
-
-- Jei po įterpimo `size_` viršytų `max_size()`, metama `std::length_error`.
-- Jei `size_ >= capacity_`, talpa padidinama (`reserve` su dvigubinimu arba `1` tuščiam konteineriui).
-- Elementai nuo `pos` iki senojo `end()` perstumiami į dešinę (`std::move`), tada įrašomas naujas elementas, `size_` padidinamas vienetu.
-
-**Grąžinama reikšmė:** žymeklis į įterptą elementą (`data_.get() + index`).
 
 ```cpp
 CustomVector<int> v = {1, 3};
@@ -261,7 +298,29 @@ v.insert(v.begin() + 2, 2);       // {0, 1, 2, 3}
 v.insert(v.end(), 4);             // {0, 1, 2, 3, 4}
 ```
 
-Papildomai klasėje yra `insert_range(pos, first, last)` (keliems elementams iš iteratoriaus diapazono) ir `emplace(pos, args...)` (konstravimas vietoje).
+**Pozicija ir ribos:**
+
+- **`begin()`**, **`end()`** — `pos` turi būti `[begin(), end()]`; kitaip `std::out_of_range`.
+- **`max_size()`** — jei `size_ >= max_size()`, `std::length_error`.
+
+**Indeksas ir talpa:**
+
+- **`index = static_cast<size_type>(pos - begin())`** — žymeklis paverčiamas skaitiniu indeksu.
+- Jei `size_ >= capacity_`: **`reserve(new_cap)`**, kur `new_cap = (capacity_ == 0) ? 1 : capacity_ * 2` (tas pats augimo principas kaip `emplace`).
+
+**Perstūmimas ir įrašymas:**
+
+- Ciklas `i` nuo `size_` žemyn: **`data_[i] = std::move(data_[i - 1])`** — elementai nuo `index` stumiami į dešinę.
+- **`data_[index] = value`** — kopijuojamas naujas elementas (ne placement `new`, skirtingai nuo `emplace`).
+- **`++size_`**; grąžinama **`data_.get() + index`**.
+
+**Susiję metodai (nekviečiami tiesiogiai iš `insert`, bet ta pati logika):**
+
+- **`emplace(pos, args...)`** — vietoje kopijos naudoja `~T()` + placement `new` ir `std::forward<Args>`.
+- **`insert_range(pos, first, last)`** — keliems elementams: **`std::distance`**, didesnis `reserve`, platesnis perstūmimo ciklas.
+- **`push_back(value)`** — iš esmės `insert` į galą per **`emplace(end(), value)`**.
+
+Papildomai klasėje yra `insert_range(pos, first, last)` ir `emplace(pos, args...)` (žr. aukščiau).
 
 ### `CustomVector` unit testai
 
