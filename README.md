@@ -349,6 +349,31 @@ Interaktyviame meniu pasirinkite `10 - Palyginti CustomVector ir std::vector pus
 | 10 000 000 | 1.202800 | 0.428530 |
 | 100 000 000 | 9.594113 | 4.196679 |
 
+### Atminties perskirstymų skaičiavimas (V1.5)
+
+Meniu punktas `11` užpildo konteinerį **100 000 000** `int` elementų ir skaičiuoja, kiek kartų prieš `push_back` buvo `size() == capacity()` (t. y. nebėra vietos naujam elementui — įvyks perskirstymas).
+
+Skaičiavimas abiem konteineriams (`src/test/runtime-test/custom-vector-reallocation-test.cpp`):
+
+```cpp
+template <typename Vector>
+std::size_t countReallocationsWhilePushBack(std::size_t element_count) {
+    Vector vector;
+    std::size_t reallocations = 0;
+
+    for (std::size_t i = 0; i < element_count; ++i) {
+        if (vector.size() == vector.capacity()) {
+            ++reallocations;
+        }
+        vector.push_back(static_cast<typename Vector::value_type>(i));
+    }
+
+    return reallocations;
+}
+```
+
+Abu konteineriai naudoja talpos padvigubinimą, todėl rezultatas turėtų **sutapti** (šioje mašinoje — **28** perskirstymai).
+
 ## Testų rezultatai: `struct` ir `class`
 
 Žemiau pateikti testai, kuriuose buvo lyginama, kaip programa veikia naudojant `struct` ir `class` studentų aprašymui.
