@@ -1,14 +1,14 @@
 \doxysection{src/output-\/results.cpp File Reference}
 \hypertarget{output-results_8cpp}{}\label{output-results_8cpp}\index{src/output-\/results.cpp@{src/output-\/results.cpp}}
 {\ttfamily \#include "{}output-\/results.\+h"{}}\newline
+{\ttfamily \#include "{}custom-\/vector.\+h"{}}\newline
 {\ttfamily \#include "{}input-\/utils.\+h"{}}\newline
 {\ttfamily \#include $<$deque$>$}\newline
 {\ttfamily \#include $<$fstream$>$}\newline
 {\ttfamily \#include $<$iomanip$>$}\newline
 {\ttfamily \#include $<$list$>$}\newline
 {\ttfamily \#include $<$stdexcept$>$}\newline
-Include dependency graph for output-\/results.cpp\+:
-\nopagebreak
+Include dependency graph for output-\/results.cpp\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -26,6 +26,8 @@ template void \mbox{\hyperlink{output-results_8cpp_a56a58db0d419202c97722ddd9d9e
 \item 
 template void \mbox{\hyperlink{output-results_8cpp_aa8454fc90b7d206199f7ab98f0d2b5dc}{output\+Results}} (const std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&students, std\+::ostream \&out)
 \item 
+template void \mbox{\hyperlink{output-results_8cpp_a4ae1cbaf2f41253ee058c01e2b2e40d6}{output\+Results}} (const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&students, std\+::ostream \&out)
+\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{output-results_8cpp_a5094c02b1dc2b466ef3c3ae66188ef53}{choose\+Output\+And\+Print}} (T \&students)
 \item 
 template void \mbox{\hyperlink{output-results_8cpp_ac5aaa104384764cf6d85d2360a183b29}{choose\+Output\+And\+Print}} (vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&students)
@@ -33,57 +35,71 @@ template void \mbox{\hyperlink{output-results_8cpp_ac5aaa104384764cf6d85d2360a18
 template void \mbox{\hyperlink{output-results_8cpp_a3487f139230ba3ae5f7a3a915c10e1ef}{choose\+Output\+And\+Print}} (std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&students)
 \item 
 template void \mbox{\hyperlink{output-results_8cpp_a067fb5b0a00d4092cbb8fda1a15683fa}{choose\+Output\+And\+Print}} (std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&students)
+\item 
+template void \mbox{\hyperlink{output-results_8cpp_a331c46efddc8790f8993923cbd4c83c1}{choose\+Output\+And\+Print}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&students)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
+\Hypertarget{output-results_8cpp_a331c46efddc8790f8993923cbd4c83c1}\label{output-results_8cpp_a331c46efddc8790f8993923cbd4c83c1} 
+\index{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}}
+\index{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}}
+\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template void choose\+Output\+And\+Print (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students }\end{DoxyParamCaption})}
+
 \Hypertarget{output-results_8cpp_a067fb5b0a00d4092cbb8fda1a15683fa}\label{output-results_8cpp_a067fb5b0a00d4092cbb8fda1a15683fa} 
 \index{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}}
 \index{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template void choose\+Output\+And\+Print (\begin{DoxyParamCaption}\item[{std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_a3487f139230ba3ae5f7a3a915c10e1ef}\label{output-results_8cpp_a3487f139230ba3ae5f7a3a915c10e1ef} 
 \index{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}}
 \index{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template void choose\+Output\+And\+Print (\begin{DoxyParamCaption}\item[{std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_a5094c02b1dc2b466ef3c3ae66188ef53}\label{output-results_8cpp_a5094c02b1dc2b466ef3c3ae66188ef53} 
 \index{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}}
 \index{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void choose\+Output\+And\+Print (\begin{DoxyParamCaption}\item[{T \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_ac5aaa104384764cf6d85d2360a183b29}\label{output-results_8cpp_ac5aaa104384764cf6d85d2360a183b29} 
 \index{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}}
 \index{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{chooseOutputAndPrint()}{chooseOutputAndPrint()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template void choose\+Output\+And\+Print (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students }\end{DoxyParamCaption})}
+
+\Hypertarget{output-results_8cpp_a4ae1cbaf2f41253ee058c01e2b2e40d6}\label{output-results_8cpp_a4ae1cbaf2f41253ee058c01e2b2e40d6} 
+\index{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}}
+\index{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}}
+\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template void output\+Results (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students,  }\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_aa8454fc90b7d206199f7ab98f0d2b5dc}\label{output-results_8cpp_aa8454fc90b7d206199f7ab98f0d2b5dc} 
 \index{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}}
 \index{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template void output\+Results (\begin{DoxyParamCaption}\item[{const std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students,  }\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_a56a58db0d419202c97722ddd9d9eb876}\label{output-results_8cpp_a56a58db0d419202c97722ddd9d9eb876} 
 \index{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}}
 \index{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template void output\+Results (\begin{DoxyParamCaption}\item[{const std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students,  }\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_ae71ed133aaca3d4fef9491551a6108f6}\label{output-results_8cpp_ae71ed133aaca3d4fef9491551a6108f6} 
 \index{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}}
 \index{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void output\+Results (\begin{DoxyParamCaption}\item[{const T \&}]{students,  }\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
 
 \Hypertarget{output-results_8cpp_ab28fc9f325217e7089930dcf81a3b83d}\label{output-results_8cpp_ab28fc9f325217e7089930dcf81a3b83d} 
 \index{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}}
 \index{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}}
-\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{outputResults()}{outputResults()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template void output\+Results (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{students,  }\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
 

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['examgrade_0',['examGrade',['../classStudent.html#a6275bf401dfedc1d7137324bfe6986b2',1,'Student']]]
+  ['back_0',['back',['../classCustomVector.html#a9615cf416b9b898cc06b57ced154eac0',1,'CustomVector']]],
+  ['begin_1',['begin',['../classCustomVector.html#a9c4a18be180d010bd4a97355b688002d',1,'CustomVector::begin() noexcept'],['../classCustomVector.html#a186c92dfd3af83ad507b8893269b583a',1,'CustomVector::begin() const noexcept']]]
 ];

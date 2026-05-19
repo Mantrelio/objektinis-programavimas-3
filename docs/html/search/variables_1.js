@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['surname_5f_0',['surname_',['../classHuman.html#aa6632ccd30ebfa087e0d875b2d50340c',1,'Human']]]
+  ['name_5f_0',['name_',['../classHuman.html#aae88b7b47fcb48ae282483b89b753927',1,'Human']]]
 ];

@@ -1,0 +1,418 @@
+\doxysection{Custom\+Vector\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classCustomVector}{}\label{classCustomVector}\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+
+
+{\ttfamily \#include $<$custom-\/vector.\+h$>$}
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classCustomVector_a211927167525feecbb07400553637332}{value\+\_\+type}} = T
+\item 
+using \mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} = std\+::size\+\_\+t
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCustomVector_ac11a611fdf412a6d7dad3ec88f453639}{Custom\+Vector}} () noexcept
+\item 
+\mbox{\hyperlink{classCustomVector_a422d0116d8677d1986333c0f53ec6496}{Custom\+Vector}} (const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \&other)
+\item 
+\mbox{\hyperlink{classCustomVector_a0307e18f9ecfd23407b58c8be3107822}{Custom\+Vector}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \&\&other) noexcept
+\item 
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \& \mbox{\hyperlink{classCustomVector_ac5e4ba55c9e302970cb75021573405a9}{operator=}} (const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \&other)
+\item 
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \& \mbox{\hyperlink{classCustomVector_af4a7ce06efcd048c63ecea3744a3dda3}{operator=}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \&\&other) noexcept
+\item 
+\mbox{\hyperlink{classCustomVector_aa91082711383d13696b7b4f7e35733f5}{\texorpdfstring{$\sim$}{\string~}\+Custom\+Vector}} ()=default
+\item 
+void \mbox{\hyperlink{classCustomVector_ac6d5c0dd883aab48fcbaac75b2038ce8}{swap}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \&other) noexcept
+\item 
+void \mbox{\hyperlink{classCustomVector_ab6ba9c8f9b96a1aa6ec534ab147f1fa1}{assign}} (\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} count, const T \&value)
+\item 
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_af5b2f6092260230686e4831c5ad2ebf8}{insert}} (T \texorpdfstring{$\ast$}{*}pos, const T \&value)
+\item 
+{\footnotesize template$<$typename Input\+It $>$ }\\T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_ae90d7eb600b03554e9f5bd367703bf23}{insert\+\_\+range}} (T \texorpdfstring{$\ast$}{*}pos, Input\+It first, Input\+It last)
+\item 
+{\footnotesize template$<$typename Input\+It $>$ }\\T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_aace999d60be6dc25028302e1b80abdb2}{insert}} (T \texorpdfstring{$\ast$}{*}pos, Input\+It first, Input\+It last)
+\item 
+{\footnotesize template$<$typename... Args$>$ }\\T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a4b19486859ff216fa1816fb2045ea61b}{emplace}} (T \texorpdfstring{$\ast$}{*}pos, Args \&\&... args)
+\item 
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a3e2938399f345510fc63a59557f54e06}{erase}} (T \texorpdfstring{$\ast$}{*}pos)
+\item 
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a38f24b7508c60404daaa168923afcd31}{erase}} (T \texorpdfstring{$\ast$}{*}first, T \texorpdfstring{$\ast$}{*}last)
+\item 
+T \& \mbox{\hyperlink{classCustomVector_a5b62e9e89b8e74fec03a437ccdd60454}{at}} (\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} pos)
+\item 
+T \& \mbox{\hyperlink{classCustomVector_a0b8c370b9603a6c598003f81febbf31b}{operator\mbox{[}$\,$\mbox{]}}} (\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} pos)
+\item 
+T \& \mbox{\hyperlink{classCustomVector_ae7529e338c3976fb60d12e70be23df27}{front}} ()
+\item 
+T \& \mbox{\hyperlink{classCustomVector_a9615cf416b9b898cc06b57ced154eac0}{back}} ()
+\item 
+void \mbox{\hyperlink{classCustomVector_a17c2cfeb7c47266957ff03f8d315b3b3}{push\+\_\+back}} (const T \&value)
+\item 
+{\footnotesize template$<$typename... Args$>$ }\\void \mbox{\hyperlink{classCustomVector_a74d4779d4bb1d4a9e13f4ce5f7b0804b}{emplace\+\_\+back}} (Args \&\&... args)
+\item 
+void \mbox{\hyperlink{classCustomVector_a975b403fb6e335d6d13a8dc05b0ad330}{pop\+\_\+back}} ()
+\item 
+{\footnotesize template$<$typename Input\+It $>$ }\\void \mbox{\hyperlink{classCustomVector_a04d134018bb361c04de41248aa50242c}{append\+\_\+range}} (Input\+It first, Input\+It last)
+\item 
+\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} \mbox{\hyperlink{classCustomVector_afe763cb8d089dfe564aef9a280475250}{size}} () const noexcept
+\item 
+\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} \mbox{\hyperlink{classCustomVector_a0814647e2488f15f18bb840bea87eb71}{capacity}} () const noexcept
+\item 
+\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} \mbox{\hyperlink{classCustomVector_a7f50e3fc894f37f7c6ae482608912b6a}{max\+\_\+size}} () const noexcept
+\item 
+void \mbox{\hyperlink{classCustomVector_afce01c633115bacb67f6aac2a7a333e7}{reserve}} (\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} new\+\_\+cap)
+\item 
+void \mbox{\hyperlink{classCustomVector_ac568a9452dc6413aad662b5ef840b98a}{resize}} (\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} count, const T \&value)
+\item 
+void \mbox{\hyperlink{classCustomVector_aa688a1f11d287a573cb14ad5360d778b}{shrink\+\_\+to\+\_\+fit}} ()
+\item 
+void \mbox{\hyperlink{classCustomVector_a769ae2afc34599b0a4926c784aa414e4}{clear}} () noexcept
+\item 
+bool \mbox{\hyperlink{classCustomVector_aaa326b1d6c7c7c09171be7661d553ed6}{empty}} () const noexcept
+\item 
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a5e91ef79b66b8a9faa340f671365236b}{data}} () noexcept
+\item 
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a9c4a18be180d010bd4a97355b688002d}{begin}} () noexcept
+\item 
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a186c92dfd3af83ad507b8893269b583a}{begin}} () const noexcept
+\item 
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a8b4b9b13c41e8052c54ce8047926a17b}{cbegin}} () const noexcept
+\item 
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_adf2ec12fc4389b4a631f6fc284a818cb}{end}} () noexcept
+\item 
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_ac6cd1de84490ef26a6979d2d071af48c}{end}} () const noexcept
+\item 
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector_a01f050782c20cd6a82d30eae82d762aa}{cend}} () const noexcept
+\item 
+std\+::reverse\+\_\+iterator$<$ T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector_a47d4388581aad2a26f90488ee54961c2}{rbegin}} () noexcept
+\item 
+std\+::reverse\+\_\+iterator$<$ const T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector_ac916864408482068900d8b226a621d8b}{crbegin}} () const noexcept
+\item 
+std\+::reverse\+\_\+iterator$<$ T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector_afd098ed608ba8522508d79445e767164}{rend}} () noexcept
+\item 
+std\+::reverse\+\_\+iterator$<$ const T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector_ae62fdbc4522396a9fd58109c0acd1f09}{crend}} () const noexcept
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}\label{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!size\_type@{size\_type}}
+\index{size\_type@{size\_type}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{size\_type}{size\_type}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+using \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::size\+\_\+type =  std\+::size\+\_\+t}
+
+\Hypertarget{classCustomVector_a211927167525feecbb07400553637332}\label{classCustomVector_a211927167525feecbb07400553637332} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!value\_type@{value\_type}}
+\index{value\_type@{value\_type}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{value\_type}{value\_type}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+using \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::value\+\_\+type =  T}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCustomVector_ac11a611fdf412a6d7dad3ec88f453639}\label{classCustomVector_ac11a611fdf412a6d7dad3ec88f453639} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!CustomVector@{CustomVector}}
+\index{CustomVector@{CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{CustomVector()}{CustomVector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\mbox{\hyperlink{classCustomVector}{\+::\+Custom\+Vector}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a422d0116d8677d1986333c0f53ec6496}\label{classCustomVector_a422d0116d8677d1986333c0f53ec6496} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!CustomVector@{CustomVector}}
+\index{CustomVector@{CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{CustomVector()}{CustomVector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\mbox{\hyperlink{classCustomVector}{\+::\+Custom\+Vector}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$ \&}]{other }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a0307e18f9ecfd23407b58c8be3107822}\label{classCustomVector_a0307e18f9ecfd23407b58c8be3107822} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!CustomVector@{CustomVector}}
+\index{CustomVector@{CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{CustomVector()}{CustomVector()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\mbox{\hyperlink{classCustomVector}{\+::\+Custom\+Vector}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$ \&\&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_aa91082711383d13696b7b4f7e35733f5}\label{classCustomVector_aa91082711383d13696b7b4f7e35733f5} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!````~CustomVector@{\texorpdfstring{$\sim$}{\string~}CustomVector}}
+\index{````~CustomVector@{\texorpdfstring{$\sim$}{\string~}CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}CustomVector()}{\string~CustomVector()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::\texorpdfstring{$\sim$}{\string~}\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCustomVector_a04d134018bb361c04de41248aa50242c}\label{classCustomVector_a04d134018bb361c04de41248aa50242c} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!append\_range@{append\_range}}
+\index{append\_range@{append\_range}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{append\_range()}{append\_range()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+template$<$typename Input\+It $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::append\+\_\+range (\begin{DoxyParamCaption}\item[{Input\+It}]{first,  }\item[{Input\+It}]{last }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_ab6ba9c8f9b96a1aa6ec534ab147f1fa1}\label{classCustomVector_ab6ba9c8f9b96a1aa6ec534ab147f1fa1} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!assign@{assign}}
+\index{assign@{assign}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{assign()}{assign()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::assign (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}}}]{count,  }\item[{const T \&}]{value }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a5b62e9e89b8e74fec03a437ccdd60454}\label{classCustomVector_a5b62e9e89b8e74fec03a437ccdd60454} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!at@{at}}
+\index{at@{at}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \& \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::at (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}}}]{pos }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a9615cf416b9b898cc06b57ced154eac0}\label{classCustomVector_a9615cf416b9b898cc06b57ced154eac0} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!back@{back}}
+\index{back@{back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{back()}{back()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \& \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::back (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a186c92dfd3af83ad507b8893269b583a}\label{classCustomVector_a186c92dfd3af83ad507b8893269b583a} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!begin@{begin}}
+\index{begin@{begin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a9c4a18be180d010bd4a97355b688002d}\label{classCustomVector_a9c4a18be180d010bd4a97355b688002d} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!begin@{begin}}
+\index{begin@{begin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a0814647e2488f15f18bb840bea87eb71}\label{classCustomVector_a0814647e2488f15f18bb840bea87eb71} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!capacity@{capacity}}
+\index{capacity@{capacity}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{capacity()}{capacity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::capacity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a8b4b9b13c41e8052c54ce8047926a17b}\label{classCustomVector_a8b4b9b13c41e8052c54ce8047926a17b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{cbegin()}{cbegin()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::cbegin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a01f050782c20cd6a82d30eae82d762aa}\label{classCustomVector_a01f050782c20cd6a82d30eae82d762aa} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!cend@{cend}}
+\index{cend@{cend}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{cend()}{cend()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::cend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a769ae2afc34599b0a4926c784aa414e4}\label{classCustomVector_a769ae2afc34599b0a4926c784aa414e4} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!clear@{clear}}
+\index{clear@{clear}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_ac916864408482068900d8b226a621d8b}\label{classCustomVector_ac916864408482068900d8b226a621d8b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!crbegin@{crbegin}}
+\index{crbegin@{crbegin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{crbegin()}{crbegin()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::reverse\+\_\+iterator$<$ const T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::crbegin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_ae62fdbc4522396a9fd58109c0acd1f09}\label{classCustomVector_ae62fdbc4522396a9fd58109c0acd1f09} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!crend@{crend}}
+\index{crend@{crend}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{crend()}{crend()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::reverse\+\_\+iterator$<$ const T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::crend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a5e91ef79b66b8a9faa340f671365236b}\label{classCustomVector_a5e91ef79b66b8a9faa340f671365236b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!data@{data}}
+\index{data@{data}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{data()}{data()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a4b19486859ff216fa1816fb2045ea61b}\label{classCustomVector_a4b19486859ff216fa1816fb2045ea61b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!emplace@{emplace}}
+\index{emplace@{emplace}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{emplace()}{emplace()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+template$<$typename... Args$>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::emplace (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{pos,  }\item[{Args \&\&...}]{args }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a74d4779d4bb1d4a9e13f4ce5f7b0804b}\label{classCustomVector_a74d4779d4bb1d4a9e13f4ce5f7b0804b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!emplace\_back@{emplace\_back}}
+\index{emplace\_back@{emplace\_back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{emplace\_back()}{emplace\_back()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+template$<$typename... Args$>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::emplace\+\_\+back (\begin{DoxyParamCaption}\item[{Args \&\&...}]{args }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_aaa326b1d6c7c7c09171be7661d553ed6}\label{classCustomVector_aaa326b1d6c7c7c09171be7661d553ed6} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!empty@{empty}}
+\index{empty@{empty}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{empty()}{empty()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+bool \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_ac6cd1de84490ef26a6979d2d071af48c}\label{classCustomVector_ac6cd1de84490ef26a6979d2d071af48c} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!end@{end}}
+\index{end@{end}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+const T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_adf2ec12fc4389b4a631f6fc284a818cb}\label{classCustomVector_adf2ec12fc4389b4a631f6fc284a818cb} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!end@{end}}
+\index{end@{end}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a38f24b7508c60404daaa168923afcd31}\label{classCustomVector_a38f24b7508c60404daaa168923afcd31} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!erase@{erase}}
+\index{erase@{erase}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{erase()}{erase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::erase (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{first,  }\item[{T \texorpdfstring{$\ast$}{*}}]{last }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a3e2938399f345510fc63a59557f54e06}\label{classCustomVector_a3e2938399f345510fc63a59557f54e06} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!erase@{erase}}
+\index{erase@{erase}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{erase()}{erase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::erase (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{pos }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_ae7529e338c3976fb60d12e70be23df27}\label{classCustomVector_ae7529e338c3976fb60d12e70be23df27} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!front@{front}}
+\index{front@{front}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{front()}{front()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \& \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_af5b2f6092260230686e4831c5ad2ebf8}\label{classCustomVector_af5b2f6092260230686e4831c5ad2ebf8} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{pos,  }\item[{const T \&}]{value }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_aace999d60be6dc25028302e1b80abdb2}\label{classCustomVector_aace999d60be6dc25028302e1b80abdb2} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!insert@{insert}}
+\index{insert@{insert}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+template$<$typename Input\+It $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::insert (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{pos,  }\item[{Input\+It}]{first,  }\item[{Input\+It}]{last }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classCustomVector_ae90d7eb600b03554e9f5bd367703bf23}\label{classCustomVector_ae90d7eb600b03554e9f5bd367703bf23} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!insert\_range@{insert\_range}}
+\index{insert\_range@{insert\_range}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{insert\_range()}{insert\_range()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+template$<$typename Input\+It $>$ \\
+T \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::insert\+\_\+range (\begin{DoxyParamCaption}\item[{T \texorpdfstring{$\ast$}{*}}]{pos,  }\item[{Input\+It}]{first,  }\item[{Input\+It}]{last }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a7f50e3fc894f37f7c6ae482608912b6a}\label{classCustomVector_a7f50e3fc894f37f7c6ae482608912b6a} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!max\_size@{max\_size}}
+\index{max\_size@{max\_size}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{max\_size()}{max\_size()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::max\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_ac5e4ba55c9e302970cb75021573405a9}\label{classCustomVector_ac5e4ba55c9e302970cb75021573405a9} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \& \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$ \&}]{other }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_af4a7ce06efcd048c63ecea3744a3dda3}\label{classCustomVector_af4a7ce06efcd048c63ecea3744a3dda3} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector}{Custom\+Vector}} \& \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$ \&\&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_a0b8c370b9603a6c598003f81febbf31b}\label{classCustomVector_a0b8c370b9603a6c598003f81febbf31b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \& \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}}}]{pos }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a975b403fb6e335d6d13a8dc05b0ad330}\label{classCustomVector_a975b403fb6e335d6d13a8dc05b0ad330} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!pop\_back@{pop\_back}}
+\index{pop\_back@{pop\_back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{pop\_back()}{pop\_back()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::pop\+\_\+back (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a17c2cfeb7c47266957ff03f8d315b3b3}\label{classCustomVector_a17c2cfeb7c47266957ff03f8d315b3b3} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{push\_back()}{push\_back()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{const T \&}]{value }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_a47d4388581aad2a26f90488ee54961c2}\label{classCustomVector_a47d4388581aad2a26f90488ee54961c2} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!rbegin@{rbegin}}
+\index{rbegin@{rbegin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{rbegin()}{rbegin()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::reverse\+\_\+iterator$<$ T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::rbegin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_afd098ed608ba8522508d79445e767164}\label{classCustomVector_afd098ed608ba8522508d79445e767164} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!rend@{rend}}
+\index{rend@{rend}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{rend()}{rend()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::reverse\+\_\+iterator$<$ T \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::rend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_afce01c633115bacb67f6aac2a7a333e7}\label{classCustomVector_afce01c633115bacb67f6aac2a7a333e7} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!reserve@{reserve}}
+\index{reserve@{reserve}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{reserve()}{reserve()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::reserve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}}}]{new\+\_\+cap }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_ac568a9452dc6413aad662b5ef840b98a}\label{classCustomVector_ac568a9452dc6413aad662b5ef840b98a} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!resize@{resize}}
+\index{resize@{resize}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::resize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}}}]{count,  }\item[{const T \&}]{value }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_aa688a1f11d287a573cb14ad5360d778b}\label{classCustomVector_aa688a1f11d287a573cb14ad5360d778b} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!shrink\_to\_fit@{shrink\_to\_fit}}
+\index{shrink\_to\_fit@{shrink\_to\_fit}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{shrink\_to\_fit()}{shrink\_to\_fit()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::shrink\+\_\+to\+\_\+fit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{classCustomVector_afe763cb8d089dfe564aef9a280475250}\label{classCustomVector_afe763cb8d089dfe564aef9a280475250} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!size@{size}}
+\index{size@{size}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\+\_\+type}} \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\Hypertarget{classCustomVector_ac6d5c0dd883aab48fcbaac75b2038ce8}\label{classCustomVector_ac6d5c0dd883aab48fcbaac75b2038ce8} 
+\index{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!swap@{swap}}
+\index{swap@{swap}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$\+::swap (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ T $>$ \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{custom-vector_8h}{custom-\/vector.\+h}}\end{DoxyCompactItemize}

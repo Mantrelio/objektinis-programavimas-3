@@ -1,5 +1,28 @@
 var searchData=
 [
-  ['finalgradeaverage_0',['finalGradeAverage',['../classStudent.html#ab521819e84810ba8441d821ea7710820',1,'Student']]],
-  ['finalgrademedian_1',['finalGradeMedian',['../classStudent.html#a37a67609edb41c95a920cef88964e706',1,'Student']]]
+  ['calculatefinalgradeaverage_0',['calculatefinalgradeaverage',['../grading-utils_8cpp.html#aa67d5d8c024b2ad1a6e4bc059efe9507',1,'calculateFinalGradeAverage(const vector&lt; int &gt; &amp;homeworkGrades, int examGrade):&#160;grading-utils.cpp'],['../grading-utils_8h.html#aa67d5d8c024b2ad1a6e4bc059efe9507',1,'calculateFinalGradeAverage(const vector&lt; int &gt; &amp;homeworkGrades, int examGrade):&#160;grading-utils.cpp']]],
+  ['calculatefinalgrademedian_1',['calculatefinalgrademedian',['../grading-utils_8cpp.html#a5a913555b2375d0725f74cb6b52c57f1',1,'calculateFinalGradeMedian(const vector&lt; int &gt; &amp;homeworkGrades, int examGrade):&#160;grading-utils.cpp'],['../grading-utils_8h.html#a5a913555b2375d0725f74cb6b52c57f1',1,'calculateFinalGradeMedian(const vector&lt; int &gt; &amp;homeworkGrades, int examGrade):&#160;grading-utils.cpp']]],
+  ['capacity_2',['capacity',['../classCustomVector.html#a0814647e2488f15f18bb840bea87eb71',1,'CustomVector']]],
+  ['catch2_2dmain_2ecpp_3',['catch2-main.cpp',['../catch2-main_8cpp.html',1,'']]],
+  ['catch_5fconfig_5fmain_4',['CATCH_CONFIG_MAIN',['../catch2-main_8cpp.html#a656eb5868e824d59f489f910db438420',1,'catch2-main.cpp']]],
+  ['cbegin_5',['cbegin',['../classCustomVector.html#a8b4b9b13c41e8052c54ce8047926a17b',1,'CustomVector']]],
+  ['cend_6',['cend',['../classCustomVector.html#a01f050782c20cd6a82d30eae82d762aa',1,'CustomVector']]],
+  ['chooseoutputandprint_7',['chooseoutputandprint',['../output-results_8cpp.html#a3487f139230ba3ae5f7a3a915c10e1ef',1,'chooseOutputAndPrint(std::list&lt; Student &gt; &amp;students):&#160;output-results.cpp'],['../output-results_8cpp.html#ac5aaa104384764cf6d85d2360a183b29',1,'chooseOutputAndPrint(vector&lt; Student &gt; &amp;students):&#160;output-results.cpp'],['../output-results_8cpp.html#a5094c02b1dc2b466ef3c3ae66188ef53',1,'chooseOutputAndPrint(T &amp;students):&#160;output-results.cpp'],['../output-results_8cpp.html#a067fb5b0a00d4092cbb8fda1a15683fa',1,'chooseOutputAndPrint(std::deque&lt; Student &gt; &amp;students):&#160;output-results.cpp'],['../output-results_8cpp.html#a331c46efddc8790f8993923cbd4c83c1',1,'chooseOutputAndPrint(CustomVector&lt; Student &gt; &amp;students):&#160;output-results.cpp'],['../output-results_8h.html#a5094c02b1dc2b466ef3c3ae66188ef53',1,'chooseOutputAndPrint(T &amp;students):&#160;output-results.cpp']]],
+  ['clear_8',['clear',['../classCustomVector.html#a769ae2afc34599b0a4926c784aa414e4',1,'CustomVector']]],
+  ['countreallocationswhilepushback_9',['countReallocationsWhilePushBack',['../custom-vector-reallocation-test_8cpp.html#a75dc41f3d1e0f1c81902329172ec3a39',1,'custom-vector-reallocation-test.cpp']]],
+  ['crbegin_10',['crbegin',['../classCustomVector.html#ac916864408482068900d8b226a621d8b',1,'CustomVector']]],
+  ['create_2dstudent_2ecpp_11',['create-student.cpp',['../create-student_8cpp.html',1,'']]],
+  ['create_2dstudent_2eh_12',['create-student.h',['../create-student_8h.html',1,'']]],
+  ['createstudentfullyrandom_13',['createstudentfullyrandom',['../create-student_8h.html#a5d0a12b420624cb7979c6233b2357676',1,'createStudentFullyRandom():&#160;create-student.cpp'],['../create-student_8cpp.html#a5d0a12b420624cb7979c6233b2357676',1,'createStudentFullyRandom():&#160;create-student.cpp']]],
+  ['createstudentmanual_14',['createstudentmanual',['../create-student_8h.html#a11e5d332635183ffb23fdb0e131c5e71',1,'createStudentManual():&#160;create-student.cpp'],['../create-student_8cpp.html#a11e5d332635183ffb23fdb0e131c5e71',1,'createStudentManual():&#160;create-student.cpp']]],
+  ['createstudentrandomgrades_15',['createstudentrandomgrades',['../create-student_8h.html#a25190b2cc29406ca77af925a9a8f67c4',1,'createStudentRandomGrades():&#160;create-student.cpp'],['../create-student_8cpp.html#a25190b2cc29406ca77af925a9a8f67c4',1,'createStudentRandomGrades():&#160;create-student.cpp']]],
+  ['createstudentsfromfile_16',['createstudentsfromfile',['../create-student_8h.html#abfa623b27cb7d1babcb813c8e687ad43',1,'createStudentsFromFile(const string &amp;filename):&#160;create-student.cpp'],['../create-student_8cpp.html#a1c275868b47d5ce3ec28bcecd22c0840',1,'createStudentsFromFile(const string &amp;filename):&#160;create-student.cpp'],['../create-student_8cpp.html#a45cce9bcd59a9a80ba50117d8527e883',1,'createStudentsFromFile(const string &amp;filename):&#160;create-student.cpp']]],
+  ['crend_17',['crend',['../classCustomVector.html#ae62fdbc4522396a9fd58109c0acd1f09',1,'CustomVector']]],
+  ['custom_2dvector_2dcatch2_2dtest_2ecpp_18',['custom-vector-catch2-test.cpp',['../custom-vector-catch2-test_8cpp.html',1,'']]],
+  ['custom_2dvector_2dpush_2dback_2dtest_2ecpp_19',['custom-vector-push-back-test.cpp',['../custom-vector-push-back-test_8cpp.html',1,'']]],
+  ['custom_2dvector_2dpush_2dback_2dtest_2eh_20',['custom-vector-push-back-test.h',['../custom-vector-push-back-test_8h.html',1,'']]],
+  ['custom_2dvector_2dreallocation_2dtest_2ecpp_21',['custom-vector-reallocation-test.cpp',['../custom-vector-reallocation-test_8cpp.html',1,'']]],
+  ['custom_2dvector_2dreallocation_2dtest_2eh_22',['custom-vector-reallocation-test.h',['../custom-vector-reallocation-test_8h.html',1,'']]],
+  ['custom_2dvector_2eh_23',['custom-vector.h',['../custom-vector_8h.html',1,'']]],
+  ['customvector_24',['customvector',['../classCustomVector.html',1,'CustomVector&lt; T &gt;'],['../classCustomVector.html#a0307e18f9ecfd23407b58c8be3107822',1,'CustomVector::CustomVector(CustomVector &amp;&amp;other) noexcept'],['../classCustomVector.html#ac11a611fdf412a6d7dad3ec88f453639',1,'CustomVector::CustomVector() noexcept'],['../classCustomVector.html#a422d0116d8677d1986333c0f53ec6496',1,'CustomVector::CustomVector(const CustomVector &amp;other)']]]
 ];

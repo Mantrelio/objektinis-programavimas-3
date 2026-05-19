@@ -1,6 +1,7 @@
 \doxysection{src/create-\/student.cpp File Reference}
 \hypertarget{create-student_8cpp}{}\label{create-student_8cpp}\index{src/create-\/student.cpp@{src/create-\/student.cpp}}
 {\ttfamily \#include "{}create-\/student.\+h"{}}\newline
+{\ttfamily \#include "{}custom-\/vector.\+h"{}}\newline
 {\ttfamily \#include "{}input-\/utils.\+h"{}}\newline
 {\ttfamily \#include "{}grading-\/utils.\+h"{}}\newline
 {\ttfamily \#include $<$deque$>$}\newline
@@ -8,8 +9,7 @@
 {\ttfamily \#include $<$list$>$}\newline
 {\ttfamily \#include $<$sstream$>$}\newline
 {\ttfamily \#include $<$utility$>$}\newline
-Include dependency graph for create-\/student.cpp\+:
-\nopagebreak
+Include dependency graph for create-\/student.cpp\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -29,7 +29,7 @@ string \mbox{\hyperlink{create-student_8cpp_ab4609774ae5b93bd3b92dbfe78c75b95}{r
 \item 
 \mbox{\hyperlink{classStudent}{Student}} \mbox{\hyperlink{create-student_8cpp_a5d0a12b420624cb7979c6233b2357676}{create\+Student\+Fully\+Random}} ()
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{create-student_8cpp_a5826190543d5a3a24ef4e207d8082533}{create\+Students\+From\+File}} (const string \&filename)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{create-student_8cpp_a1c275868b47d5ce3ec28bcecd22c0840}{create\+Students\+From\+File}} (const string \&filename)
 \item 
 template vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink{create-student_8cpp_a45cce9bcd59a9a80ba50117d8527e883}{create\+Students\+From\+File}} (const string \&filename)
 \end{DoxyCompactItemize}
@@ -54,12 +54,12 @@ template vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink
 \doxysubsubsection{\texorpdfstring{createStudentRandomGrades()}{createStudentRandomGrades()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classStudent}{Student}} create\+Student\+Random\+Grades (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\Hypertarget{create-student_8cpp_a5826190543d5a3a24ef4e207d8082533}\label{create-student_8cpp_a5826190543d5a3a24ef4e207d8082533} 
+\Hypertarget{create-student_8cpp_a1c275868b47d5ce3ec28bcecd22c0840}\label{create-student_8cpp_a1c275868b47d5ce3ec28bcecd22c0840} 
 \index{create-\/student.cpp@{create-\/student.cpp}!createStudentsFromFile@{createStudentsFromFile}}
 \index{createStudentsFromFile@{createStudentsFromFile}!create-\/student.cpp@{create-\/student.cpp}}
 \doxysubsubsection{\texorpdfstring{createStudentsFromFile()}{createStudentsFromFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-template std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ create\+Students\+From\+File (\begin{DoxyParamCaption}\item[{const string \&}]{filename }\end{DoxyParamCaption})}
+template \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ create\+Students\+From\+File (\begin{DoxyParamCaption}\item[{const string \&}]{filename }\end{DoxyParamCaption})}
 
 \Hypertarget{create-student_8cpp_a45cce9bcd59a9a80ba50117d8527e883}\label{create-student_8cpp_a45cce9bcd59a9a80ba50117d8527e883} 
 \index{create-\/student.cpp@{create-\/student.cpp}!createStudentsFromFile@{createStudentsFromFile}}

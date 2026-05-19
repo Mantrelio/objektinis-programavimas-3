@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['printheader_0',['printHeader',['../generate-student-list_8cpp.html#a57c19cfdcb01ee0bb2d6a75a983d8b3b',1,'generate-student-list.cpp']]],
-  ['printstudentlistrow_1',['printStudentListRow',['../generate-student-list_8cpp.html#a0ab743752d7c128677e4dcb379fb9cee',1,'generate-student-list.cpp']]],
-  ['printtestresult_2',['printTestResult',['../student-rule-of-five-operators-test_8cpp.html#a904ac55e6a847e0f8a73d8c00dd87ce7',1,'student-rule-of-five-operators-test.cpp']]]
+  ['insert_0',['insert',['../classCustomVector.html#af5b2f6092260230686e4831c5ad2ebf8',1,'CustomVector::insert(T *pos, const T &amp;value)'],['../classCustomVector.html#aace999d60be6dc25028302e1b80abdb2',1,'CustomVector::insert(T *pos, InputIt first, InputIt last)']]],
+  ['insert_5frange_1',['insert_range',['../classCustomVector.html#ae90d7eb600b03554e9f5bd367703bf23',1,'CustomVector']]]
 ];

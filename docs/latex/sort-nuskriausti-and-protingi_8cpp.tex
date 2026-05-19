@@ -1,13 +1,13 @@
 \doxysection{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp File Reference}
 \hypertarget{sort-nuskriausti-and-protingi_8cpp}{}\label{sort-nuskriausti-and-protingi_8cpp}\index{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp@{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp}}
 {\ttfamily \#include "{}sort-\/nuskriausti-\/and-\/protingi.\+h"{}}\newline
+{\ttfamily \#include "{}custom-\/vector.\+h"{}}\newline
 {\ttfamily \#include $<$exception$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
 {\ttfamily \#include $<$algorithm$>$}\newline
 {\ttfamily \#include $<$deque$>$}\newline
 {\ttfamily \#include $<$list$>$}\newline
-Include dependency graph for sort-\/nuskriausti-\/and-\/protingi.cpp\+:
-\nopagebreak
+Include dependency graph for sort-\/nuskriausti-\/and-\/protingi.cpp\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -25,6 +25,8 @@ template std\+::pair$<$ std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} 
 \item 
 template std\+::pair$<$ std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a6c981cc9fd206cd855cd0b3b00a7bc7a}{sort\+Nuskriausti\+And\+Protingi\+First\+Strategy}} (const std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
 \item 
+template std\+::pair$<$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_aa08da74e50d44c402a219c44883f78d3}{sort\+Nuskriausti\+And\+Protingi\+First\+Strategy}} (const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
+\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a0552ecde85b449a1dcfe74020043b1a8}{sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy}} (T \&students)
 \item 
 template vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a23aa9632d416b671c17729e423ae21ed}{sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy}} (vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
@@ -32,6 +34,8 @@ template vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink
 template std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_aa2ca194fcd6c463ecae3d4d3411db800}{sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy}} (std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
 \item 
 template std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_afa8a681785c511e52d6a835136e60b42}{sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy}} (std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
+\item 
+template \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a03b34f03d57dbc117ff581754b7b92fe}{sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
 \item 
 {\footnotesize template$<$typename T $>$ }\\std\+::pair$<$ T, T $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_af1116203600b35df6313bed68ecc3267}{sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy}} (T \&students)
 \item 
@@ -41,6 +45,8 @@ template std\+::pair$<$ std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} 
 \item 
 template std\+::pair$<$ std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a04e90d909577205ef1d2d8230feaf81a}{sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy}} (std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
 \item 
+template std\+::pair$<$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_af53e4f6aa9760c88fdfecf0f8851d222}{sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
+\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_af7032b0f4c27fc56b8e0caa9bcc591ee}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File}} ()
 \item 
 template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a1d5aba8d160585138e8d9c45b1ea5e5b}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File$<$ vector$<$ Student $>$ $>$}} ()
@@ -48,6 +54,8 @@ template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a1d5aba8d16058
 template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a047230ac4871a3fd879ccee747019afb}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File$<$ std\+::list$<$ Student $>$ $>$}} ()
 \item 
 template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a617ecd1e44fda113734c36683d13883f}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File$<$ std\+::deque$<$ Student $>$ $>$}} ()
+\item 
+template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_ad0f456b17fc2b23698176aa6fcb34444}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File$<$ Custom\+Vector$<$ Student $>$ $>$}} ()
 \end{DoxyCompactItemize}
 
 
@@ -58,6 +66,12 @@ template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_a617ecd1e44fda
 \doxysubsubsection{\texorpdfstring{handleSortNuskriaustiAndProtingiFromFile()}{handleSortNuskriaustiAndProtingiFromFile()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{sort-nuskriausti-and-protingi_8cpp_ad0f456b17fc2b23698176aa6fcb34444}\label{sort-nuskriausti-and-protingi_8cpp_ad0f456b17fc2b23698176aa6fcb34444} 
+\index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$}}
+\index{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
+\doxysubsubsection{\texorpdfstring{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$()}{handleSortNuskriaustiAndProtingiFromFile< CustomVector< Student > >()}}
+{\footnotesize\ttfamily template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_af7032b0f4c27fc56b8e0caa9bcc591ee}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File}}$<$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a617ecd1e44fda113734c36683d13883f}\label{sort-nuskriausti-and-protingi_8cpp_a617ecd1e44fda113734c36683d13883f} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$}}
@@ -77,78 +91,96 @@ void handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File (\begin{DoxyParamCapti
 \doxysubsubsection{\texorpdfstring{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$()}{handleSortNuskriaustiAndProtingiFromFile< vector< Student > >()}}
 {\footnotesize\ttfamily template void \mbox{\hyperlink{sort-nuskriausti-and-protingi_8cpp_af7032b0f4c27fc56b8e0caa9bcc591ee}{handle\+Sort\+Nuskriausti\+And\+Protingi\+From\+File}}$<$ vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+\Hypertarget{sort-nuskriausti-and-protingi_8cpp_aa08da74e50d44c402a219c44883f78d3}\label{sort-nuskriausti-and-protingi_8cpp_aa08da74e50d44c402a219c44883f78d3} 
+\index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}}
+\index{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template std\+::pair$<$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+First\+Strategy (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
+
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a6c981cc9fd206cd855cd0b3b00a7bc7a}\label{sort-nuskriausti-and-protingi_8cpp_a6c981cc9fd206cd855cd0b3b00a7bc7a} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}}
 \index{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template std\+::pair$<$ std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+First\+Strategy (\begin{DoxyParamCaption}\item[{const std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a9f90eaabb603740011180b26354d5190}\label{sort-nuskriausti-and-protingi_8cpp_a9f90eaabb603740011180b26354d5190} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}}
 \index{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template std\+::pair$<$ std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+First\+Strategy (\begin{DoxyParamCaption}\item[{const std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a0d51edc60847dbce0a4f6b49d6ced14e}\label{sort-nuskriausti-and-protingi_8cpp_a0d51edc60847dbce0a4f6b49d6ced14e} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}}
 \index{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 std\+::pair$<$ T, T $>$ sort\+Nuskriausti\+And\+Protingi\+First\+Strategy (\begin{DoxyParamCaption}\item[{const T \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_abed84ca616be54cb042509889ba0d957}\label{sort-nuskriausti-and-protingi_8cpp_abed84ca616be54cb042509889ba0d957} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}}
 \index{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiFirstStrategy()}{sortNuskriaustiAndProtingiFirstStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template std\+::pair$<$ vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+First\+Strategy (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{sort-nuskriausti-and-protingi_8cpp_a03b34f03d57dbc117ff581754b7b92fe}\label{sort-nuskriausti-and-protingi_8cpp_a03b34f03d57dbc117ff581754b7b92fe} 
+\index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}}
+\index{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_afa8a681785c511e52d6a835136e60b42}\label{sort-nuskriausti-and-protingi_8cpp_afa8a681785c511e52d6a835136e60b42} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}}
 \index{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy (\begin{DoxyParamCaption}\item[{std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_aa2ca194fcd6c463ecae3d4d3411db800}\label{sort-nuskriausti-and-protingi_8cpp_aa2ca194fcd6c463ecae3d4d3411db800} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}}
 \index{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy (\begin{DoxyParamCaption}\item[{std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a0552ecde85b449a1dcfe74020043b1a8}\label{sort-nuskriausti-and-protingi_8cpp_a0552ecde85b449a1dcfe74020043b1a8} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}}
 \index{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 T sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy (\begin{DoxyParamCaption}\item[{T \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a23aa9632d416b671c17729e423ae21ed}\label{sort-nuskriausti-and-protingi_8cpp_a23aa9632d416b671c17729e423ae21ed} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}}
 \index{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiSecondStrategy()}{sortNuskriaustiAndProtingiSecondStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ sort\+Nuskriausti\+And\+Protingi\+Second\+Strategy (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{sort-nuskriausti-and-protingi_8cpp_af53e4f6aa9760c88fdfecf0f8851d222}\label{sort-nuskriausti-and-protingi_8cpp_af53e4f6aa9760c88fdfecf0f8851d222} 
+\index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}}
+\index{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template std\+::pair$<$ \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, \mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a04e90d909577205ef1d2d8230feaf81a}\label{sort-nuskriausti-and-protingi_8cpp_a04e90d909577205ef1d2d8230feaf81a} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}}
 \index{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template std\+::pair$<$ std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy (\begin{DoxyParamCaption}\item[{std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a5d93d799eac827a6c2df605e7d020dfa}\label{sort-nuskriausti-and-protingi_8cpp_a5d93d799eac827a6c2df605e7d020dfa} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}}
 \index{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template std\+::pair$<$ std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy (\begin{DoxyParamCaption}\item[{std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_af1116203600b35df6313bed68ecc3267}\label{sort-nuskriausti-and-protingi_8cpp_af1116203600b35df6313bed68ecc3267} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}}
 \index{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 std\+::pair$<$ T, T $>$ sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy (\begin{DoxyParamCaption}\item[{T \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-nuskriausti-and-protingi_8cpp_a58de29c7bf9666d85345ae29db97cec2}\label{sort-nuskriausti-and-protingi_8cpp_a58de29c7bf9666d85345ae29db97cec2} 
 \index{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}}
 \index{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}}
-\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{sortNuskriaustiAndProtingiThirdStrategy()}{sortNuskriaustiAndProtingiThirdStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template std\+::pair$<$ vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$, vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ $>$ sort\+Nuskriausti\+And\+Protingi\+Third\+Strategy (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 

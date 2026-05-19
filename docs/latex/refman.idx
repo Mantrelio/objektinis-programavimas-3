@@ -1,325 +1,551 @@
-\indexentry{Human@{Human}|hyperpage}{7}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!````~Human@{\texorpdfstring{$\sim$}{\string~}Human}|hyperpage}{8}
-\indexentry{````~Human@{\texorpdfstring{$\sim$}{\string~}Human}!Human@{Human}|hyperpage}{8}
-\indexentry{Human@{Human}!name@{name}|hyperpage}{9}
-\indexentry{name@{name}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!operator=@{operator=}|hyperpage}{9}
-\indexentry{operator=@{operator=}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!operator=@{operator=}|hyperpage}{9}
-\indexentry{operator=@{operator=}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!setName@{setName}|hyperpage}{9}
-\indexentry{setName@{setName}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!setSurname@{setSurname}|hyperpage}{9}
-\indexentry{setSurname@{setSurname}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!surname@{surname}|hyperpage}{9}
-\indexentry{surname@{surname}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!name\_@{name\_}|hyperpage}{9}
-\indexentry{name\_@{name\_}!Human@{Human}|hyperpage}{9}
-\indexentry{Human@{Human}!surname\_@{surname\_}|hyperpage}{9}
-\indexentry{surname\_@{surname\_}!Human@{Human}|hyperpage}{9}
-\indexentry{Student@{Student}|hyperpage}{10}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{11}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{11}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{11}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{11}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{11}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{11}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!````~Student@{\texorpdfstring{$\sim$}{\string~}Student}|hyperpage}{12}
-\indexentry{````~Student@{\texorpdfstring{$\sim$}{\string~}Student}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!examGrade@{examGrade}|hyperpage}{12}
-\indexentry{examGrade@{examGrade}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!finalGradeAverage@{finalGradeAverage}|hyperpage}{12}
-\indexentry{finalGradeAverage@{finalGradeAverage}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!finalGradeMedian@{finalGradeMedian}|hyperpage}{12}
-\indexentry{finalGradeMedian@{finalGradeMedian}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!homeworkGrades@{homeworkGrades}|hyperpage}{12}
-\indexentry{homeworkGrades@{homeworkGrades}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!name@{name}|hyperpage}{12}
-\indexentry{name@{name}!Student@{Student}|hyperpage}{12}
-\indexentry{Student@{Student}!operator=@{operator=}|hyperpage}{13}
-\indexentry{operator=@{operator=}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!operator=@{operator=}|hyperpage}{13}
-\indexentry{operator=@{operator=}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!readStudent@{readStudent}|hyperpage}{13}
-\indexentry{readStudent@{readStudent}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!setExamGrade@{setExamGrade}|hyperpage}{13}
-\indexentry{setExamGrade@{setExamGrade}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!setHomeworkGrades@{setHomeworkGrades}|hyperpage}{13}
-\indexentry{setHomeworkGrades@{setHomeworkGrades}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!setName@{setName}|hyperpage}{13}
-\indexentry{setName@{setName}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!setSurname@{setSurname}|hyperpage}{13}
-\indexentry{setSurname@{setSurname}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!surname@{surname}|hyperpage}{13}
-\indexentry{surname@{surname}!Student@{Student}|hyperpage}{13}
-\indexentry{Student@{Student}!operator$<$$<$@{operator$<$$<$}|hyperpage}{14}
-\indexentry{operator$<$$<$@{operator$<$$<$}!Student@{Student}|hyperpage}{14}
-\indexentry{Student@{Student}!operator$>$$>$@{operator$>$$>$}|hyperpage}{14}
-\indexentry{operator$>$$>$@{operator$>$$>$}!Student@{Student}|hyperpage}{14}
-\indexentry{include/create-\/student.h@{include/create-\/student.h}|hyperpage}{15}
-\indexentry{create-\/student.h@{create-\/student.h}!createStudentFullyRandom@{createStudentFullyRandom}|hyperpage}{16}
-\indexentry{createStudentFullyRandom@{createStudentFullyRandom}!create-\/student.h@{create-\/student.h}|hyperpage}{16}
-\indexentry{create-\/student.h@{create-\/student.h}!createStudentManual@{createStudentManual}|hyperpage}{16}
-\indexentry{createStudentManual@{createStudentManual}!create-\/student.h@{create-\/student.h}|hyperpage}{16}
-\indexentry{create-\/student.h@{create-\/student.h}!createStudentRandomGrades@{createStudentRandomGrades}|hyperpage}{16}
-\indexentry{createStudentRandomGrades@{createStudentRandomGrades}!create-\/student.h@{create-\/student.h}|hyperpage}{16}
-\indexentry{create-\/student.h@{create-\/student.h}!createStudentsFromFile@{createStudentsFromFile}|hyperpage}{16}
-\indexentry{createStudentsFromFile@{createStudentsFromFile}!create-\/student.h@{create-\/student.h}|hyperpage}{16}
-\indexentry{create-\/student.h@{create-\/student.h}!randomName@{randomName}|hyperpage}{16}
-\indexentry{randomName@{randomName}!create-\/student.h@{create-\/student.h}|hyperpage}{16}
-\indexentry{create-\/student.h@{create-\/student.h}!randomSurname@{randomSurname}|hyperpage}{16}
-\indexentry{randomSurname@{randomSurname}!create-\/student.h@{create-\/student.h}|hyperpage}{16}
-\indexentry{include/create-\/student.h@{include/create-\/student.h}|hyperpage}{16}
-\indexentry{include/generate-\/student-\/list-\/test.h@{include/generate-\/student-\/list-\/test.h}|hyperpage}{17}
-\indexentry{generate-\/student-\/list-\/test.h@{generate-\/student-\/list-\/test.h}!handleGenerateStudentListTest@{handleGenerateStudentListTest}|hyperpage}{17}
-\indexentry{handleGenerateStudentListTest@{handleGenerateStudentListTest}!generate-\/student-\/list-\/test.h@{generate-\/student-\/list-\/test.h}|hyperpage}{17}
-\indexentry{include/generate-\/student-\/list-\/test.h@{include/generate-\/student-\/list-\/test.h}|hyperpage}{17}
-\indexentry{include/generate-\/student-\/list.h@{include/generate-\/student-\/list.h}|hyperpage}{18}
-\indexentry{generate-\/student-\/list.h@{generate-\/student-\/list.h}!generateStudentListFile@{generateStudentListFile}|hyperpage}{18}
-\indexentry{generateStudentListFile@{generateStudentListFile}!generate-\/student-\/list.h@{generate-\/student-\/list.h}|hyperpage}{18}
-\indexentry{generate-\/student-\/list.h@{generate-\/student-\/list.h}!handleGenerateStudentListFile@{handleGenerateStudentListFile}|hyperpage}{18}
-\indexentry{handleGenerateStudentListFile@{handleGenerateStudentListFile}!generate-\/student-\/list.h@{generate-\/student-\/list.h}|hyperpage}{18}
-\indexentry{include/generate-\/student-\/list.h@{include/generate-\/student-\/list.h}|hyperpage}{19}
-\indexentry{include/grading-\/utils.h@{include/grading-\/utils.h}|hyperpage}{19}
-\indexentry{grading-\/utils.h@{grading-\/utils.h}!calculateFinalGradeAverage@{calculateFinalGradeAverage}|hyperpage}{19}
-\indexentry{calculateFinalGradeAverage@{calculateFinalGradeAverage}!grading-\/utils.h@{grading-\/utils.h}|hyperpage}{19}
-\indexentry{grading-\/utils.h@{grading-\/utils.h}!calculateFinalGradeMedian@{calculateFinalGradeMedian}|hyperpage}{19}
-\indexentry{calculateFinalGradeMedian@{calculateFinalGradeMedian}!grading-\/utils.h@{grading-\/utils.h}|hyperpage}{19}
-\indexentry{grading-\/utils.h@{grading-\/utils.h}!randomGrade@{randomGrade}|hyperpage}{20}
-\indexentry{randomGrade@{randomGrade}!grading-\/utils.h@{grading-\/utils.h}|hyperpage}{20}
-\indexentry{include/grading-\/utils.h@{include/grading-\/utils.h}|hyperpage}{20}
-\indexentry{include/human.h@{include/human.h}|hyperpage}{20}
-\indexentry{include/human.h@{include/human.h}|hyperpage}{21}
-\indexentry{include/input-\/utils.h@{include/input-\/utils.h}|hyperpage}{21}
-\indexentry{input-\/utils.h@{input-\/utils.h}!readIntInRange@{readIntInRange}|hyperpage}{22}
-\indexentry{readIntInRange@{readIntInRange}!input-\/utils.h@{input-\/utils.h}|hyperpage}{22}
-\indexentry{input-\/utils.h@{input-\/utils.h}!readSingleIntToken@{readSingleIntToken}|hyperpage}{22}
-\indexentry{readSingleIntToken@{readSingleIntToken}!input-\/utils.h@{input-\/utils.h}|hyperpage}{22}
-\indexentry{input-\/utils.h@{input-\/utils.h}!readSingleStringToken@{readSingleStringToken}|hyperpage}{22}
-\indexentry{readSingleStringToken@{readSingleStringToken}!input-\/utils.h@{input-\/utils.h}|hyperpage}{22}
-\indexentry{input-\/utils.h@{input-\/utils.h}!readYesOrNo@{readYesOrNo}|hyperpage}{22}
-\indexentry{readYesOrNo@{readYesOrNo}!input-\/utils.h@{input-\/utils.h}|hyperpage}{22}
-\indexentry{include/input-\/utils.h@{include/input-\/utils.h}|hyperpage}{22}
-\indexentry{include/output-\/nuskriausti-\/and-\/protingi-\/test.h@{include/output-\/nuskriausti-\/and-\/protingi-\/test.h}|hyperpage}{23}
-\indexentry{output-\/nuskriausti-\/and-\/protingi-\/test.h@{output-\/nuskriausti-\/and-\/protingi-\/test.h}!outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}|hyperpage}{23}
-\indexentry{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}!output-\/nuskriausti-\/and-\/protingi-\/test.h@{output-\/nuskriausti-\/and-\/protingi-\/test.h}|hyperpage}{23}
-\indexentry{include/output-\/nuskriausti-\/and-\/protingi-\/test.h@{include/output-\/nuskriausti-\/and-\/protingi-\/test.h}|hyperpage}{23}
-\indexentry{include/output-\/results.h@{include/output-\/results.h}|hyperpage}{23}
-\indexentry{output-\/results.h@{output-\/results.h}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{24}
-\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.h@{output-\/results.h}|hyperpage}{24}
-\indexentry{output-\/results.h@{output-\/results.h}!outputResults@{outputResults}|hyperpage}{24}
-\indexentry{outputResults@{outputResults}!output-\/results.h@{output-\/results.h}|hyperpage}{24}
-\indexentry{include/output-\/results.h@{include/output-\/results.h}|hyperpage}{25}
-\indexentry{include/sort-\/nuskriausti-\/and-\/protingi.h@{include/sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{25}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}|hyperpage}{26}
-\indexentry{handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{26}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{26}
-\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{26}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{26}
-\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{26}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{26}
-\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{26}
-\indexentry{include/sort-\/nuskriausti-\/and-\/protingi.h@{include/sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{26}
-\indexentry{include/sort-\/students.h@{include/sort-\/students.h}|hyperpage}{27}
-\indexentry{sort-\/students.h@{sort-\/students.h}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{27}
-\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.h@{sort-\/students.h}|hyperpage}{27}
-\indexentry{sort-\/students.h@{sort-\/students.h}!sortStudents@{sortStudents}|hyperpage}{27}
-\indexentry{sortStudents@{sortStudents}!sort-\/students.h@{sort-\/students.h}|hyperpage}{27}
-\indexentry{include/sort-\/students.h@{include/sort-\/students.h}|hyperpage}{28}
-\indexentry{include/student-\/app.h@{include/student-\/app.h}|hyperpage}{28}
-\indexentry{student-\/app.h@{student-\/app.h}!runStudentApp@{runStudentApp}|hyperpage}{28}
-\indexentry{runStudentApp@{runStudentApp}!student-\/app.h@{student-\/app.h}|hyperpage}{28}
-\indexentry{include/student-\/app.h@{include/student-\/app.h}|hyperpage}{28}
-\indexentry{include/student-\/menu.h@{include/student-\/menu.h}|hyperpage}{29}
-\indexentry{student-\/menu.h@{student-\/menu.h}!handleMenuChoice@{handleMenuChoice}|hyperpage}{29}
-\indexentry{handleMenuChoice@{handleMenuChoice}!student-\/menu.h@{student-\/menu.h}|hyperpage}{29}
-\indexentry{student-\/menu.h@{student-\/menu.h}!showMainMenu@{showMainMenu}|hyperpage}{29}
-\indexentry{showMainMenu@{showMainMenu}!student-\/menu.h@{student-\/menu.h}|hyperpage}{29}
-\indexentry{student-\/menu.h@{student-\/menu.h}!startMainMenu@{startMainMenu}|hyperpage}{30}
-\indexentry{startMainMenu@{startMainMenu}!student-\/menu.h@{student-\/menu.h}|hyperpage}{30}
-\indexentry{include/student-\/menu.h@{include/student-\/menu.h}|hyperpage}{30}
-\indexentry{include/student-\/rule-\/of-\/five-\/operators-\/test.h@{include/student-\/rule-\/of-\/five-\/operators-\/test.h}|hyperpage}{30}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.h@{student-\/rule-\/of-\/five-\/operators-\/test.h}!handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}|hyperpage}{30}
-\indexentry{handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}!student-\/rule-\/of-\/five-\/operators-\/test.h@{student-\/rule-\/of-\/five-\/operators-\/test.h}|hyperpage}{30}
-\indexentry{include/student-\/rule-\/of-\/five-\/operators-\/test.h@{include/student-\/rule-\/of-\/five-\/operators-\/test.h}|hyperpage}{31}
-\indexentry{include/student.h@{include/student.h}|hyperpage}{31}
-\indexentry{include/student.h@{include/student.h}|hyperpage}{32}
-\indexentry{src/create-\/student.cpp@{src/create-\/student.cpp}|hyperpage}{33}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentFullyRandom@{createStudentFullyRandom}|hyperpage}{33}
-\indexentry{createStudentFullyRandom@{createStudentFullyRandom}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{33}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentManual@{createStudentManual}|hyperpage}{33}
-\indexentry{createStudentManual@{createStudentManual}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{33}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentRandomGrades@{createStudentRandomGrades}|hyperpage}{34}
-\indexentry{createStudentRandomGrades@{createStudentRandomGrades}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{34}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentsFromFile@{createStudentsFromFile}|hyperpage}{34}
-\indexentry{createStudentsFromFile@{createStudentsFromFile}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{34}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentsFromFile@{createStudentsFromFile}|hyperpage}{34}
-\indexentry{createStudentsFromFile@{createStudentsFromFile}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{34}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!randomName@{randomName}|hyperpage}{34}
-\indexentry{randomName@{randomName}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{34}
-\indexentry{create-\/student.cpp@{create-\/student.cpp}!randomSurname@{randomSurname}|hyperpage}{34}
-\indexentry{randomSurname@{randomSurname}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{34}
-\indexentry{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp@{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{34}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}|hyperpage}{35}
-\indexentry{handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{35}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$}|hyperpage}{35}
-\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{35}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$}|hyperpage}{35}
-\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{35}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$}|hyperpage}{35}
-\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{35}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{35}
-\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{35}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{36}
-\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{36}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{37}
-\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{37}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{37}
-\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{37}
-\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{37}
-\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{37}
-\indexentry{src/data-\/sorting/sort-\/students.cpp@{src/data-\/sorting/sort-\/students.cpp}|hyperpage}{37}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{38}
-\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{38}
-\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{38}
-\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{38}
-\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{38}
-\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{38}
-\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{38}
-\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{38}
-\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{39}
-\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{39}
-\indexentry{src/generate-\/student-\/list.cpp@{src/generate-\/student-\/list.cpp}|hyperpage}{39}
-\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!generateStudentListFile@{generateStudentListFile}|hyperpage}{40}
-\indexentry{generateStudentListFile@{generateStudentListFile}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{40}
-\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!handleGenerateStudentListFile@{handleGenerateStudentListFile}|hyperpage}{40}
-\indexentry{handleGenerateStudentListFile@{handleGenerateStudentListFile}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{40}
-\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!printHeader@{printHeader}|hyperpage}{40}
-\indexentry{printHeader@{printHeader}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{40}
-\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!printStudentListRow@{printStudentListRow}|hyperpage}{40}
-\indexentry{printStudentListRow@{printStudentListRow}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{40}
-\indexentry{src/main-\/menu.cpp@{src/main-\/menu.cpp}|hyperpage}{40}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice@{handleMenuChoice}|hyperpage}{41}
-\indexentry{handleMenuChoice@{handleMenuChoice}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{41}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ std::deque$<$ Student $>$ $>$@{handleMenuChoice$<$ std::deque$<$ Student $>$ $>$}|hyperpage}{41}
-\indexentry{handleMenuChoice$<$ std::deque$<$ Student $>$ $>$@{handleMenuChoice$<$ std::deque$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{41}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ std::list$<$ Student $>$ $>$@{handleMenuChoice$<$ std::list$<$ Student $>$ $>$}|hyperpage}{41}
-\indexentry{handleMenuChoice$<$ std::list$<$ Student $>$ $>$@{handleMenuChoice$<$ std::list$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{41}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ vector$<$ Student $>$ $>$@{handleMenuChoice$<$ vector$<$ Student $>$ $>$}|hyperpage}{41}
-\indexentry{handleMenuChoice$<$ vector$<$ Student $>$ $>$@{handleMenuChoice$<$ vector$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{41}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!showMainMenu@{showMainMenu}|hyperpage}{41}
-\indexentry{showMainMenu@{showMainMenu}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{41}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu@{startMainMenu}|hyperpage}{41}
-\indexentry{startMainMenu@{startMainMenu}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{41}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ std::deque$<$ Student $>$ $>$@{startMainMenu$<$ std::deque$<$ Student $>$ $>$}|hyperpage}{42}
-\indexentry{startMainMenu$<$ std::deque$<$ Student $>$ $>$@{startMainMenu$<$ std::deque$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{42}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ std::list$<$ Student $>$ $>$@{startMainMenu$<$ std::list$<$ Student $>$ $>$}|hyperpage}{42}
-\indexentry{startMainMenu$<$ std::list$<$ Student $>$ $>$@{startMainMenu$<$ std::list$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{42}
-\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ vector$<$ Student $>$ $>$@{startMainMenu$<$ vector$<$ Student $>$ $>$}|hyperpage}{42}
-\indexentry{startMainMenu$<$ vector$<$ Student $>$ $>$@{startMainMenu$<$ vector$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{42}
-\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{42}
-\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{43}
-\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{43}
-\indexentry{src/output-\/results.cpp@{src/output-\/results.cpp}|hyperpage}{43}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{43}
-\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{43}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{43}
-\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{43}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{44}
-\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{44}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{44}
-\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{44}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{44}
-\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{44}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{44}
-\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{44}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{44}
-\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{44}
-\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{44}
-\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{44}
-\indexentry{src/student.cpp@{src/student.cpp}|hyperpage}{45}
-\indexentry{student.cpp@{student.cpp}!operator$<$$<$@{operator$<$$<$}|hyperpage}{45}
-\indexentry{operator$<$$<$@{operator$<$$<$}!student.cpp@{student.cpp}|hyperpage}{45}
-\indexentry{student.cpp@{student.cpp}!operator$>$$>$@{operator$>$$>$}|hyperpage}{45}
-\indexentry{operator$>$$>$@{operator$>$$>$}!student.cpp@{student.cpp}|hyperpage}{45}
-\indexentry{src/test/generate-\/student-\/list-\/test.cpp@{src/test/generate-\/student-\/list-\/test.cpp}|hyperpage}{45}
-\indexentry{generate-\/student-\/list-\/test.cpp@{generate-\/student-\/list-\/test.cpp}!handleGenerateStudentListTest@{handleGenerateStudentListTest}|hyperpage}{46}
-\indexentry{handleGenerateStudentListTest@{handleGenerateStudentListTest}!generate-\/student-\/list-\/test.cpp@{generate-\/student-\/list-\/test.cpp}|hyperpage}{46}
-\indexentry{src/test/output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{src/test/output-\/nuskriausti-\/and-\/protingi-\/test.cpp}|hyperpage}{46}
-\indexentry{output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}!outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}|hyperpage}{47}
-\indexentry{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}!output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}|hyperpage}{47}
-\indexentry{output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}!outputNuskriaustiAndProtingiTestForContainer@{outputNuskriaustiAndProtingiTestForContainer}|hyperpage}{47}
-\indexentry{outputNuskriaustiAndProtingiTestForContainer@{outputNuskriaustiAndProtingiTestForContainer}!output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}|hyperpage}{47}
-\indexentry{src/test/student-\/rule-\/of-\/five-\/operators-\/test.cpp@{src/test/student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{47}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}|hyperpage}{48}
-\indexentry{handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!printTestResult@{printTestResult}|hyperpage}{48}
-\indexentry{printTestResult@{printTestResult}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testCopyAssignment@{testCopyAssignment}|hyperpage}{48}
-\indexentry{testCopyAssignment@{testCopyAssignment}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testCopyConstructor@{testCopyConstructor}|hyperpage}{48}
-\indexentry{testCopyConstructor@{testCopyConstructor}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testDestructor@{testDestructor}|hyperpage}{48}
-\indexentry{testDestructor@{testDestructor}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testHumanIsAbstractAndNotInstantiable@{testHumanIsAbstractAndNotInstantiable}|hyperpage}{48}
-\indexentry{testHumanIsAbstractAndNotInstantiable@{testHumanIsAbstractAndNotInstantiable}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testInputOperatorInvalid@{testInputOperatorInvalid}|hyperpage}{48}
-\indexentry{testInputOperatorInvalid@{testInputOperatorInvalid}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testInputOperatorValid@{testInputOperatorValid}|hyperpage}{48}
-\indexentry{testInputOperatorValid@{testInputOperatorValid}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{48}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testMoveAssignment@{testMoveAssignment}|hyperpage}{49}
-\indexentry{testMoveAssignment@{testMoveAssignment}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{49}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testMoveConstructor@{testMoveConstructor}|hyperpage}{49}
-\indexentry{testMoveConstructor@{testMoveConstructor}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{49}
-\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testOutputOperator@{testOutputOperator}|hyperpage}{49}
-\indexentry{testOutputOperator@{testOutputOperator}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{49}
-\indexentry{src/utils/grading-\/utils.cpp@{src/utils/grading-\/utils.cpp}|hyperpage}{49}
-\indexentry{grading-\/utils.cpp@{grading-\/utils.cpp}!calculateFinalGradeAverage@{calculateFinalGradeAverage}|hyperpage}{50}
-\indexentry{calculateFinalGradeAverage@{calculateFinalGradeAverage}!grading-\/utils.cpp@{grading-\/utils.cpp}|hyperpage}{50}
-\indexentry{grading-\/utils.cpp@{grading-\/utils.cpp}!calculateFinalGradeMedian@{calculateFinalGradeMedian}|hyperpage}{50}
-\indexentry{calculateFinalGradeMedian@{calculateFinalGradeMedian}!grading-\/utils.cpp@{grading-\/utils.cpp}|hyperpage}{50}
-\indexentry{grading-\/utils.cpp@{grading-\/utils.cpp}!randomGrade@{randomGrade}|hyperpage}{50}
-\indexentry{randomGrade@{randomGrade}!grading-\/utils.cpp@{grading-\/utils.cpp}|hyperpage}{50}
-\indexentry{src/utils/input-\/utils.cpp@{src/utils/input-\/utils.cpp}|hyperpage}{50}
-\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readIntInRange@{readIntInRange}|hyperpage}{51}
-\indexentry{readIntInRange@{readIntInRange}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{51}
-\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readSingleIntToken@{readSingleIntToken}|hyperpage}{51}
-\indexentry{readSingleIntToken@{readSingleIntToken}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{51}
-\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readSingleStringToken@{readSingleStringToken}|hyperpage}{51}
-\indexentry{readSingleStringToken@{readSingleStringToken}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{51}
-\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readYesOrNo@{readYesOrNo}|hyperpage}{51}
-\indexentry{readYesOrNo@{readYesOrNo}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{51}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{7}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!size\_type@{size\_type}|hyperpage}{8}
+\indexentry{size\_type@{size\_type}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{8}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!value\_type@{value\_type}|hyperpage}{8}
+\indexentry{value\_type@{value\_type}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{8}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!CustomVector@{CustomVector}|hyperpage}{8}
+\indexentry{CustomVector@{CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{8}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!CustomVector@{CustomVector}|hyperpage}{8}
+\indexentry{CustomVector@{CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{8}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!CustomVector@{CustomVector}|hyperpage}{8}
+\indexentry{CustomVector@{CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{8}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!````~CustomVector@{\texorpdfstring{$\sim$}{\string~}CustomVector}|hyperpage}{9}
+\indexentry{````~CustomVector@{\texorpdfstring{$\sim$}{\string~}CustomVector}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!append\_range@{append\_range}|hyperpage}{9}
+\indexentry{append\_range@{append\_range}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!assign@{assign}|hyperpage}{9}
+\indexentry{assign@{assign}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!at@{at}|hyperpage}{9}
+\indexentry{at@{at}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!back@{back}|hyperpage}{9}
+\indexentry{back@{back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!begin@{begin}|hyperpage}{9}
+\indexentry{begin@{begin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!begin@{begin}|hyperpage}{9}
+\indexentry{begin@{begin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{9}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!capacity@{capacity}|hyperpage}{10}
+\indexentry{capacity@{capacity}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!cbegin@{cbegin}|hyperpage}{10}
+\indexentry{cbegin@{cbegin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!cend@{cend}|hyperpage}{10}
+\indexentry{cend@{cend}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!clear@{clear}|hyperpage}{10}
+\indexentry{clear@{clear}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!crbegin@{crbegin}|hyperpage}{10}
+\indexentry{crbegin@{crbegin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!crend@{crend}|hyperpage}{10}
+\indexentry{crend@{crend}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!data@{data}|hyperpage}{10}
+\indexentry{data@{data}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!emplace@{emplace}|hyperpage}{10}
+\indexentry{emplace@{emplace}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{10}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!emplace\_back@{emplace\_back}|hyperpage}{11}
+\indexentry{emplace\_back@{emplace\_back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!empty@{empty}|hyperpage}{11}
+\indexentry{empty@{empty}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!end@{end}|hyperpage}{11}
+\indexentry{end@{end}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!end@{end}|hyperpage}{11}
+\indexentry{end@{end}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!erase@{erase}|hyperpage}{11}
+\indexentry{erase@{erase}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!erase@{erase}|hyperpage}{11}
+\indexentry{erase@{erase}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!front@{front}|hyperpage}{11}
+\indexentry{front@{front}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!insert@{insert}|hyperpage}{11}
+\indexentry{insert@{insert}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{11}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!insert@{insert}|hyperpage}{12}
+\indexentry{insert@{insert}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!insert\_range@{insert\_range}|hyperpage}{12}
+\indexentry{insert\_range@{insert\_range}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!max\_size@{max\_size}|hyperpage}{12}
+\indexentry{max\_size@{max\_size}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!operator=@{operator=}|hyperpage}{12}
+\indexentry{operator=@{operator=}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!operator=@{operator=}|hyperpage}{12}
+\indexentry{operator=@{operator=}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!operator\mbox{[}\mbox{]}@{operator[]}|hyperpage}{12}
+\indexentry{operator\mbox{[}\mbox{]}@{operator[]}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!pop\_back@{pop\_back}|hyperpage}{12}
+\indexentry{pop\_back@{pop\_back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{12}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!push\_back@{push\_back}|hyperpage}{13}
+\indexentry{push\_back@{push\_back}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!rbegin@{rbegin}|hyperpage}{13}
+\indexentry{rbegin@{rbegin}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!rend@{rend}|hyperpage}{13}
+\indexentry{rend@{rend}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!reserve@{reserve}|hyperpage}{13}
+\indexentry{reserve@{reserve}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!resize@{resize}|hyperpage}{13}
+\indexentry{resize@{resize}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!shrink\_to\_fit@{shrink\_to\_fit}|hyperpage}{13}
+\indexentry{shrink\_to\_fit@{shrink\_to\_fit}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!size@{size}|hyperpage}{13}
+\indexentry{size@{size}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{CustomVector$<$ T $>$@{CustomVector$<$ T $>$}!swap@{swap}|hyperpage}{13}
+\indexentry{swap@{swap}!CustomVector$<$ T $>$@{CustomVector$<$ T $>$}|hyperpage}{13}
+\indexentry{Human@{Human}|hyperpage}{14}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!````~Human@{\texorpdfstring{$\sim$}{\string~}Human}|hyperpage}{15}
+\indexentry{````~Human@{\texorpdfstring{$\sim$}{\string~}Human}!Human@{Human}|hyperpage}{15}
+\indexentry{Human@{Human}!name@{name}|hyperpage}{16}
+\indexentry{name@{name}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!operator=@{operator=}|hyperpage}{16}
+\indexentry{operator=@{operator=}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!operator=@{operator=}|hyperpage}{16}
+\indexentry{operator=@{operator=}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!setName@{setName}|hyperpage}{16}
+\indexentry{setName@{setName}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!setSurname@{setSurname}|hyperpage}{16}
+\indexentry{setSurname@{setSurname}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!surname@{surname}|hyperpage}{16}
+\indexentry{surname@{surname}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!name\_@{name\_}|hyperpage}{16}
+\indexentry{name\_@{name\_}!Human@{Human}|hyperpage}{16}
+\indexentry{Human@{Human}!surname\_@{surname\_}|hyperpage}{16}
+\indexentry{surname\_@{surname\_}!Human@{Human}|hyperpage}{16}
+\indexentry{Student@{Student}|hyperpage}{17}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{18}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{18}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{18}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{18}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{18}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{18}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!````~Student@{\texorpdfstring{$\sim$}{\string~}Student}|hyperpage}{19}
+\indexentry{````~Student@{\texorpdfstring{$\sim$}{\string~}Student}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!examGrade@{examGrade}|hyperpage}{19}
+\indexentry{examGrade@{examGrade}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!finalGradeAverage@{finalGradeAverage}|hyperpage}{19}
+\indexentry{finalGradeAverage@{finalGradeAverage}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!finalGradeMedian@{finalGradeMedian}|hyperpage}{19}
+\indexentry{finalGradeMedian@{finalGradeMedian}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!homeworkGrades@{homeworkGrades}|hyperpage}{19}
+\indexentry{homeworkGrades@{homeworkGrades}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!name@{name}|hyperpage}{19}
+\indexentry{name@{name}!Student@{Student}|hyperpage}{19}
+\indexentry{Student@{Student}!operator=@{operator=}|hyperpage}{20}
+\indexentry{operator=@{operator=}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!operator=@{operator=}|hyperpage}{20}
+\indexentry{operator=@{operator=}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!readStudent@{readStudent}|hyperpage}{20}
+\indexentry{readStudent@{readStudent}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!setExamGrade@{setExamGrade}|hyperpage}{20}
+\indexentry{setExamGrade@{setExamGrade}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!setHomeworkGrades@{setHomeworkGrades}|hyperpage}{20}
+\indexentry{setHomeworkGrades@{setHomeworkGrades}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!setName@{setName}|hyperpage}{20}
+\indexentry{setName@{setName}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!setSurname@{setSurname}|hyperpage}{20}
+\indexentry{setSurname@{setSurname}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!surname@{surname}|hyperpage}{20}
+\indexentry{surname@{surname}!Student@{Student}|hyperpage}{20}
+\indexentry{Student@{Student}!operator$<$$<$@{operator$<$$<$}|hyperpage}{21}
+\indexentry{operator$<$$<$@{operator$<$$<$}!Student@{Student}|hyperpage}{21}
+\indexentry{Student@{Student}!operator$>$$>$@{operator$>$$>$}|hyperpage}{21}
+\indexentry{operator$>$$>$@{operator$>$$>$}!Student@{Student}|hyperpage}{21}
+\indexentry{include/create-\/student.h@{include/create-\/student.h}|hyperpage}{23}
+\indexentry{create-\/student.h@{create-\/student.h}!createStudentFullyRandom@{createStudentFullyRandom}|hyperpage}{24}
+\indexentry{createStudentFullyRandom@{createStudentFullyRandom}!create-\/student.h@{create-\/student.h}|hyperpage}{24}
+\indexentry{create-\/student.h@{create-\/student.h}!createStudentManual@{createStudentManual}|hyperpage}{24}
+\indexentry{createStudentManual@{createStudentManual}!create-\/student.h@{create-\/student.h}|hyperpage}{24}
+\indexentry{create-\/student.h@{create-\/student.h}!createStudentRandomGrades@{createStudentRandomGrades}|hyperpage}{24}
+\indexentry{createStudentRandomGrades@{createStudentRandomGrades}!create-\/student.h@{create-\/student.h}|hyperpage}{24}
+\indexentry{create-\/student.h@{create-\/student.h}!createStudentsFromFile@{createStudentsFromFile}|hyperpage}{24}
+\indexentry{createStudentsFromFile@{createStudentsFromFile}!create-\/student.h@{create-\/student.h}|hyperpage}{24}
+\indexentry{create-\/student.h@{create-\/student.h}!randomName@{randomName}|hyperpage}{24}
+\indexentry{randomName@{randomName}!create-\/student.h@{create-\/student.h}|hyperpage}{24}
+\indexentry{create-\/student.h@{create-\/student.h}!randomSurname@{randomSurname}|hyperpage}{24}
+\indexentry{randomSurname@{randomSurname}!create-\/student.h@{create-\/student.h}|hyperpage}{24}
+\indexentry{include/create-\/student.h@{include/create-\/student.h}|hyperpage}{24}
+\indexentry{include/custom-\/vector-\/push-\/back-\/test.h@{include/custom-\/vector-\/push-\/back-\/test.h}|hyperpage}{25}
+\indexentry{custom-\/vector-\/push-\/back-\/test.h@{custom-\/vector-\/push-\/back-\/test.h}!handleCustomVectorPushBackTest@{handleCustomVectorPushBackTest}|hyperpage}{25}
+\indexentry{handleCustomVectorPushBackTest@{handleCustomVectorPushBackTest}!custom-\/vector-\/push-\/back-\/test.h@{custom-\/vector-\/push-\/back-\/test.h}|hyperpage}{25}
+\indexentry{include/custom-\/vector-\/push-\/back-\/test.h@{include/custom-\/vector-\/push-\/back-\/test.h}|hyperpage}{25}
+\indexentry{include/custom-\/vector-\/reallocation-\/test.h@{include/custom-\/vector-\/reallocation-\/test.h}|hyperpage}{26}
+\indexentry{custom-\/vector-\/reallocation-\/test.h@{custom-\/vector-\/reallocation-\/test.h}!handleCustomVectorReallocationTest@{handleCustomVectorReallocationTest}|hyperpage}{26}
+\indexentry{handleCustomVectorReallocationTest@{handleCustomVectorReallocationTest}!custom-\/vector-\/reallocation-\/test.h@{custom-\/vector-\/reallocation-\/test.h}|hyperpage}{26}
+\indexentry{include/custom-\/vector-\/reallocation-\/test.h@{include/custom-\/vector-\/reallocation-\/test.h}|hyperpage}{26}
+\indexentry{include/custom-\/vector.h@{include/custom-\/vector.h}|hyperpage}{26}
+\indexentry{custom-\/vector.h@{custom-\/vector.h}!operator"!=@{operator"!=}|hyperpage}{27}
+\indexentry{operator"!=@{operator"!=}!custom-\/vector.h@{custom-\/vector.h}|hyperpage}{27}
+\indexentry{custom-\/vector.h@{custom-\/vector.h}!operator$<$@{operator$<$}|hyperpage}{27}
+\indexentry{operator$<$@{operator$<$}!custom-\/vector.h@{custom-\/vector.h}|hyperpage}{27}
+\indexentry{custom-\/vector.h@{custom-\/vector.h}!operator$<$=@{operator$<$=}|hyperpage}{28}
+\indexentry{operator$<$=@{operator$<$=}!custom-\/vector.h@{custom-\/vector.h}|hyperpage}{28}
+\indexentry{custom-\/vector.h@{custom-\/vector.h}!operator==@{operator==}|hyperpage}{28}
+\indexentry{operator==@{operator==}!custom-\/vector.h@{custom-\/vector.h}|hyperpage}{28}
+\indexentry{custom-\/vector.h@{custom-\/vector.h}!operator$>$@{operator$>$}|hyperpage}{28}
+\indexentry{operator$>$@{operator$>$}!custom-\/vector.h@{custom-\/vector.h}|hyperpage}{28}
+\indexentry{custom-\/vector.h@{custom-\/vector.h}!operator$>$=@{operator$>$=}|hyperpage}{28}
+\indexentry{operator$>$=@{operator$>$=}!custom-\/vector.h@{custom-\/vector.h}|hyperpage}{28}
+\indexentry{include/custom-\/vector.h@{include/custom-\/vector.h}|hyperpage}{28}
+\indexentry{include/generate-\/student-\/list-\/test.h@{include/generate-\/student-\/list-\/test.h}|hyperpage}{30}
+\indexentry{generate-\/student-\/list-\/test.h@{generate-\/student-\/list-\/test.h}!handleGenerateStudentListTest@{handleGenerateStudentListTest}|hyperpage}{30}
+\indexentry{handleGenerateStudentListTest@{handleGenerateStudentListTest}!generate-\/student-\/list-\/test.h@{generate-\/student-\/list-\/test.h}|hyperpage}{30}
+\indexentry{include/generate-\/student-\/list-\/test.h@{include/generate-\/student-\/list-\/test.h}|hyperpage}{30}
+\indexentry{include/generate-\/student-\/list.h@{include/generate-\/student-\/list.h}|hyperpage}{31}
+\indexentry{generate-\/student-\/list.h@{generate-\/student-\/list.h}!generateStudentListFile@{generateStudentListFile}|hyperpage}{31}
+\indexentry{generateStudentListFile@{generateStudentListFile}!generate-\/student-\/list.h@{generate-\/student-\/list.h}|hyperpage}{31}
+\indexentry{generate-\/student-\/list.h@{generate-\/student-\/list.h}!handleGenerateStudentListFile@{handleGenerateStudentListFile}|hyperpage}{31}
+\indexentry{handleGenerateStudentListFile@{handleGenerateStudentListFile}!generate-\/student-\/list.h@{generate-\/student-\/list.h}|hyperpage}{31}
+\indexentry{include/generate-\/student-\/list.h@{include/generate-\/student-\/list.h}|hyperpage}{32}
+\indexentry{include/grading-\/utils.h@{include/grading-\/utils.h}|hyperpage}{32}
+\indexentry{grading-\/utils.h@{grading-\/utils.h}!calculateFinalGradeAverage@{calculateFinalGradeAverage}|hyperpage}{32}
+\indexentry{calculateFinalGradeAverage@{calculateFinalGradeAverage}!grading-\/utils.h@{grading-\/utils.h}|hyperpage}{32}
+\indexentry{grading-\/utils.h@{grading-\/utils.h}!calculateFinalGradeMedian@{calculateFinalGradeMedian}|hyperpage}{32}
+\indexentry{calculateFinalGradeMedian@{calculateFinalGradeMedian}!grading-\/utils.h@{grading-\/utils.h}|hyperpage}{32}
+\indexentry{grading-\/utils.h@{grading-\/utils.h}!randomGrade@{randomGrade}|hyperpage}{33}
+\indexentry{randomGrade@{randomGrade}!grading-\/utils.h@{grading-\/utils.h}|hyperpage}{33}
+\indexentry{include/grading-\/utils.h@{include/grading-\/utils.h}|hyperpage}{33}
+\indexentry{include/human.h@{include/human.h}|hyperpage}{33}
+\indexentry{include/human.h@{include/human.h}|hyperpage}{34}
+\indexentry{include/input-\/utils.h@{include/input-\/utils.h}|hyperpage}{34}
+\indexentry{input-\/utils.h@{input-\/utils.h}!readIntInRange@{readIntInRange}|hyperpage}{35}
+\indexentry{readIntInRange@{readIntInRange}!input-\/utils.h@{input-\/utils.h}|hyperpage}{35}
+\indexentry{input-\/utils.h@{input-\/utils.h}!readSingleIntToken@{readSingleIntToken}|hyperpage}{35}
+\indexentry{readSingleIntToken@{readSingleIntToken}!input-\/utils.h@{input-\/utils.h}|hyperpage}{35}
+\indexentry{input-\/utils.h@{input-\/utils.h}!readSingleStringToken@{readSingleStringToken}|hyperpage}{35}
+\indexentry{readSingleStringToken@{readSingleStringToken}!input-\/utils.h@{input-\/utils.h}|hyperpage}{35}
+\indexentry{input-\/utils.h@{input-\/utils.h}!readYesOrNo@{readYesOrNo}|hyperpage}{35}
+\indexentry{readYesOrNo@{readYesOrNo}!input-\/utils.h@{input-\/utils.h}|hyperpage}{35}
+\indexentry{include/input-\/utils.h@{include/input-\/utils.h}|hyperpage}{35}
+\indexentry{include/output-\/nuskriausti-\/and-\/protingi-\/test.h@{include/output-\/nuskriausti-\/and-\/protingi-\/test.h}|hyperpage}{36}
+\indexentry{output-\/nuskriausti-\/and-\/protingi-\/test.h@{output-\/nuskriausti-\/and-\/protingi-\/test.h}!outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}|hyperpage}{36}
+\indexentry{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}!output-\/nuskriausti-\/and-\/protingi-\/test.h@{output-\/nuskriausti-\/and-\/protingi-\/test.h}|hyperpage}{36}
+\indexentry{include/output-\/nuskriausti-\/and-\/protingi-\/test.h@{include/output-\/nuskriausti-\/and-\/protingi-\/test.h}|hyperpage}{36}
+\indexentry{include/output-\/results.h@{include/output-\/results.h}|hyperpage}{36}
+\indexentry{output-\/results.h@{output-\/results.h}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{37}
+\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.h@{output-\/results.h}|hyperpage}{37}
+\indexentry{output-\/results.h@{output-\/results.h}!outputResults@{outputResults}|hyperpage}{37}
+\indexentry{outputResults@{outputResults}!output-\/results.h@{output-\/results.h}|hyperpage}{37}
+\indexentry{include/output-\/results.h@{include/output-\/results.h}|hyperpage}{38}
+\indexentry{include/sort-\/nuskriausti-\/and-\/protingi.h@{include/sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{38}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}|hyperpage}{39}
+\indexentry{handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{39}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{39}
+\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{39}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{39}
+\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{39}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{39}
+\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.h@{sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{39}
+\indexentry{include/sort-\/nuskriausti-\/and-\/protingi.h@{include/sort-\/nuskriausti-\/and-\/protingi.h}|hyperpage}{39}
+\indexentry{include/sort-\/students.h@{include/sort-\/students.h}|hyperpage}{40}
+\indexentry{sort-\/students.h@{sort-\/students.h}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{40}
+\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.h@{sort-\/students.h}|hyperpage}{40}
+\indexentry{sort-\/students.h@{sort-\/students.h}!sortStudents@{sortStudents}|hyperpage}{40}
+\indexentry{sortStudents@{sortStudents}!sort-\/students.h@{sort-\/students.h}|hyperpage}{40}
+\indexentry{include/sort-\/students.h@{include/sort-\/students.h}|hyperpage}{41}
+\indexentry{include/student-\/app.h@{include/student-\/app.h}|hyperpage}{41}
+\indexentry{student-\/app.h@{student-\/app.h}!runStudentApp@{runStudentApp}|hyperpage}{41}
+\indexentry{runStudentApp@{runStudentApp}!student-\/app.h@{student-\/app.h}|hyperpage}{41}
+\indexentry{include/student-\/app.h@{include/student-\/app.h}|hyperpage}{41}
+\indexentry{include/student-\/menu.h@{include/student-\/menu.h}|hyperpage}{42}
+\indexentry{student-\/menu.h@{student-\/menu.h}!handleMenuChoice@{handleMenuChoice}|hyperpage}{42}
+\indexentry{handleMenuChoice@{handleMenuChoice}!student-\/menu.h@{student-\/menu.h}|hyperpage}{42}
+\indexentry{student-\/menu.h@{student-\/menu.h}!showMainMenu@{showMainMenu}|hyperpage}{42}
+\indexentry{showMainMenu@{showMainMenu}!student-\/menu.h@{student-\/menu.h}|hyperpage}{42}
+\indexentry{student-\/menu.h@{student-\/menu.h}!startMainMenu@{startMainMenu}|hyperpage}{43}
+\indexentry{startMainMenu@{startMainMenu}!student-\/menu.h@{student-\/menu.h}|hyperpage}{43}
+\indexentry{include/student-\/menu.h@{include/student-\/menu.h}|hyperpage}{43}
+\indexentry{include/student-\/rule-\/of-\/five-\/operators-\/test.h@{include/student-\/rule-\/of-\/five-\/operators-\/test.h}|hyperpage}{43}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.h@{student-\/rule-\/of-\/five-\/operators-\/test.h}!handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}|hyperpage}{44}
+\indexentry{handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}!student-\/rule-\/of-\/five-\/operators-\/test.h@{student-\/rule-\/of-\/five-\/operators-\/test.h}|hyperpage}{44}
+\indexentry{include/student-\/rule-\/of-\/five-\/operators-\/test.h@{include/student-\/rule-\/of-\/five-\/operators-\/test.h}|hyperpage}{44}
+\indexentry{include/student.h@{include/student.h}|hyperpage}{44}
+\indexentry{include/student.h@{include/student.h}|hyperpage}{45}
+\indexentry{src/create-\/student.cpp@{src/create-\/student.cpp}|hyperpage}{46}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentFullyRandom@{createStudentFullyRandom}|hyperpage}{46}
+\indexentry{createStudentFullyRandom@{createStudentFullyRandom}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{46}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentManual@{createStudentManual}|hyperpage}{46}
+\indexentry{createStudentManual@{createStudentManual}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{46}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentRandomGrades@{createStudentRandomGrades}|hyperpage}{46}
+\indexentry{createStudentRandomGrades@{createStudentRandomGrades}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{46}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentsFromFile@{createStudentsFromFile}|hyperpage}{47}
+\indexentry{createStudentsFromFile@{createStudentsFromFile}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{47}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!createStudentsFromFile@{createStudentsFromFile}|hyperpage}{47}
+\indexentry{createStudentsFromFile@{createStudentsFromFile}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{47}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!randomName@{randomName}|hyperpage}{47}
+\indexentry{randomName@{randomName}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{47}
+\indexentry{create-\/student.cpp@{create-\/student.cpp}!randomSurname@{randomSurname}|hyperpage}{47}
+\indexentry{randomSurname@{randomSurname}!create-\/student.cpp@{create-\/student.cpp}|hyperpage}{47}
+\indexentry{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp@{src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{47}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}|hyperpage}{48}
+\indexentry{handleSortNuskriaustiAndProtingiFromFile@{handleSortNuskriaustiAndProtingiFromFile}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{48}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$}|hyperpage}{48}
+\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{48}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$}|hyperpage}{48}
+\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{48}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$}|hyperpage}{48}
+\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{48}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$}|hyperpage}{49}
+\indexentry{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$@{handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiFirstStrategy@{sortNuskriaustiAndProtingiFirstStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{49}
+\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{49}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiSecondStrategy@{sortNuskriaustiAndProtingiSecondStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}!sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}|hyperpage}{50}
+\indexentry{sortNuskriaustiAndProtingiThirdStrategy@{sortNuskriaustiAndProtingiThirdStrategy}!sort-\/nuskriausti-\/and-\/protingi.cpp@{sort-\/nuskriausti-\/and-\/protingi.cpp}|hyperpage}{50}
+\indexentry{src/data-\/sorting/sort-\/students.cpp@{src/data-\/sorting/sort-\/students.cpp}|hyperpage}{51}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{51}
+\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{51}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{51}
+\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{51}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{52}
+\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{52}
+\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}|hyperpage}{52}
+\indexentry{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{52}
+\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{52}
+\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{52}
+\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{52}
+\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{52}
+\indexentry{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}|hyperpage}{53}
+\indexentry{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}|hyperpage}{53}
+\indexentry{src/generate-\/student-\/list.cpp@{src/generate-\/student-\/list.cpp}|hyperpage}{53}
+\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!generateStudentListFile@{generateStudentListFile}|hyperpage}{54}
+\indexentry{generateStudentListFile@{generateStudentListFile}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{54}
+\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!handleGenerateStudentListFile@{handleGenerateStudentListFile}|hyperpage}{54}
+\indexentry{handleGenerateStudentListFile@{handleGenerateStudentListFile}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{54}
+\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!printHeader@{printHeader}|hyperpage}{54}
+\indexentry{printHeader@{printHeader}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{54}
+\indexentry{generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}!printStudentListRow@{printStudentListRow}|hyperpage}{54}
+\indexentry{printStudentListRow@{printStudentListRow}!generate-\/student-\/list.cpp@{generate-\/student-\/list.cpp}|hyperpage}{54}
+\indexentry{src/main-\/menu.cpp@{src/main-\/menu.cpp}|hyperpage}{54}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice@{handleMenuChoice}|hyperpage}{55}
+\indexentry{handleMenuChoice@{handleMenuChoice}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{55}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ CustomVector$<$ Student $>$ $>$@{handleMenuChoice$<$ CustomVector$<$ Student $>$ $>$}|hyperpage}{55}
+\indexentry{handleMenuChoice$<$ CustomVector$<$ Student $>$ $>$@{handleMenuChoice$<$ CustomVector$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{55}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ std::deque$<$ Student $>$ $>$@{handleMenuChoice$<$ std::deque$<$ Student $>$ $>$}|hyperpage}{55}
+\indexentry{handleMenuChoice$<$ std::deque$<$ Student $>$ $>$@{handleMenuChoice$<$ std::deque$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{55}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ std::list$<$ Student $>$ $>$@{handleMenuChoice$<$ std::list$<$ Student $>$ $>$}|hyperpage}{55}
+\indexentry{handleMenuChoice$<$ std::list$<$ Student $>$ $>$@{handleMenuChoice$<$ std::list$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{55}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!handleMenuChoice$<$ vector$<$ Student $>$ $>$@{handleMenuChoice$<$ vector$<$ Student $>$ $>$}|hyperpage}{55}
+\indexentry{handleMenuChoice$<$ vector$<$ Student $>$ $>$@{handleMenuChoice$<$ vector$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{55}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!showMainMenu@{showMainMenu}|hyperpage}{55}
+\indexentry{showMainMenu@{showMainMenu}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{55}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu@{startMainMenu}|hyperpage}{56}
+\indexentry{startMainMenu@{startMainMenu}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{56}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ CustomVector$<$ Student $>$ $>$@{startMainMenu$<$ CustomVector$<$ Student $>$ $>$}|hyperpage}{56}
+\indexentry{startMainMenu$<$ CustomVector$<$ Student $>$ $>$@{startMainMenu$<$ CustomVector$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{56}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ std::deque$<$ Student $>$ $>$@{startMainMenu$<$ std::deque$<$ Student $>$ $>$}|hyperpage}{56}
+\indexentry{startMainMenu$<$ std::deque$<$ Student $>$ $>$@{startMainMenu$<$ std::deque$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{56}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ std::list$<$ Student $>$ $>$@{startMainMenu$<$ std::list$<$ Student $>$ $>$}|hyperpage}{56}
+\indexentry{startMainMenu$<$ std::list$<$ Student $>$ $>$@{startMainMenu$<$ std::list$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{56}
+\indexentry{main-\/menu.cpp@{main-\/menu.cpp}!startMainMenu$<$ vector$<$ Student $>$ $>$@{startMainMenu$<$ vector$<$ Student $>$ $>$}|hyperpage}{56}
+\indexentry{startMainMenu$<$ vector$<$ Student $>$ $>$@{startMainMenu$<$ vector$<$ Student $>$ $>$}!main-\/menu.cpp@{main-\/menu.cpp}|hyperpage}{56}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{56}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{57}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{57}
+\indexentry{src/output-\/results.cpp@{src/output-\/results.cpp}|hyperpage}{57}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{58}
+\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{58}
+\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{58}
+\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{58}
+\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!chooseOutputAndPrint@{chooseOutputAndPrint}|hyperpage}{58}
+\indexentry{chooseOutputAndPrint@{chooseOutputAndPrint}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{58}
+\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{58}
+\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{58}
+\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{58}
+\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{58}
+\indexentry{output-\/results.cpp@{output-\/results.cpp}!outputResults@{outputResults}|hyperpage}{59}
+\indexentry{outputResults@{outputResults}!output-\/results.cpp@{output-\/results.cpp}|hyperpage}{59}
+\indexentry{src/student.cpp@{src/student.cpp}|hyperpage}{59}
+\indexentry{student.cpp@{student.cpp}!operator$<$$<$@{operator$<$$<$}|hyperpage}{59}
+\indexentry{operator$<$$<$@{operator$<$$<$}!student.cpp@{student.cpp}|hyperpage}{59}
+\indexentry{student.cpp@{student.cpp}!operator$>$$>$@{operator$>$$>$}|hyperpage}{59}
+\indexentry{operator$>$$>$@{operator$>$$>$}!student.cpp@{student.cpp}|hyperpage}{59}
+\indexentry{src/test/catch2-\/main.cpp@{src/test/catch2-\/main.cpp}|hyperpage}{60}
+\indexentry{catch2-\/main.cpp@{catch2-\/main.cpp}!CATCH\_CONFIG\_MAIN@{CATCH\_CONFIG\_MAIN}|hyperpage}{60}
+\indexentry{CATCH\_CONFIG\_MAIN@{CATCH\_CONFIG\_MAIN}!catch2-\/main.cpp@{catch2-\/main.cpp}|hyperpage}{60}
+\indexentry{src/test/runtime-\/test/custom-\/vector-\/push-\/back-\/test.cpp@{src/test/runtime-\/test/custom-\/vector-\/push-\/back-\/test.cpp}|hyperpage}{60}
+\indexentry{custom-\/vector-\/push-\/back-\/test.cpp@{custom-\/vector-\/push-\/back-\/test.cpp}!handleCustomVectorPushBackTest@{handleCustomVectorPushBackTest}|hyperpage}{61}
+\indexentry{handleCustomVectorPushBackTest@{handleCustomVectorPushBackTest}!custom-\/vector-\/push-\/back-\/test.cpp@{custom-\/vector-\/push-\/back-\/test.cpp}|hyperpage}{61}
+\indexentry{src/test/runtime-\/test/custom-\/vector-\/reallocation-\/test.cpp@{src/test/runtime-\/test/custom-\/vector-\/reallocation-\/test.cpp}|hyperpage}{61}
+\indexentry{custom-\/vector-\/reallocation-\/test.cpp@{custom-\/vector-\/reallocation-\/test.cpp}!countReallocationsWhilePushBack@{countReallocationsWhilePushBack}|hyperpage}{62}
+\indexentry{countReallocationsWhilePushBack@{countReallocationsWhilePushBack}!custom-\/vector-\/reallocation-\/test.cpp@{custom-\/vector-\/reallocation-\/test.cpp}|hyperpage}{62}
+\indexentry{custom-\/vector-\/reallocation-\/test.cpp@{custom-\/vector-\/reallocation-\/test.cpp}!handleCustomVectorReallocationTest@{handleCustomVectorReallocationTest}|hyperpage}{62}
+\indexentry{handleCustomVectorReallocationTest@{handleCustomVectorReallocationTest}!custom-\/vector-\/reallocation-\/test.cpp@{custom-\/vector-\/reallocation-\/test.cpp}|hyperpage}{62}
+\indexentry{custom-\/vector-\/reallocation-\/test.cpp@{custom-\/vector-\/reallocation-\/test.cpp}!kElementCount@{kElementCount}|hyperpage}{62}
+\indexentry{kElementCount@{kElementCount}!custom-\/vector-\/reallocation-\/test.cpp@{custom-\/vector-\/reallocation-\/test.cpp}|hyperpage}{62}
+\indexentry{src/test/runtime-\/test/generate-\/student-\/list-\/test.cpp@{src/test/runtime-\/test/generate-\/student-\/list-\/test.cpp}|hyperpage}{62}
+\indexentry{generate-\/student-\/list-\/test.cpp@{generate-\/student-\/list-\/test.cpp}!handleGenerateStudentListTest@{handleGenerateStudentListTest}|hyperpage}{63}
+\indexentry{handleGenerateStudentListTest@{handleGenerateStudentListTest}!generate-\/student-\/list-\/test.cpp@{generate-\/student-\/list-\/test.cpp}|hyperpage}{63}
+\indexentry{src/test/runtime-\/test/output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{src/test/runtime-\/test/output-\/nuskriausti-\/and-\/protingi-\/test.cpp}|hyperpage}{63}
+\indexentry{output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}!outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}|hyperpage}{63}
+\indexentry{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles@{outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles}!output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}|hyperpage}{63}
+\indexentry{output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}!outputNuskriaustiAndProtingiTestForContainer@{outputNuskriaustiAndProtingiTestForContainer}|hyperpage}{63}
+\indexentry{outputNuskriaustiAndProtingiTestForContainer@{outputNuskriaustiAndProtingiTestForContainer}!output-\/nuskriausti-\/and-\/protingi-\/test.cpp@{output-\/nuskriausti-\/and-\/protingi-\/test.cpp}|hyperpage}{63}
+\indexentry{src/test/runtime-\/test/student-\/rule-\/of-\/five-\/operators-\/test.cpp@{src/test/runtime-\/test/student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{64}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}|hyperpage}{65}
+\indexentry{handleStudentRuleOfFiveAndOperatorsTest@{handleStudentRuleOfFiveAndOperatorsTest}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!printTestResult@{printTestResult}|hyperpage}{65}
+\indexentry{printTestResult@{printTestResult}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testCopyAssignment@{testCopyAssignment}|hyperpage}{65}
+\indexentry{testCopyAssignment@{testCopyAssignment}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testCopyConstructor@{testCopyConstructor}|hyperpage}{65}
+\indexentry{testCopyConstructor@{testCopyConstructor}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testDestructor@{testDestructor}|hyperpage}{65}
+\indexentry{testDestructor@{testDestructor}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testHumanIsAbstractAndNotInstantiable@{testHumanIsAbstractAndNotInstantiable}|hyperpage}{65}
+\indexentry{testHumanIsAbstractAndNotInstantiable@{testHumanIsAbstractAndNotInstantiable}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testInputOperatorInvalid@{testInputOperatorInvalid}|hyperpage}{65}
+\indexentry{testInputOperatorInvalid@{testInputOperatorInvalid}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testInputOperatorValid@{testInputOperatorValid}|hyperpage}{65}
+\indexentry{testInputOperatorValid@{testInputOperatorValid}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testMoveAssignment@{testMoveAssignment}|hyperpage}{65}
+\indexentry{testMoveAssignment@{testMoveAssignment}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testMoveConstructor@{testMoveConstructor}|hyperpage}{65}
+\indexentry{testMoveConstructor@{testMoveConstructor}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{65}
+\indexentry{student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}!testOutputOperator@{testOutputOperator}|hyperpage}{66}
+\indexentry{testOutputOperator@{testOutputOperator}!student-\/rule-\/of-\/five-\/operators-\/test.cpp@{student-\/rule-\/of-\/five-\/operators-\/test.cpp}|hyperpage}{66}
+\indexentry{src/test/unit-\/test/custom-\/vector-\/catch2-\/test.cpp@{src/test/unit-\/test/custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{66}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{67}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{67}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{67}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{67}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{67}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{67}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{67}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{67}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{67}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{67}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{67}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{67}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{68}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{68}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{69}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{69}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{70}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{70}
+\indexentry{custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{71}
+\indexentry{TEST\_CASE@{TEST\_CASE}!custom-\/vector-\/catch2-\/test.cpp@{custom-\/vector-\/catch2-\/test.cpp}|hyperpage}{71}
+\indexentry{src/test/unit-\/test/student-\/catch2-\/test.cpp@{src/test/unit-\/test/student-\/catch2-\/test.cpp}|hyperpage}{71}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{72}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{72}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{73}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{73}
+\indexentry{student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}!TEST\_CASE@{TEST\_CASE}|hyperpage}{73}
+\indexentry{TEST\_CASE@{TEST\_CASE}!student-\/catch2-\/test.cpp@{student-\/catch2-\/test.cpp}|hyperpage}{73}
+\indexentry{src/utils/grading-\/utils.cpp@{src/utils/grading-\/utils.cpp}|hyperpage}{73}
+\indexentry{grading-\/utils.cpp@{grading-\/utils.cpp}!calculateFinalGradeAverage@{calculateFinalGradeAverage}|hyperpage}{74}
+\indexentry{calculateFinalGradeAverage@{calculateFinalGradeAverage}!grading-\/utils.cpp@{grading-\/utils.cpp}|hyperpage}{74}
+\indexentry{grading-\/utils.cpp@{grading-\/utils.cpp}!calculateFinalGradeMedian@{calculateFinalGradeMedian}|hyperpage}{74}
+\indexentry{calculateFinalGradeMedian@{calculateFinalGradeMedian}!grading-\/utils.cpp@{grading-\/utils.cpp}|hyperpage}{74}
+\indexentry{grading-\/utils.cpp@{grading-\/utils.cpp}!randomGrade@{randomGrade}|hyperpage}{74}
+\indexentry{randomGrade@{randomGrade}!grading-\/utils.cpp@{grading-\/utils.cpp}|hyperpage}{74}
+\indexentry{src/utils/input-\/utils.cpp@{src/utils/input-\/utils.cpp}|hyperpage}{74}
+\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readIntInRange@{readIntInRange}|hyperpage}{75}
+\indexentry{readIntInRange@{readIntInRange}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{75}
+\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readSingleIntToken@{readSingleIntToken}|hyperpage}{75}
+\indexentry{readSingleIntToken@{readSingleIntToken}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{75}
+\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readSingleStringToken@{readSingleStringToken}|hyperpage}{75}
+\indexentry{readSingleStringToken@{readSingleStringToken}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{75}
+\indexentry{input-\/utils.cpp@{input-\/utils.cpp}!readYesOrNo@{readYesOrNo}|hyperpage}{75}
+\indexentry{readYesOrNo@{readYesOrNo}!input-\/utils.cpp@{input-\/utils.cpp}|hyperpage}{75}

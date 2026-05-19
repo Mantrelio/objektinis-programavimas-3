@@ -1,0 +1,106 @@
+\doxysection{custom-\/vector.h}
+\hypertarget{custom-vector_8h_source}{}\label{custom-vector_8h_source}\index{include/custom-\/vector.h@{include/custom-\/vector.h}}
+\mbox{\hyperlink{custom-vector_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <cstddef>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <iterator>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <utility>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCustomVector}{CustomVector}}\ \{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{using\ }\mbox{\hyperlink{classCustomVector_a211927167525feecbb07400553637332}{value\_type}}\ =\ T;}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keyword}{using\ }\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ =\ std::size\_t;}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \ \ \ \ \mbox{\hyperlink{classCustomVector_ac11a611fdf412a6d7dad3ec88f453639}{CustomVector}}()\ noexcept;}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{classCustomVector}{CustomVector}}(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}\&\ other);}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{classCustomVector}{CustomVector}}(\mbox{\hyperlink{classCustomVector}{CustomVector}}\&\&\ other)\ noexcept;}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{classCustomVector}{CustomVector}}\&\ operator=(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}\&\ other);}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{classCustomVector}{CustomVector}}\&\ operator=(\mbox{\hyperlink{classCustomVector}{CustomVector}}\&\&\ other)\ noexcept;}
+\DoxyCodeLine{00019\ \ \ \ \ \string~\mbox{\hyperlink{classCustomVector}{CustomVector}}()\ =\ default;}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_ac6d5c0dd883aab48fcbaac75b2038ce8}{swap}}(\mbox{\hyperlink{classCustomVector}{CustomVector}}\&\ other)\ noexcept;}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_ab6ba9c8f9b96a1aa6ec534ab147f1fa1}{assign}}(\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ count,\ const\ T\&\ value);}
+\DoxyCodeLine{00024\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_af5b2f6092260230686e4831c5ad2ebf8}{insert}}(T*\ pos,\ const\ T\&\ value);}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ template\ <typename\ InputIt>}
+\DoxyCodeLine{00027\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_ae90d7eb600b03554e9f5bd367703bf23}{insert\_range}}(T*\ pos,\ InputIt\ first,\ InputIt\ last);}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ template\ <typename\ InputIt>}
+\DoxyCodeLine{00030\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_af5b2f6092260230686e4831c5ad2ebf8}{insert}}(T*\ pos,\ InputIt\ first,\ InputIt\ last)\ \{}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{classCustomVector_ae90d7eb600b03554e9f5bd367703bf23}{insert\_range}}(pos,\ first,\ last);}
+\DoxyCodeLine{00032\ \ \ \ \ \}}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}...\ Args>}
+\DoxyCodeLine{00035\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_a4b19486859ff216fa1816fb2045ea61b}{emplace}}(T*\ pos,\ Args\&\&...\ args);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_a3e2938399f345510fc63a59557f54e06}{erase}}(T*\ pos);}
+\DoxyCodeLine{00038\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_a38f24b7508c60404daaa168923afcd31}{erase}}(T*\ first,\ T*\ last);}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \ \ \ \ T\&\ \mbox{\hyperlink{classCustomVector_a5b62e9e89b8e74fec03a437ccdd60454}{at}}(\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ pos);}
+\DoxyCodeLine{00041\ \ \ \ \ T\&\ \mbox{\hyperlink{classCustomVector_a0b8c370b9603a6c598003f81febbf31b}{operator[]}}(\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ pos);}
+\DoxyCodeLine{00042\ \ \ \ \ T\&\ \mbox{\hyperlink{classCustomVector_ae7529e338c3976fb60d12e70be23df27}{front}}();}
+\DoxyCodeLine{00043\ \ \ \ \ T\&\ \mbox{\hyperlink{classCustomVector_a9615cf416b9b898cc06b57ced154eac0}{back}}();}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_a17c2cfeb7c47266957ff03f8d315b3b3}{push\_back}}(\textcolor{keyword}{const}\ T\&\ value);}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}...\ Args>}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_a74d4779d4bb1d4a9e13f4ce5f7b0804b}{emplace\_back}}(Args\&\&...\ args);}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_a975b403fb6e335d6d13a8dc05b0ad330}{pop\_back}}();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ InputIt>}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_a04d134018bb361c04de41248aa50242c}{append\_range}}(InputIt\ first,\ InputIt\ last);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \ \ \ \ \mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ \mbox{\hyperlink{classCustomVector_afe763cb8d089dfe564aef9a280475250}{size}}()\ const\ noexcept;}
+\DoxyCodeLine{00055\ \ \ \ \ \mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ \mbox{\hyperlink{classCustomVector_a0814647e2488f15f18bb840bea87eb71}{capacity}}()\ const\ noexcept;}
+\DoxyCodeLine{00056\ \ \ \ \ \mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ \mbox{\hyperlink{classCustomVector_a7f50e3fc894f37f7c6ae482608912b6a}{max\_size}}()\ const\ noexcept;}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_afce01c633115bacb67f6aac2a7a333e7}{reserve}}(\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ new\_cap);}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_ac568a9452dc6413aad662b5ef840b98a}{resize}}(\mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ count,\ const\ T\&\ value);}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_aa688a1f11d287a573cb14ad5360d778b}{shrink\_to\_fit}}();}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCustomVector_a769ae2afc34599b0a4926c784aa414e4}{clear}}()\ noexcept;}
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classCustomVector_aaa326b1d6c7c7c09171be7661d553ed6}{empty}}()\ const\ noexcept;}
+\DoxyCodeLine{00062\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_a5e91ef79b66b8a9faa340f671365236b}{data}}()\ noexcept;}
+\DoxyCodeLine{00063\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_a9c4a18be180d010bd4a97355b688002d}{begin}}()\ noexcept;}
+\DoxyCodeLine{00064\ \ \ \ \ const\ T*\ \mbox{\hyperlink{classCustomVector_a9c4a18be180d010bd4a97355b688002d}{begin}}()\ const\ noexcept;}
+\DoxyCodeLine{00065\ \ \ \ \ const\ T*\ \mbox{\hyperlink{classCustomVector_a8b4b9b13c41e8052c54ce8047926a17b}{cbegin}}()\ const\ noexcept;}
+\DoxyCodeLine{00066\ \ \ \ \ T*\ \mbox{\hyperlink{classCustomVector_adf2ec12fc4389b4a631f6fc284a818cb}{end}}()\ noexcept;}
+\DoxyCodeLine{00067\ \ \ \ \ const\ T*\ \mbox{\hyperlink{classCustomVector_adf2ec12fc4389b4a631f6fc284a818cb}{end}}()\ const\ noexcept;}
+\DoxyCodeLine{00068\ \ \ \ \ const\ T*\ \mbox{\hyperlink{classCustomVector_a01f050782c20cd6a82d30eae82d762aa}{cend}}()\ const\ noexcept;}
+\DoxyCodeLine{00069\ \ \ \ \ std::reverse\_iterator<T*>\ \mbox{\hyperlink{classCustomVector_a47d4388581aad2a26f90488ee54961c2}{rbegin}}()\ noexcept;}
+\DoxyCodeLine{00070\ \ \ \ \ std::reverse\_iterator<const\ T*>\ \mbox{\hyperlink{classCustomVector_ac916864408482068900d8b226a621d8b}{crbegin}}()\ const\ noexcept;}
+\DoxyCodeLine{00071\ \ \ \ \ std::reverse\_iterator<T*>\ \mbox{\hyperlink{classCustomVector_afd098ed608ba8522508d79445e767164}{rend}}()\ noexcept;}
+\DoxyCodeLine{00072\ \ \ \ \ std::reverse\_iterator<const\ T*>\ \mbox{\hyperlink{classCustomVector_ae62fdbc4522396a9fd58109c0acd1f09}{crend}}()\ const\ noexcept;}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ private:}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{void}\ reset()\ noexcept;}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \ \ \ \ std::unique\_ptr<T[]>\ data\_;}
+\DoxyCodeLine{00078\ \ \ \ \ \mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ size\_;}
+\DoxyCodeLine{00079\ \ \ \ \ \mbox{\hyperlink{classCustomVector_a23d459c4c5eb2d17bcffbdc95518310f}{size\_type}}\ capacity\_;}
+\DoxyCodeLine{00080\ \};}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ template\ <typename\ T>}
+\DoxyCodeLine{00083\ \textcolor{keywordtype}{bool}\ operator==(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ lhs,\ const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ rhs);}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ template\ <typename\ T>}
+\DoxyCodeLine{00086\ \textcolor{keywordtype}{bool}\ operator!=(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ lhs,\ const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ rhs);}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ template\ <typename\ T>}
+\DoxyCodeLine{00089\ \textcolor{keywordtype}{bool}\ operator<(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ lhs,\ const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ rhs);}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ template\ <typename\ T>}
+\DoxyCodeLine{00092\ \textcolor{keywordtype}{bool}\ operator<=(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ lhs,\ const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ rhs);}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00094\ template\ <typename\ T>}
+\DoxyCodeLine{00095\ \textcolor{keywordtype}{bool}\ operator>(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ lhs,\ const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ rhs);}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00097\ template\ <typename\ T>}
+\DoxyCodeLine{00098\ \textcolor{keywordtype}{bool}\ operator>=(const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ lhs,\ const\ \mbox{\hyperlink{classCustomVector}{CustomVector}}<T>\&\ rhs);}
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00100\ \textcolor{preprocessor}{\#include\ "{}custom-\/vector.tpp"{}}}
+
+\end{DoxyCode}

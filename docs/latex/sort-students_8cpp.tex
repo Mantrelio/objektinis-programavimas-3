@@ -1,14 +1,14 @@
 \doxysection{src/data-\/sorting/sort-\/students.cpp File Reference}
 \hypertarget{sort-students_8cpp}{}\label{sort-students_8cpp}\index{src/data-\/sorting/sort-\/students.cpp@{src/data-\/sorting/sort-\/students.cpp}}
 {\ttfamily \#include "{}sort-\/students.\+h"{}}\newline
+{\ttfamily \#include "{}custom-\/vector.\+h"{}}\newline
 {\ttfamily \#include "{}input-\/utils.\+h"{}}\newline
 {\ttfamily \#include $<$algorithm$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
 {\ttfamily \#include $<$deque$>$}\newline
 {\ttfamily \#include $<$list$>$}\newline
 {\ttfamily \#include $<$type\+\_\+traits$>$}\newline
-Include dependency graph for sort-\/students.cpp\+:
-\nopagebreak
+Include dependency graph for sort-\/students.cpp\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -26,6 +26,8 @@ template void \mbox{\hyperlink{sort-students_8cpp_a0d138294c0194103a70089df9517e
 \item 
 template void \mbox{\hyperlink{sort-students_8cpp_ab06868680bef3f246fe5c4482110f660}{sort\+Students}} (std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&, int, bool)
 \item 
+template void \mbox{\hyperlink{sort-students_8cpp_abde11d5e9d717a5a4672ab4e50dfb53b}{sort\+Students}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&, int, bool)
+\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{sort-students_8cpp_a36bdccb0ad388bd83d8ccf43b3d70dff}{run\+Sort\+Students\+Choice\+Prompt}} (T \&students)
 \item 
 template void \mbox{\hyperlink{sort-students_8cpp_aded79582df9c9ac0af5058b9845e537c}{run\+Sort\+Students\+Choice\+Prompt}} (vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
@@ -33,57 +35,71 @@ template void \mbox{\hyperlink{sort-students_8cpp_aded79582df9c9ac0af5058b9845e5
 template void \mbox{\hyperlink{sort-students_8cpp_aff83ca0328628c04b9987005105969bf}{run\+Sort\+Students\+Choice\+Prompt}} (std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
 \item 
 template void \mbox{\hyperlink{sort-students_8cpp_ad6d6e1f570fd078143a644c6fdc0920d}{run\+Sort\+Students\+Choice\+Prompt}} (std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
+\item 
+template void \mbox{\hyperlink{sort-students_8cpp_a47ac413af47be9df60c90334d0f93724}{run\+Sort\+Students\+Choice\+Prompt}} (\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&)
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Function Documentation}
+\Hypertarget{sort-students_8cpp_a47ac413af47be9df60c90334d0f93724}\label{sort-students_8cpp_a47ac413af47be9df60c90334d0f93724} 
+\index{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}}
+\index{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}}
+\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template void run\+Sort\+Students\+Choice\+Prompt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
+
 \Hypertarget{sort-students_8cpp_ad6d6e1f570fd078143a644c6fdc0920d}\label{sort-students_8cpp_ad6d6e1f570fd078143a644c6fdc0920d} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}}
 \index{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template void run\+Sort\+Students\+Choice\+Prompt (\begin{DoxyParamCaption}\item[{std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_aff83ca0328628c04b9987005105969bf}\label{sort-students_8cpp_aff83ca0328628c04b9987005105969bf} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}}
 \index{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template void run\+Sort\+Students\+Choice\+Prompt (\begin{DoxyParamCaption}\item[{std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_a36bdccb0ad388bd83d8ccf43b3d70dff}\label{sort-students_8cpp_a36bdccb0ad388bd83d8ccf43b3d70dff} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}}
 \index{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void run\+Sort\+Students\+Choice\+Prompt (\begin{DoxyParamCaption}\item[{T \&}]{students }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_aded79582df9c9ac0af5058b9845e537c}\label{sort-students_8cpp_aded79582df9c9ac0af5058b9845e537c} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}}
 \index{runSortStudentsChoicePrompt@{runSortStudentsChoicePrompt}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{runSortStudentsChoicePrompt()}{runSortStudentsChoicePrompt()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template void run\+Sort\+Students\+Choice\+Prompt (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{sort-students_8cpp_abde11d5e9d717a5a4672ab4e50dfb53b}\label{sort-students_8cpp_abde11d5e9d717a5a4672ab4e50dfb53b} 
+\index{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}}
+\index{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}}
+\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily template void sort\+Students (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCustomVector}{Custom\+Vector}}$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{,  }\item[{int}]{,  }\item[{bool}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_ab06868680bef3f246fe5c4482110f660}\label{sort-students_8cpp_ab06868680bef3f246fe5c4482110f660} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}}
 \index{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily template void sort\+Students (\begin{DoxyParamCaption}\item[{std\+::deque$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{,  }\item[{int}]{,  }\item[{bool}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_a0d138294c0194103a70089df9517e221}\label{sort-students_8cpp_a0d138294c0194103a70089df9517e221} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}}
 \index{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily template void sort\+Students (\begin{DoxyParamCaption}\item[{std\+::list$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{,  }\item[{int}]{,  }\item[{bool}]{ }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_adb04aad340315db53899295ee40f8cd5}\label{sort-students_8cpp_adb04aad340315db53899295ee40f8cd5} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}}
 \index{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 void sort\+Students (\begin{DoxyParamCaption}\item[{T \&}]{students,  }\item[{int}]{sort\+Choice,  }\item[{bool}]{ascending }\end{DoxyParamCaption})}
 
 \Hypertarget{sort-students_8cpp_ad64e6cba129fc864fecb0893f7ec79a5}\label{sort-students_8cpp_ad64e6cba129fc864fecb0893f7ec79a5} 
 \index{sort-\/students.cpp@{sort-\/students.cpp}!sortStudents@{sortStudents}}
 \index{sortStudents@{sortStudents}!sort-\/students.cpp@{sort-\/students.cpp}}
-\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+\doxysubsubsection{\texorpdfstring{sortStudents()}{sortStudents()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
 {\footnotesize\ttfamily template void sort\+Students (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{classStudent}{Student}} $>$ \&}]{,  }\item[{int}]{,  }\item[{bool}]{ }\end{DoxyParamCaption})}
 

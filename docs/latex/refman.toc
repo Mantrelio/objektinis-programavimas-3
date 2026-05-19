@@ -6,220 +6,351 @@
 \contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
 \contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Human Class Reference}{7}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Constructor \& Destructor Documentation}{8}{subsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.1}Human()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{8}{subsubsection.4.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.2}Human()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{8}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}Human()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{8}{subsubsection.4.1.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.1.4}Human()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{8}{subsubsection.4.1.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.1.5}$\sim $Human()}{8}{subsubsection.4.1.1.5}%
-\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{9}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}name()}{9}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{9}{subsubsection.4.1.2.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.3}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{9}{subsubsection.4.1.2.3}%
-\contentsline {subsubsection}{\numberline {4.1.2.4}setName()}{9}{subsubsection.4.1.2.4}%
-\contentsline {subsubsection}{\numberline {4.1.2.5}setSurname()}{9}{subsubsection.4.1.2.5}%
-\contentsline {subsubsection}{\numberline {4.1.2.6}surname()}{9}{subsubsection.4.1.2.6}%
-\contentsline {subsection}{\numberline {4.1.3}Member Data Documentation}{9}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.1}name\_}{9}{subsubsection.4.1.3.1}%
-\contentsline {subsubsection}{\numberline {4.1.3.2}surname\_}{9}{subsubsection.4.1.3.2}%
-\contentsline {section}{\numberline {4.2}Student Class Reference}{10}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Constructor \& Destructor Documentation}{11}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}Student()\hspace {0.1cm}{\footnotesize \ttfamily [1/6]}}{11}{subsubsection.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}Student()\hspace {0.1cm}{\footnotesize \ttfamily [2/6]}}{11}{subsubsection.4.2.1.2}%
-\contentsline {subsubsection}{\numberline {4.2.1.3}Student()\hspace {0.1cm}{\footnotesize \ttfamily [3/6]}}{12}{subsubsection.4.2.1.3}%
-\contentsline {subsubsection}{\numberline {4.2.1.4}Student()\hspace {0.1cm}{\footnotesize \ttfamily [4/6]}}{12}{subsubsection.4.2.1.4}%
-\contentsline {subsubsection}{\numberline {4.2.1.5}Student()\hspace {0.1cm}{\footnotesize \ttfamily [5/6]}}{12}{subsubsection.4.2.1.5}%
-\contentsline {subsubsection}{\numberline {4.2.1.6}Student()\hspace {0.1cm}{\footnotesize \ttfamily [6/6]}}{12}{subsubsection.4.2.1.6}%
-\contentsline {subsubsection}{\numberline {4.2.1.7}$\sim $Student()}{12}{subsubsection.4.2.1.7}%
-\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{12}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}examGrade()}{12}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}finalGradeAverage()}{12}{subsubsection.4.2.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.3}finalGradeMedian()}{12}{subsubsection.4.2.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.2.4}homeworkGrades()}{12}{subsubsection.4.2.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.2.5}name()}{13}{subsubsection.4.2.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.2.6}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{13}{subsubsection.4.2.2.6}%
-\contentsline {subsubsection}{\numberline {4.2.2.7}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{13}{subsubsection.4.2.2.7}%
-\contentsline {subsubsection}{\numberline {4.2.2.8}readStudent()}{13}{subsubsection.4.2.2.8}%
-\contentsline {subsubsection}{\numberline {4.2.2.9}setExamGrade()}{13}{subsubsection.4.2.2.9}%
-\contentsline {subsubsection}{\numberline {4.2.2.10}setHomeworkGrades()}{13}{subsubsection.4.2.2.10}%
-\contentsline {subsubsection}{\numberline {4.2.2.11}setName()}{13}{subsubsection.4.2.2.11}%
-\contentsline {subsubsection}{\numberline {4.2.2.12}setSurname()}{13}{subsubsection.4.2.2.12}%
-\contentsline {subsubsection}{\numberline {4.2.2.13}surname()}{13}{subsubsection.4.2.2.13}%
-\contentsline {subsection}{\numberline {4.2.3}Friends And Related Symbol Documentation}{14}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}operator$<$$<$}{14}{subsubsection.4.2.3.1}%
-\contentsline {subsubsection}{\numberline {4.2.3.2}operator$>$$>$}{14}{subsubsection.4.2.3.2}%
-\contentsline {chapter}{\numberline {5}File Documentation}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}include/create-\/student.h File Reference}{15}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Function Documentation}{16}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}createStudentFullyRandom()}{16}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}createStudentManual()}{16}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}createStudentRandomGrades()}{16}{subsubsection.5.1.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}createStudentsFromFile()}{16}{subsubsection.5.1.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.1.5}randomName()}{16}{subsubsection.5.1.1.5}%
-\contentsline {subsubsection}{\numberline {5.1.1.6}randomSurname()}{16}{subsubsection.5.1.1.6}%
-\contentsline {section}{\numberline {5.2}create-\/student.h}{16}{section.5.2}%
-\contentsline {section}{\numberline {5.3}include/generate-\/student-\/list-\/test.h File Reference}{17}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Function Documentation}{17}{subsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.1.1}handleGenerateStudentListTest()}{17}{subsubsection.5.3.1.1}%
-\contentsline {section}{\numberline {5.4}generate-\/student-\/list-\/test.h}{17}{section.5.4}%
-\contentsline {section}{\numberline {5.5}include/generate-\/student-\/list.h File Reference}{18}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Function Documentation}{18}{subsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {5.5.1.1}generateStudentListFile()}{18}{subsubsection.5.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.5.1.2}handleGenerateStudentListFile()}{18}{subsubsection.5.5.1.2}%
-\contentsline {section}{\numberline {5.6}generate-\/student-\/list.h}{19}{section.5.6}%
-\contentsline {section}{\numberline {5.7}include/grading-\/utils.h File Reference}{19}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Function Documentation}{19}{subsection.5.7.1}%
-\contentsline {subsubsection}{\numberline {5.7.1.1}calculateFinalGradeAverage()}{19}{subsubsection.5.7.1.1}%
-\contentsline {subsubsection}{\numberline {5.7.1.2}calculateFinalGradeMedian()}{20}{subsubsection.5.7.1.2}%
-\contentsline {subsubsection}{\numberline {5.7.1.3}randomGrade()}{20}{subsubsection.5.7.1.3}%
-\contentsline {section}{\numberline {5.8}grading-\/utils.h}{20}{section.5.8}%
-\contentsline {section}{\numberline {5.9}include/human.h File Reference}{20}{section.5.9}%
-\contentsline {section}{\numberline {5.10}human.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{21}{section.5.10}%
-\contentsline {section}{\numberline {5.11}include/input-\/utils.h File Reference}{21}{section.5.11}%
-\contentsline {subsection}{\numberline {5.11.1}Function Documentation}{22}{subsection.5.11.1}%
-\contentsline {subsubsection}{\numberline {5.11.1.1}readIntInRange()}{22}{subsubsection.5.11.1.1}%
-\contentsline {subsubsection}{\numberline {5.11.1.2}readSingleIntToken()}{22}{subsubsection.5.11.1.2}%
-\contentsline {subsubsection}{\numberline {5.11.1.3}readSingleStringToken()}{22}{subsubsection.5.11.1.3}%
-\contentsline {subsubsection}{\numberline {5.11.1.4}readYesOrNo()}{22}{subsubsection.5.11.1.4}%
-\contentsline {section}{\numberline {5.12}input-\/utils.h}{22}{section.5.12}%
-\contentsline {section}{\numberline {5.13}include/output-\/nuskriausti-\/and-\/protingi-\/test.h File Reference}{23}{section.5.13}%
-\contentsline {subsection}{\numberline {5.13.1}Function Documentation}{23}{subsection.5.13.1}%
-\contentsline {subsubsection}{\numberline {5.13.1.1}outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles()}{23}{subsubsection.5.13.1.1}%
-\contentsline {section}{\numberline {5.14}output-\/nuskriausti-\/and-\/protingi-\/test.h}{23}{section.5.14}%
-\contentsline {section}{\numberline {5.15}include/output-\/results.h File Reference}{23}{section.5.15}%
-\contentsline {subsection}{\numberline {5.15.1}Function Documentation}{24}{subsection.5.15.1}%
-\contentsline {subsubsection}{\numberline {5.15.1.1}chooseOutputAndPrint()}{24}{subsubsection.5.15.1.1}%
-\contentsline {subsubsection}{\numberline {5.15.1.2}outputResults()}{24}{subsubsection.5.15.1.2}%
-\contentsline {section}{\numberline {5.16}output-\/results.h}{25}{section.5.16}%
-\contentsline {section}{\numberline {5.17}include/sort-\/nuskriausti-\/and-\/protingi.h File Reference}{25}{section.5.17}%
-\contentsline {subsection}{\numberline {5.17.1}Function Documentation}{26}{subsection.5.17.1}%
-\contentsline {subsubsection}{\numberline {5.17.1.1}handleSortNuskriaustiAndProtingiFromFile()}{26}{subsubsection.5.17.1.1}%
-\contentsline {subsubsection}{\numberline {5.17.1.2}sortNuskriaustiAndProtingiFirstStrategy()}{26}{subsubsection.5.17.1.2}%
-\contentsline {subsubsection}{\numberline {5.17.1.3}sortNuskriaustiAndProtingiSecondStrategy()}{26}{subsubsection.5.17.1.3}%
-\contentsline {subsubsection}{\numberline {5.17.1.4}sortNuskriaustiAndProtingiThirdStrategy()}{26}{subsubsection.5.17.1.4}%
-\contentsline {section}{\numberline {5.18}sort-\/nuskriausti-\/and-\/protingi.h}{26}{section.5.18}%
-\contentsline {section}{\numberline {5.19}include/sort-\/students.h File Reference}{27}{section.5.19}%
-\contentsline {subsection}{\numberline {5.19.1}Function Documentation}{27}{subsection.5.19.1}%
-\contentsline {subsubsection}{\numberline {5.19.1.1}runSortStudentsChoicePrompt()}{27}{subsubsection.5.19.1.1}%
-\contentsline {subsubsection}{\numberline {5.19.1.2}sortStudents()}{28}{subsubsection.5.19.1.2}%
-\contentsline {section}{\numberline {5.20}sort-\/students.h}{28}{section.5.20}%
-\contentsline {section}{\numberline {5.21}include/student-\/app.h File Reference}{28}{section.5.21}%
-\contentsline {subsection}{\numberline {5.21.1}Function Documentation}{28}{subsection.5.21.1}%
-\contentsline {subsubsection}{\numberline {5.21.1.1}runStudentApp()}{28}{subsubsection.5.21.1.1}%
-\contentsline {section}{\numberline {5.22}student-\/app.h}{28}{section.5.22}%
-\contentsline {section}{\numberline {5.23}include/student-\/menu.h File Reference}{29}{section.5.23}%
-\contentsline {subsection}{\numberline {5.23.1}Function Documentation}{29}{subsection.5.23.1}%
-\contentsline {subsubsection}{\numberline {5.23.1.1}handleMenuChoice()}{29}{subsubsection.5.23.1.1}%
-\contentsline {subsubsection}{\numberline {5.23.1.2}showMainMenu()}{30}{subsubsection.5.23.1.2}%
-\contentsline {subsubsection}{\numberline {5.23.1.3}startMainMenu()}{30}{subsubsection.5.23.1.3}%
-\contentsline {section}{\numberline {5.24}student-\/menu.h}{30}{section.5.24}%
-\contentsline {section}{\numberline {5.25}include/student-\/rule-\/of-\/five-\/operators-\/test.h File Reference}{30}{section.5.25}%
-\contentsline {subsection}{\numberline {5.25.1}Function Documentation}{30}{subsection.5.25.1}%
-\contentsline {subsubsection}{\numberline {5.25.1.1}handleStudentRuleOfFiveAndOperatorsTest()}{30}{subsubsection.5.25.1.1}%
-\contentsline {section}{\numberline {5.26}student-\/rule-\/of-\/five-\/operators-\/test.h}{31}{section.5.26}%
-\contentsline {section}{\numberline {5.27}include/student.h File Reference}{31}{section.5.27}%
-\contentsline {section}{\numberline {5.28}student.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{32}{section.5.28}%
-\contentsline {section}{\numberline {5.29}src/create-\/student.cpp File Reference}{33}{section.5.29}%
-\contentsline {subsection}{\numberline {5.29.1}Function Documentation}{33}{subsection.5.29.1}%
-\contentsline {subsubsection}{\numberline {5.29.1.1}createStudentFullyRandom()}{33}{subsubsection.5.29.1.1}%
-\contentsline {subsubsection}{\numberline {5.29.1.2}createStudentManual()}{34}{subsubsection.5.29.1.2}%
-\contentsline {subsubsection}{\numberline {5.29.1.3}createStudentRandomGrades()}{34}{subsubsection.5.29.1.3}%
-\contentsline {subsubsection}{\numberline {5.29.1.4}createStudentsFromFile()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{34}{subsubsection.5.29.1.4}%
-\contentsline {subsubsection}{\numberline {5.29.1.5}createStudentsFromFile()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{34}{subsubsection.5.29.1.5}%
-\contentsline {subsubsection}{\numberline {5.29.1.6}randomName()}{34}{subsubsection.5.29.1.6}%
-\contentsline {subsubsection}{\numberline {5.29.1.7}randomSurname()}{34}{subsubsection.5.29.1.7}%
-\contentsline {section}{\numberline {5.30}src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp File Reference}{34}{section.5.30}%
-\contentsline {subsection}{\numberline {5.30.1}Function Documentation}{35}{subsection.5.30.1}%
-\contentsline {subsubsection}{\numberline {5.30.1.1}handleSortNuskriaustiAndProtingiFromFile()}{35}{subsubsection.5.30.1.1}%
-\contentsline {subsubsection}{\numberline {5.30.1.2}handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$()}{35}{subsubsection.5.30.1.2}%
-\contentsline {subsubsection}{\numberline {5.30.1.3}handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$()}{35}{subsubsection.5.30.1.3}%
-\contentsline {subsubsection}{\numberline {5.30.1.4}handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$()}{35}{subsubsection.5.30.1.4}%
-\contentsline {subsubsection}{\numberline {5.30.1.5}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{36}{subsubsection.5.30.1.5}%
-\contentsline {subsubsection}{\numberline {5.30.1.6}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{36}{subsubsection.5.30.1.6}%
-\contentsline {subsubsection}{\numberline {5.30.1.7}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{36}{subsubsection.5.30.1.7}%
-\contentsline {subsubsection}{\numberline {5.30.1.8}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{36}{subsubsection.5.30.1.8}%
-\contentsline {subsubsection}{\numberline {5.30.1.9}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{36}{subsubsection.5.30.1.9}%
-\contentsline {subsubsection}{\numberline {5.30.1.10}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{36}{subsubsection.5.30.1.10}%
-\contentsline {subsubsection}{\numberline {5.30.1.11}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{36}{subsubsection.5.30.1.11}%
-\contentsline {subsubsection}{\numberline {5.30.1.12}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{36}{subsubsection.5.30.1.12}%
-\contentsline {subsubsection}{\numberline {5.30.1.13}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{37}{subsubsection.5.30.1.13}%
-\contentsline {subsubsection}{\numberline {5.30.1.14}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{37}{subsubsection.5.30.1.14}%
-\contentsline {subsubsection}{\numberline {5.30.1.15}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{37}{subsubsection.5.30.1.15}%
-\contentsline {subsubsection}{\numberline {5.30.1.16}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{37}{subsubsection.5.30.1.16}%
-\contentsline {section}{\numberline {5.31}src/data-\/sorting/sort-\/students.cpp File Reference}{37}{section.5.31}%
-\contentsline {subsection}{\numberline {5.31.1}Function Documentation}{38}{subsection.5.31.1}%
-\contentsline {subsubsection}{\numberline {5.31.1.1}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{38}{subsubsection.5.31.1.1}%
-\contentsline {subsubsection}{\numberline {5.31.1.2}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{38}{subsubsection.5.31.1.2}%
-\contentsline {subsubsection}{\numberline {5.31.1.3}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{38}{subsubsection.5.31.1.3}%
-\contentsline {subsubsection}{\numberline {5.31.1.4}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{38}{subsubsection.5.31.1.4}%
-\contentsline {subsubsection}{\numberline {5.31.1.5}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{38}{subsubsection.5.31.1.5}%
-\contentsline {subsubsection}{\numberline {5.31.1.6}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{38}{subsubsection.5.31.1.6}%
-\contentsline {subsubsection}{\numberline {5.31.1.7}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{39}{subsubsection.5.31.1.7}%
-\contentsline {subsubsection}{\numberline {5.31.1.8}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{39}{subsubsection.5.31.1.8}%
-\contentsline {section}{\numberline {5.32}src/generate-\/student-\/list.cpp File Reference}{39}{section.5.32}%
-\contentsline {subsection}{\numberline {5.32.1}Function Documentation}{40}{subsection.5.32.1}%
-\contentsline {subsubsection}{\numberline {5.32.1.1}generateStudentListFile()}{40}{subsubsection.5.32.1.1}%
-\contentsline {subsubsection}{\numberline {5.32.1.2}handleGenerateStudentListFile()}{40}{subsubsection.5.32.1.2}%
-\contentsline {subsubsection}{\numberline {5.32.1.3}printHeader()}{40}{subsubsection.5.32.1.3}%
-\contentsline {subsubsection}{\numberline {5.32.1.4}printStudentListRow()}{40}{subsubsection.5.32.1.4}%
-\contentsline {section}{\numberline {5.33}src/main-\/menu.cpp File Reference}{40}{section.5.33}%
-\contentsline {subsection}{\numberline {5.33.1}Function Documentation}{41}{subsection.5.33.1}%
-\contentsline {subsubsection}{\numberline {5.33.1.1}handleMenuChoice()}{41}{subsubsection.5.33.1.1}%
-\contentsline {subsubsection}{\numberline {5.33.1.2}handleMenuChoice$<$ std::deque$<$ Student $>$ $>$()}{41}{subsubsection.5.33.1.2}%
-\contentsline {subsubsection}{\numberline {5.33.1.3}handleMenuChoice$<$ std::list$<$ Student $>$ $>$()}{41}{subsubsection.5.33.1.3}%
-\contentsline {subsubsection}{\numberline {5.33.1.4}handleMenuChoice$<$ vector$<$ Student $>$ $>$()}{41}{subsubsection.5.33.1.4}%
-\contentsline {subsubsection}{\numberline {5.33.1.5}showMainMenu()}{41}{subsubsection.5.33.1.5}%
-\contentsline {subsubsection}{\numberline {5.33.1.6}startMainMenu()}{42}{subsubsection.5.33.1.6}%
-\contentsline {subsubsection}{\numberline {5.33.1.7}startMainMenu$<$ std::deque$<$ Student $>$ $>$()}{42}{subsubsection.5.33.1.7}%
-\contentsline {subsubsection}{\numberline {5.33.1.8}startMainMenu$<$ std::list$<$ Student $>$ $>$()}{42}{subsubsection.5.33.1.8}%
-\contentsline {subsubsection}{\numberline {5.33.1.9}startMainMenu$<$ vector$<$ Student $>$ $>$()}{42}{subsubsection.5.33.1.9}%
-\contentsline {section}{\numberline {5.34}src/main.cpp File Reference}{42}{section.5.34}%
-\contentsline {subsection}{\numberline {5.34.1}Function Documentation}{43}{subsection.5.34.1}%
-\contentsline {subsubsection}{\numberline {5.34.1.1}main()}{43}{subsubsection.5.34.1.1}%
-\contentsline {section}{\numberline {5.35}src/output-\/results.cpp File Reference}{43}{section.5.35}%
-\contentsline {subsection}{\numberline {5.35.1}Function Documentation}{43}{subsection.5.35.1}%
-\contentsline {subsubsection}{\numberline {5.35.1.1}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{43}{subsubsection.5.35.1.1}%
-\contentsline {subsubsection}{\numberline {5.35.1.2}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{44}{subsubsection.5.35.1.2}%
-\contentsline {subsubsection}{\numberline {5.35.1.3}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{44}{subsubsection.5.35.1.3}%
-\contentsline {subsubsection}{\numberline {5.35.1.4}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{44}{subsubsection.5.35.1.4}%
-\contentsline {subsubsection}{\numberline {5.35.1.5}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{44}{subsubsection.5.35.1.5}%
-\contentsline {subsubsection}{\numberline {5.35.1.6}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{44}{subsubsection.5.35.1.6}%
-\contentsline {subsubsection}{\numberline {5.35.1.7}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{44}{subsubsection.5.35.1.7}%
-\contentsline {subsubsection}{\numberline {5.35.1.8}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{44}{subsubsection.5.35.1.8}%
-\contentsline {section}{\numberline {5.36}src/student.cpp File Reference}{45}{section.5.36}%
-\contentsline {subsection}{\numberline {5.36.1}Function Documentation}{45}{subsection.5.36.1}%
-\contentsline {subsubsection}{\numberline {5.36.1.1}operator$<$$<$()}{45}{subsubsection.5.36.1.1}%
-\contentsline {subsubsection}{\numberline {5.36.1.2}operator$>$$>$()}{45}{subsubsection.5.36.1.2}%
-\contentsline {section}{\numberline {5.37}src/test/generate-\/student-\/list-\/test.cpp File Reference}{45}{section.5.37}%
-\contentsline {subsection}{\numberline {5.37.1}Function Documentation}{46}{subsection.5.37.1}%
-\contentsline {subsubsection}{\numberline {5.37.1.1}handleGenerateStudentListTest()}{46}{subsubsection.5.37.1.1}%
-\contentsline {section}{\numberline {5.38}src/test/output-\/nuskriausti-\/and-\/protingi-\/test.cpp File Reference}{46}{section.5.38}%
-\contentsline {subsection}{\numberline {5.38.1}Function Documentation}{47}{subsection.5.38.1}%
-\contentsline {subsubsection}{\numberline {5.38.1.1}outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles()}{47}{subsubsection.5.38.1.1}%
-\contentsline {subsubsection}{\numberline {5.38.1.2}outputNuskriaustiAndProtingiTestForContainer()}{47}{subsubsection.5.38.1.2}%
-\contentsline {section}{\numberline {5.39}src/test/student-\/rule-\/of-\/five-\/operators-\/test.cpp File Reference}{47}{section.5.39}%
-\contentsline {subsection}{\numberline {5.39.1}Function Documentation}{48}{subsection.5.39.1}%
-\contentsline {subsubsection}{\numberline {5.39.1.1}handleStudentRuleOfFiveAndOperatorsTest()}{48}{subsubsection.5.39.1.1}%
-\contentsline {subsubsection}{\numberline {5.39.1.2}printTestResult()}{48}{subsubsection.5.39.1.2}%
-\contentsline {subsubsection}{\numberline {5.39.1.3}testCopyAssignment()}{48}{subsubsection.5.39.1.3}%
-\contentsline {subsubsection}{\numberline {5.39.1.4}testCopyConstructor()}{48}{subsubsection.5.39.1.4}%
-\contentsline {subsubsection}{\numberline {5.39.1.5}testDestructor()}{48}{subsubsection.5.39.1.5}%
-\contentsline {subsubsection}{\numberline {5.39.1.6}testHumanIsAbstractAndNotInstantiable()}{48}{subsubsection.5.39.1.6}%
-\contentsline {subsubsection}{\numberline {5.39.1.7}testInputOperatorInvalid()}{48}{subsubsection.5.39.1.7}%
-\contentsline {subsubsection}{\numberline {5.39.1.8}testInputOperatorValid()}{49}{subsubsection.5.39.1.8}%
-\contentsline {subsubsection}{\numberline {5.39.1.9}testMoveAssignment()}{49}{subsubsection.5.39.1.9}%
-\contentsline {subsubsection}{\numberline {5.39.1.10}testMoveConstructor()}{49}{subsubsection.5.39.1.10}%
-\contentsline {subsubsection}{\numberline {5.39.1.11}testOutputOperator()}{49}{subsubsection.5.39.1.11}%
-\contentsline {section}{\numberline {5.40}src/utils/grading-\/utils.cpp File Reference}{49}{section.5.40}%
-\contentsline {subsection}{\numberline {5.40.1}Function Documentation}{50}{subsection.5.40.1}%
-\contentsline {subsubsection}{\numberline {5.40.1.1}calculateFinalGradeAverage()}{50}{subsubsection.5.40.1.1}%
-\contentsline {subsubsection}{\numberline {5.40.1.2}calculateFinalGradeMedian()}{50}{subsubsection.5.40.1.2}%
-\contentsline {subsubsection}{\numberline {5.40.1.3}randomGrade()}{50}{subsubsection.5.40.1.3}%
-\contentsline {section}{\numberline {5.41}src/utils/input-\/utils.cpp File Reference}{50}{section.5.41}%
-\contentsline {subsection}{\numberline {5.41.1}Function Documentation}{51}{subsection.5.41.1}%
-\contentsline {subsubsection}{\numberline {5.41.1.1}readIntInRange()}{51}{subsubsection.5.41.1.1}%
-\contentsline {subsubsection}{\numberline {5.41.1.2}readSingleIntToken()}{51}{subsubsection.5.41.1.2}%
-\contentsline {subsubsection}{\numberline {5.41.1.3}readSingleStringToken()}{51}{subsubsection.5.41.1.3}%
-\contentsline {subsubsection}{\numberline {5.41.1.4}readYesOrNo()}{51}{subsubsection.5.41.1.4}%
-\contentsline {chapter}{Index}{53}{section*.75}%
+\contentsline {section}{\numberline {4.1}Custom\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vector$<$ T $>$ Class Template Reference}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Member Typedef Documentation}{8}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}size\_type}{8}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}value\_type}{8}{subsubsection.4.1.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}CustomVector()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{8}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}CustomVector()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{8}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}CustomVector()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{9}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}$\sim $CustomVector()}{9}{subsubsection.4.1.2.4}%
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{9}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}append\_range()}{9}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}assign()}{9}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}at()}{9}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}back()}{9}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}begin()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{9}{subsubsection.4.1.3.5}%
+\contentsline {subsubsection}{\numberline {4.1.3.6}begin()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{10}{subsubsection.4.1.3.6}%
+\contentsline {subsubsection}{\numberline {4.1.3.7}capacity()}{10}{subsubsection.4.1.3.7}%
+\contentsline {subsubsection}{\numberline {4.1.3.8}cbegin()}{10}{subsubsection.4.1.3.8}%
+\contentsline {subsubsection}{\numberline {4.1.3.9}cend()}{10}{subsubsection.4.1.3.9}%
+\contentsline {subsubsection}{\numberline {4.1.3.10}clear()}{10}{subsubsection.4.1.3.10}%
+\contentsline {subsubsection}{\numberline {4.1.3.11}crbegin()}{10}{subsubsection.4.1.3.11}%
+\contentsline {subsubsection}{\numberline {4.1.3.12}crend()}{10}{subsubsection.4.1.3.12}%
+\contentsline {subsubsection}{\numberline {4.1.3.13}data()}{10}{subsubsection.4.1.3.13}%
+\contentsline {subsubsection}{\numberline {4.1.3.14}emplace()}{11}{subsubsection.4.1.3.14}%
+\contentsline {subsubsection}{\numberline {4.1.3.15}emplace\_back()}{11}{subsubsection.4.1.3.15}%
+\contentsline {subsubsection}{\numberline {4.1.3.16}empty()}{11}{subsubsection.4.1.3.16}%
+\contentsline {subsubsection}{\numberline {4.1.3.17}end()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{11}{subsubsection.4.1.3.17}%
+\contentsline {subsubsection}{\numberline {4.1.3.18}end()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{11}{subsubsection.4.1.3.18}%
+\contentsline {subsubsection}{\numberline {4.1.3.19}erase()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{11}{subsubsection.4.1.3.19}%
+\contentsline {subsubsection}{\numberline {4.1.3.20}erase()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{11}{subsubsection.4.1.3.20}%
+\contentsline {subsubsection}{\numberline {4.1.3.21}front()}{11}{subsubsection.4.1.3.21}%
+\contentsline {subsubsection}{\numberline {4.1.3.22}insert()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{12}{subsubsection.4.1.3.22}%
+\contentsline {subsubsection}{\numberline {4.1.3.23}insert()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{12}{subsubsection.4.1.3.23}%
+\contentsline {subsubsection}{\numberline {4.1.3.24}insert\_range()}{12}{subsubsection.4.1.3.24}%
+\contentsline {subsubsection}{\numberline {4.1.3.25}max\_size()}{12}{subsubsection.4.1.3.25}%
+\contentsline {subsubsection}{\numberline {4.1.3.26}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{12}{subsubsection.4.1.3.26}%
+\contentsline {subsubsection}{\numberline {4.1.3.27}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{12}{subsubsection.4.1.3.27}%
+\contentsline {subsubsection}{\numberline {4.1.3.28}operator[]()}{12}{subsubsection.4.1.3.28}%
+\contentsline {subsubsection}{\numberline {4.1.3.29}pop\_back()}{13}{subsubsection.4.1.3.29}%
+\contentsline {subsubsection}{\numberline {4.1.3.30}push\_back()}{13}{subsubsection.4.1.3.30}%
+\contentsline {subsubsection}{\numberline {4.1.3.31}rbegin()}{13}{subsubsection.4.1.3.31}%
+\contentsline {subsubsection}{\numberline {4.1.3.32}rend()}{13}{subsubsection.4.1.3.32}%
+\contentsline {subsubsection}{\numberline {4.1.3.33}reserve()}{13}{subsubsection.4.1.3.33}%
+\contentsline {subsubsection}{\numberline {4.1.3.34}resize()}{13}{subsubsection.4.1.3.34}%
+\contentsline {subsubsection}{\numberline {4.1.3.35}shrink\_to\_fit()}{13}{subsubsection.4.1.3.35}%
+\contentsline {subsubsection}{\numberline {4.1.3.36}size()}{13}{subsubsection.4.1.3.36}%
+\contentsline {subsubsection}{\numberline {4.1.3.37}swap()}{14}{subsubsection.4.1.3.37}%
+\contentsline {section}{\numberline {4.2}Human Class Reference}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Constructor \& Destructor Documentation}{15}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Human()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{15}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Human()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{15}{subsubsection.4.2.1.2}%
+\contentsline {subsubsection}{\numberline {4.2.1.3}Human()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{15}{subsubsection.4.2.1.3}%
+\contentsline {subsubsection}{\numberline {4.2.1.4}Human()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{15}{subsubsection.4.2.1.4}%
+\contentsline {subsubsection}{\numberline {4.2.1.5}$\sim $Human()}{15}{subsubsection.4.2.1.5}%
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{16}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}name()}{16}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{16}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{16}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}setName()}{16}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}setSurname()}{16}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}surname()}{16}{subsubsection.4.2.2.6}%
+\contentsline {subsection}{\numberline {4.2.3}Member Data Documentation}{16}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}name\_}{16}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}surname\_}{16}{subsubsection.4.2.3.2}%
+\contentsline {section}{\numberline {4.3}Student Class Reference}{17}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Constructor \& Destructor Documentation}{18}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Student()\hspace {0.1cm}{\footnotesize \ttfamily [1/6]}}{18}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Student()\hspace {0.1cm}{\footnotesize \ttfamily [2/6]}}{18}{subsubsection.4.3.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Student()\hspace {0.1cm}{\footnotesize \ttfamily [3/6]}}{19}{subsubsection.4.3.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.1.4}Student()\hspace {0.1cm}{\footnotesize \ttfamily [4/6]}}{19}{subsubsection.4.3.1.4}%
+\contentsline {subsubsection}{\numberline {4.3.1.5}Student()\hspace {0.1cm}{\footnotesize \ttfamily [5/6]}}{19}{subsubsection.4.3.1.5}%
+\contentsline {subsubsection}{\numberline {4.3.1.6}Student()\hspace {0.1cm}{\footnotesize \ttfamily [6/6]}}{19}{subsubsection.4.3.1.6}%
+\contentsline {subsubsection}{\numberline {4.3.1.7}$\sim $Student()}{19}{subsubsection.4.3.1.7}%
+\contentsline {subsection}{\numberline {4.3.2}Member Function Documentation}{19}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}examGrade()}{19}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}finalGradeAverage()}{19}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}finalGradeMedian()}{19}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}homeworkGrades()}{19}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}name()}{20}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{20}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{20}{subsubsection.4.3.2.7}%
+\contentsline {subsubsection}{\numberline {4.3.2.8}readStudent()}{20}{subsubsection.4.3.2.8}%
+\contentsline {subsubsection}{\numberline {4.3.2.9}setExamGrade()}{20}{subsubsection.4.3.2.9}%
+\contentsline {subsubsection}{\numberline {4.3.2.10}setHomeworkGrades()}{20}{subsubsection.4.3.2.10}%
+\contentsline {subsubsection}{\numberline {4.3.2.11}setName()}{20}{subsubsection.4.3.2.11}%
+\contentsline {subsubsection}{\numberline {4.3.2.12}setSurname()}{20}{subsubsection.4.3.2.12}%
+\contentsline {subsubsection}{\numberline {4.3.2.13}surname()}{20}{subsubsection.4.3.2.13}%
+\contentsline {subsection}{\numberline {4.3.3}Friends And Related Symbol Documentation}{21}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}operator$<$$<$}{21}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}operator$>$$>$}{21}{subsubsection.4.3.3.2}%
+\contentsline {chapter}{\numberline {5}File Documentation}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}include/create-\/student.h File Reference}{23}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Function Documentation}{24}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}createStudentFullyRandom()}{24}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}createStudentManual()}{24}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}createStudentRandomGrades()}{24}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}createStudentsFromFile()}{24}{subsubsection.5.1.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}randomName()}{24}{subsubsection.5.1.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.1.6}randomSurname()}{24}{subsubsection.5.1.1.6}%
+\contentsline {section}{\numberline {5.2}create-\/student.h}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}include/custom-\/vector-\/push-\/back-\/test.h File Reference}{25}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Function Documentation}{25}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}handleCustomVectorPushBackTest()}{25}{subsubsection.5.3.1.1}%
+\contentsline {section}{\numberline {5.4}custom-\/vector-\/push-\/back-\/test.h}{25}{section.5.4}%
+\contentsline {section}{\numberline {5.5}include/custom-\/vector-\/reallocation-\/test.h File Reference}{26}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Function Documentation}{26}{subsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.1}handleCustomVectorReallocationTest()}{26}{subsubsection.5.5.1.1}%
+\contentsline {section}{\numberline {5.6}custom-\/vector-\/reallocation-\/test.h}{26}{section.5.6}%
+\contentsline {section}{\numberline {5.7}include/custom-\/vector.h File Reference}{26}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Function Documentation}{27}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}operator"!=()}{27}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}operator$<$()}{28}{subsubsection.5.7.1.2}%
+\contentsline {subsubsection}{\numberline {5.7.1.3}operator$<$=()}{28}{subsubsection.5.7.1.3}%
+\contentsline {subsubsection}{\numberline {5.7.1.4}operator==()}{28}{subsubsection.5.7.1.4}%
+\contentsline {subsubsection}{\numberline {5.7.1.5}operator$>$()}{28}{subsubsection.5.7.1.5}%
+\contentsline {subsubsection}{\numberline {5.7.1.6}operator$>$=()}{28}{subsubsection.5.7.1.6}%
+\contentsline {section}{\numberline {5.8}custom-\/vector.h}{28}{section.5.8}%
+\contentsline {section}{\numberline {5.9}include/generate-\/student-\/list-\/test.h File Reference}{30}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Function Documentation}{30}{subsection.5.9.1}%
+\contentsline {subsubsection}{\numberline {5.9.1.1}handleGenerateStudentListTest()}{30}{subsubsection.5.9.1.1}%
+\contentsline {section}{\numberline {5.10}generate-\/student-\/list-\/test.h}{30}{section.5.10}%
+\contentsline {section}{\numberline {5.11}include/generate-\/student-\/list.h File Reference}{31}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Function Documentation}{31}{subsection.5.11.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.1}generateStudentListFile()}{31}{subsubsection.5.11.1.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.2}handleGenerateStudentListFile()}{31}{subsubsection.5.11.1.2}%
+\contentsline {section}{\numberline {5.12}generate-\/student-\/list.h}{32}{section.5.12}%
+\contentsline {section}{\numberline {5.13}include/grading-\/utils.h File Reference}{32}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Function Documentation}{32}{subsection.5.13.1}%
+\contentsline {subsubsection}{\numberline {5.13.1.1}calculateFinalGradeAverage()}{32}{subsubsection.5.13.1.1}%
+\contentsline {subsubsection}{\numberline {5.13.1.2}calculateFinalGradeMedian()}{33}{subsubsection.5.13.1.2}%
+\contentsline {subsubsection}{\numberline {5.13.1.3}randomGrade()}{33}{subsubsection.5.13.1.3}%
+\contentsline {section}{\numberline {5.14}grading-\/utils.h}{33}{section.5.14}%
+\contentsline {section}{\numberline {5.15}include/human.h File Reference}{33}{section.5.15}%
+\contentsline {section}{\numberline {5.16}human.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{34}{section.5.16}%
+\contentsline {section}{\numberline {5.17}include/input-\/utils.h File Reference}{34}{section.5.17}%
+\contentsline {subsection}{\numberline {5.17.1}Function Documentation}{35}{subsection.5.17.1}%
+\contentsline {subsubsection}{\numberline {5.17.1.1}readIntInRange()}{35}{subsubsection.5.17.1.1}%
+\contentsline {subsubsection}{\numberline {5.17.1.2}readSingleIntToken()}{35}{subsubsection.5.17.1.2}%
+\contentsline {subsubsection}{\numberline {5.17.1.3}readSingleStringToken()}{35}{subsubsection.5.17.1.3}%
+\contentsline {subsubsection}{\numberline {5.17.1.4}readYesOrNo()}{35}{subsubsection.5.17.1.4}%
+\contentsline {section}{\numberline {5.18}input-\/utils.h}{35}{section.5.18}%
+\contentsline {section}{\numberline {5.19}include/output-\/nuskriausti-\/and-\/protingi-\/test.h File Reference}{36}{section.5.19}%
+\contentsline {subsection}{\numberline {5.19.1}Function Documentation}{36}{subsection.5.19.1}%
+\contentsline {subsubsection}{\numberline {5.19.1.1}outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles()}{36}{subsubsection.5.19.1.1}%
+\contentsline {section}{\numberline {5.20}output-\/nuskriausti-\/and-\/protingi-\/test.h}{36}{section.5.20}%
+\contentsline {section}{\numberline {5.21}include/output-\/results.h File Reference}{36}{section.5.21}%
+\contentsline {subsection}{\numberline {5.21.1}Function Documentation}{37}{subsection.5.21.1}%
+\contentsline {subsubsection}{\numberline {5.21.1.1}chooseOutputAndPrint()}{37}{subsubsection.5.21.1.1}%
+\contentsline {subsubsection}{\numberline {5.21.1.2}outputResults()}{37}{subsubsection.5.21.1.2}%
+\contentsline {section}{\numberline {5.22}output-\/results.h}{38}{section.5.22}%
+\contentsline {section}{\numberline {5.23}include/sort-\/nuskriausti-\/and-\/protingi.h File Reference}{38}{section.5.23}%
+\contentsline {subsection}{\numberline {5.23.1}Function Documentation}{39}{subsection.5.23.1}%
+\contentsline {subsubsection}{\numberline {5.23.1.1}handleSortNuskriaustiAndProtingiFromFile()}{39}{subsubsection.5.23.1.1}%
+\contentsline {subsubsection}{\numberline {5.23.1.2}sortNuskriaustiAndProtingiFirstStrategy()}{39}{subsubsection.5.23.1.2}%
+\contentsline {subsubsection}{\numberline {5.23.1.3}sortNuskriaustiAndProtingiSecondStrategy()}{39}{subsubsection.5.23.1.3}%
+\contentsline {subsubsection}{\numberline {5.23.1.4}sortNuskriaustiAndProtingiThirdStrategy()}{39}{subsubsection.5.23.1.4}%
+\contentsline {section}{\numberline {5.24}sort-\/nuskriausti-\/and-\/protingi.h}{39}{section.5.24}%
+\contentsline {section}{\numberline {5.25}include/sort-\/students.h File Reference}{40}{section.5.25}%
+\contentsline {subsection}{\numberline {5.25.1}Function Documentation}{40}{subsection.5.25.1}%
+\contentsline {subsubsection}{\numberline {5.25.1.1}runSortStudentsChoicePrompt()}{40}{subsubsection.5.25.1.1}%
+\contentsline {subsubsection}{\numberline {5.25.1.2}sortStudents()}{41}{subsubsection.5.25.1.2}%
+\contentsline {section}{\numberline {5.26}sort-\/students.h}{41}{section.5.26}%
+\contentsline {section}{\numberline {5.27}include/student-\/app.h File Reference}{41}{section.5.27}%
+\contentsline {subsection}{\numberline {5.27.1}Function Documentation}{41}{subsection.5.27.1}%
+\contentsline {subsubsection}{\numberline {5.27.1.1}runStudentApp()}{41}{subsubsection.5.27.1.1}%
+\contentsline {section}{\numberline {5.28}student-\/app.h}{41}{section.5.28}%
+\contentsline {section}{\numberline {5.29}include/student-\/menu.h File Reference}{42}{section.5.29}%
+\contentsline {subsection}{\numberline {5.29.1}Function Documentation}{42}{subsection.5.29.1}%
+\contentsline {subsubsection}{\numberline {5.29.1.1}handleMenuChoice()}{42}{subsubsection.5.29.1.1}%
+\contentsline {subsubsection}{\numberline {5.29.1.2}showMainMenu()}{43}{subsubsection.5.29.1.2}%
+\contentsline {subsubsection}{\numberline {5.29.1.3}startMainMenu()}{43}{subsubsection.5.29.1.3}%
+\contentsline {section}{\numberline {5.30}student-\/menu.h}{43}{section.5.30}%
+\contentsline {section}{\numberline {5.31}include/student-\/rule-\/of-\/five-\/operators-\/test.h File Reference}{43}{section.5.31}%
+\contentsline {subsection}{\numberline {5.31.1}Function Documentation}{44}{subsection.5.31.1}%
+\contentsline {subsubsection}{\numberline {5.31.1.1}handleStudentRuleOfFiveAndOperatorsTest()}{44}{subsubsection.5.31.1.1}%
+\contentsline {section}{\numberline {5.32}student-\/rule-\/of-\/five-\/operators-\/test.h}{44}{section.5.32}%
+\contentsline {section}{\numberline {5.33}include/student.h File Reference}{44}{section.5.33}%
+\contentsline {section}{\numberline {5.34}student.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{45}{section.5.34}%
+\contentsline {section}{\numberline {5.35}src/create-\/student.cpp File Reference}{46}{section.5.35}%
+\contentsline {subsection}{\numberline {5.35.1}Function Documentation}{46}{subsection.5.35.1}%
+\contentsline {subsubsection}{\numberline {5.35.1.1}createStudentFullyRandom()}{46}{subsubsection.5.35.1.1}%
+\contentsline {subsubsection}{\numberline {5.35.1.2}createStudentManual()}{46}{subsubsection.5.35.1.2}%
+\contentsline {subsubsection}{\numberline {5.35.1.3}createStudentRandomGrades()}{47}{subsubsection.5.35.1.3}%
+\contentsline {subsubsection}{\numberline {5.35.1.4}createStudentsFromFile()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{47}{subsubsection.5.35.1.4}%
+\contentsline {subsubsection}{\numberline {5.35.1.5}createStudentsFromFile()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{47}{subsubsection.5.35.1.5}%
+\contentsline {subsubsection}{\numberline {5.35.1.6}randomName()}{47}{subsubsection.5.35.1.6}%
+\contentsline {subsubsection}{\numberline {5.35.1.7}randomSurname()}{47}{subsubsection.5.35.1.7}%
+\contentsline {section}{\numberline {5.36}src/data-\/sorting/sort-\/nuskriausti-\/and-\/protingi.cpp File Reference}{47}{section.5.36}%
+\contentsline {subsection}{\numberline {5.36.1}Function Documentation}{48}{subsection.5.36.1}%
+\contentsline {subsubsection}{\numberline {5.36.1.1}handleSortNuskriaustiAndProtingiFromFile()}{48}{subsubsection.5.36.1.1}%
+\contentsline {subsubsection}{\numberline {5.36.1.2}handleSortNuskriaustiAndProtingiFromFile$<$ CustomVector$<$ Student $>$ $>$()}{48}{subsubsection.5.36.1.2}%
+\contentsline {subsubsection}{\numberline {5.36.1.3}handleSortNuskriaustiAndProtingiFromFile$<$ std::deque$<$ Student $>$ $>$()}{48}{subsubsection.5.36.1.3}%
+\contentsline {subsubsection}{\numberline {5.36.1.4}handleSortNuskriaustiAndProtingiFromFile$<$ std::list$<$ Student $>$ $>$()}{49}{subsubsection.5.36.1.4}%
+\contentsline {subsubsection}{\numberline {5.36.1.5}handleSortNuskriaustiAndProtingiFromFile$<$ vector$<$ Student $>$ $>$()}{49}{subsubsection.5.36.1.5}%
+\contentsline {subsubsection}{\numberline {5.36.1.6}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{49}{subsubsection.5.36.1.6}%
+\contentsline {subsubsection}{\numberline {5.36.1.7}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{49}{subsubsection.5.36.1.7}%
+\contentsline {subsubsection}{\numberline {5.36.1.8}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{49}{subsubsection.5.36.1.8}%
+\contentsline {subsubsection}{\numberline {5.36.1.9}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{49}{subsubsection.5.36.1.9}%
+\contentsline {subsubsection}{\numberline {5.36.1.10}sortNuskriaustiAndProtingiFirstStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{49}{subsubsection.5.36.1.10}%
+\contentsline {subsubsection}{\numberline {5.36.1.11}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{49}{subsubsection.5.36.1.11}%
+\contentsline {subsubsection}{\numberline {5.36.1.12}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{50}{subsubsection.5.36.1.12}%
+\contentsline {subsubsection}{\numberline {5.36.1.13}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{50}{subsubsection.5.36.1.13}%
+\contentsline {subsubsection}{\numberline {5.36.1.14}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{50}{subsubsection.5.36.1.14}%
+\contentsline {subsubsection}{\numberline {5.36.1.15}sortNuskriaustiAndProtingiSecondStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{50}{subsubsection.5.36.1.15}%
+\contentsline {subsubsection}{\numberline {5.36.1.16}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{50}{subsubsection.5.36.1.16}%
+\contentsline {subsubsection}{\numberline {5.36.1.17}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{50}{subsubsection.5.36.1.17}%
+\contentsline {subsubsection}{\numberline {5.36.1.18}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{50}{subsubsection.5.36.1.18}%
+\contentsline {subsubsection}{\numberline {5.36.1.19}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{50}{subsubsection.5.36.1.19}%
+\contentsline {subsubsection}{\numberline {5.36.1.20}sortNuskriaustiAndProtingiThirdStrategy()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{51}{subsubsection.5.36.1.20}%
+\contentsline {section}{\numberline {5.37}src/data-\/sorting/sort-\/students.cpp File Reference}{51}{section.5.37}%
+\contentsline {subsection}{\numberline {5.37.1}Function Documentation}{51}{subsection.5.37.1}%
+\contentsline {subsubsection}{\numberline {5.37.1.1}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{51}{subsubsection.5.37.1.1}%
+\contentsline {subsubsection}{\numberline {5.37.1.2}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{52}{subsubsection.5.37.1.2}%
+\contentsline {subsubsection}{\numberline {5.37.1.3}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{52}{subsubsection.5.37.1.3}%
+\contentsline {subsubsection}{\numberline {5.37.1.4}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{52}{subsubsection.5.37.1.4}%
+\contentsline {subsubsection}{\numberline {5.37.1.5}runSortStudentsChoicePrompt()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{52}{subsubsection.5.37.1.5}%
+\contentsline {subsubsection}{\numberline {5.37.1.6}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{52}{subsubsection.5.37.1.6}%
+\contentsline {subsubsection}{\numberline {5.37.1.7}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{52}{subsubsection.5.37.1.7}%
+\contentsline {subsubsection}{\numberline {5.37.1.8}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{52}{subsubsection.5.37.1.8}%
+\contentsline {subsubsection}{\numberline {5.37.1.9}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{53}{subsubsection.5.37.1.9}%
+\contentsline {subsubsection}{\numberline {5.37.1.10}sortStudents()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{53}{subsubsection.5.37.1.10}%
+\contentsline {section}{\numberline {5.38}src/generate-\/student-\/list.cpp File Reference}{53}{section.5.38}%
+\contentsline {subsection}{\numberline {5.38.1}Function Documentation}{54}{subsection.5.38.1}%
+\contentsline {subsubsection}{\numberline {5.38.1.1}generateStudentListFile()}{54}{subsubsection.5.38.1.1}%
+\contentsline {subsubsection}{\numberline {5.38.1.2}handleGenerateStudentListFile()}{54}{subsubsection.5.38.1.2}%
+\contentsline {subsubsection}{\numberline {5.38.1.3}printHeader()}{54}{subsubsection.5.38.1.3}%
+\contentsline {subsubsection}{\numberline {5.38.1.4}printStudentListRow()}{54}{subsubsection.5.38.1.4}%
+\contentsline {section}{\numberline {5.39}src/main-\/menu.cpp File Reference}{54}{section.5.39}%
+\contentsline {subsection}{\numberline {5.39.1}Function Documentation}{55}{subsection.5.39.1}%
+\contentsline {subsubsection}{\numberline {5.39.1.1}handleMenuChoice()}{55}{subsubsection.5.39.1.1}%
+\contentsline {subsubsection}{\numberline {5.39.1.2}handleMenuChoice$<$ CustomVector$<$ Student $>$ $>$()}{55}{subsubsection.5.39.1.2}%
+\contentsline {subsubsection}{\numberline {5.39.1.3}handleMenuChoice$<$ std::deque$<$ Student $>$ $>$()}{55}{subsubsection.5.39.1.3}%
+\contentsline {subsubsection}{\numberline {5.39.1.4}handleMenuChoice$<$ std::list$<$ Student $>$ $>$()}{55}{subsubsection.5.39.1.4}%
+\contentsline {subsubsection}{\numberline {5.39.1.5}handleMenuChoice$<$ vector$<$ Student $>$ $>$()}{55}{subsubsection.5.39.1.5}%
+\contentsline {subsubsection}{\numberline {5.39.1.6}showMainMenu()}{56}{subsubsection.5.39.1.6}%
+\contentsline {subsubsection}{\numberline {5.39.1.7}startMainMenu()}{56}{subsubsection.5.39.1.7}%
+\contentsline {subsubsection}{\numberline {5.39.1.8}startMainMenu$<$ CustomVector$<$ Student $>$ $>$()}{56}{subsubsection.5.39.1.8}%
+\contentsline {subsubsection}{\numberline {5.39.1.9}startMainMenu$<$ std::deque$<$ Student $>$ $>$()}{56}{subsubsection.5.39.1.9}%
+\contentsline {subsubsection}{\numberline {5.39.1.10}startMainMenu$<$ std::list$<$ Student $>$ $>$()}{56}{subsubsection.5.39.1.10}%
+\contentsline {subsubsection}{\numberline {5.39.1.11}startMainMenu$<$ vector$<$ Student $>$ $>$()}{56}{subsubsection.5.39.1.11}%
+\contentsline {section}{\numberline {5.40}src/main.cpp File Reference}{56}{section.5.40}%
+\contentsline {subsection}{\numberline {5.40.1}Function Documentation}{57}{subsection.5.40.1}%
+\contentsline {subsubsection}{\numberline {5.40.1.1}main()}{57}{subsubsection.5.40.1.1}%
+\contentsline {section}{\numberline {5.41}src/output-\/results.cpp File Reference}{57}{section.5.41}%
+\contentsline {subsection}{\numberline {5.41.1}Function Documentation}{58}{subsection.5.41.1}%
+\contentsline {subsubsection}{\numberline {5.41.1.1}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{58}{subsubsection.5.41.1.1}%
+\contentsline {subsubsection}{\numberline {5.41.1.2}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{58}{subsubsection.5.41.1.2}%
+\contentsline {subsubsection}{\numberline {5.41.1.3}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{58}{subsubsection.5.41.1.3}%
+\contentsline {subsubsection}{\numberline {5.41.1.4}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{58}{subsubsection.5.41.1.4}%
+\contentsline {subsubsection}{\numberline {5.41.1.5}chooseOutputAndPrint()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{58}{subsubsection.5.41.1.5}%
+\contentsline {subsubsection}{\numberline {5.41.1.6}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{58}{subsubsection.5.41.1.6}%
+\contentsline {subsubsection}{\numberline {5.41.1.7}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{58}{subsubsection.5.41.1.7}%
+\contentsline {subsubsection}{\numberline {5.41.1.8}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{58}{subsubsection.5.41.1.8}%
+\contentsline {subsubsection}{\numberline {5.41.1.9}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{59}{subsubsection.5.41.1.9}%
+\contentsline {subsubsection}{\numberline {5.41.1.10}outputResults()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{59}{subsubsection.5.41.1.10}%
+\contentsline {section}{\numberline {5.42}src/student.cpp File Reference}{59}{section.5.42}%
+\contentsline {subsection}{\numberline {5.42.1}Function Documentation}{59}{subsection.5.42.1}%
+\contentsline {subsubsection}{\numberline {5.42.1.1}operator$<$$<$()}{59}{subsubsection.5.42.1.1}%
+\contentsline {subsubsection}{\numberline {5.42.1.2}operator$>$$>$()}{60}{subsubsection.5.42.1.2}%
+\contentsline {section}{\numberline {5.43}src/test/catch2-\/main.cpp File Reference}{60}{section.5.43}%
+\contentsline {subsection}{\numberline {5.43.1}Macro Definition Documentation}{60}{subsection.5.43.1}%
+\contentsline {subsubsection}{\numberline {5.43.1.1}CATCH\_CONFIG\_MAIN}{60}{subsubsection.5.43.1.1}%
+\contentsline {section}{\numberline {5.44}src/test/runtime-\/test/custom-\/vector-\/push-\/back-\/test.cpp File Reference}{60}{section.5.44}%
+\contentsline {subsection}{\numberline {5.44.1}Function Documentation}{61}{subsection.5.44.1}%
+\contentsline {subsubsection}{\numberline {5.44.1.1}handleCustomVectorPushBackTest()}{61}{subsubsection.5.44.1.1}%
+\contentsline {section}{\numberline {5.45}src/test/runtime-\/test/custom-\/vector-\/reallocation-\/test.cpp File Reference}{61}{section.5.45}%
+\contentsline {subsection}{\numberline {5.45.1}Function Documentation}{62}{subsection.5.45.1}%
+\contentsline {subsubsection}{\numberline {5.45.1.1}countReallocationsWhilePushBack()}{62}{subsubsection.5.45.1.1}%
+\contentsline {subsubsection}{\numberline {5.45.1.2}handleCustomVectorReallocationTest()}{62}{subsubsection.5.45.1.2}%
+\contentsline {subsection}{\numberline {5.45.2}Variable Documentation}{62}{subsection.5.45.2}%
+\contentsline {subsubsection}{\numberline {5.45.2.1}kElementCount}{62}{subsubsection.5.45.2.1}%
+\contentsline {section}{\numberline {5.46}src/test/runtime-\/test/generate-\/student-\/list-\/test.cpp File Reference}{62}{section.5.46}%
+\contentsline {subsection}{\numberline {5.46.1}Function Documentation}{63}{subsection.5.46.1}%
+\contentsline {subsubsection}{\numberline {5.46.1.1}handleGenerateStudentListTest()}{63}{subsubsection.5.46.1.1}%
+\contentsline {section}{\numberline {5.47}src/test/runtime-\/test/output-\/nuskriausti-\/and-\/protingi-\/test.cpp File Reference}{63}{section.5.47}%
+\contentsline {subsection}{\numberline {5.47.1}Function Documentation}{63}{subsection.5.47.1}%
+\contentsline {subsubsection}{\numberline {5.47.1.1}outputNuskriaustiAndProtingiTestForAllStudentsTxtFiles()}{63}{subsubsection.5.47.1.1}%
+\contentsline {subsubsection}{\numberline {5.47.1.2}outputNuskriaustiAndProtingiTestForContainer()}{64}{subsubsection.5.47.1.2}%
+\contentsline {section}{\numberline {5.48}src/test/runtime-\/test/student-\/rule-\/of-\/five-\/operators-\/test.cpp File Reference}{64}{section.5.48}%
+\contentsline {subsection}{\numberline {5.48.1}Function Documentation}{65}{subsection.5.48.1}%
+\contentsline {subsubsection}{\numberline {5.48.1.1}handleStudentRuleOfFiveAndOperatorsTest()}{65}{subsubsection.5.48.1.1}%
+\contentsline {subsubsection}{\numberline {5.48.1.2}printTestResult()}{65}{subsubsection.5.48.1.2}%
+\contentsline {subsubsection}{\numberline {5.48.1.3}testCopyAssignment()}{65}{subsubsection.5.48.1.3}%
+\contentsline {subsubsection}{\numberline {5.48.1.4}testCopyConstructor()}{65}{subsubsection.5.48.1.4}%
+\contentsline {subsubsection}{\numberline {5.48.1.5}testDestructor()}{65}{subsubsection.5.48.1.5}%
+\contentsline {subsubsection}{\numberline {5.48.1.6}testHumanIsAbstractAndNotInstantiable()}{65}{subsubsection.5.48.1.6}%
+\contentsline {subsubsection}{\numberline {5.48.1.7}testInputOperatorInvalid()}{65}{subsubsection.5.48.1.7}%
+\contentsline {subsubsection}{\numberline {5.48.1.8}testInputOperatorValid()}{65}{subsubsection.5.48.1.8}%
+\contentsline {subsubsection}{\numberline {5.48.1.9}testMoveAssignment()}{65}{subsubsection.5.48.1.9}%
+\contentsline {subsubsection}{\numberline {5.48.1.10}testMoveConstructor()}{66}{subsubsection.5.48.1.10}%
+\contentsline {subsubsection}{\numberline {5.48.1.11}testOutputOperator()}{66}{subsubsection.5.48.1.11}%
+\contentsline {section}{\numberline {5.49}src/test/unit-\/test/custom-\/vector-\/catch2-\/test.cpp File Reference}{66}{section.5.49}%
+\contentsline {subsection}{\numberline {5.49.1}Function Documentation}{67}{subsection.5.49.1}%
+\contentsline {subsubsection}{\numberline {5.49.1.1}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [1/31]}}{67}{subsubsection.5.49.1.1}%
+\contentsline {subsubsection}{\numberline {5.49.1.2}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [2/31]}}{67}{subsubsection.5.49.1.2}%
+\contentsline {subsubsection}{\numberline {5.49.1.3}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [3/31]}}{67}{subsubsection.5.49.1.3}%
+\contentsline {subsubsection}{\numberline {5.49.1.4}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [4/31]}}{67}{subsubsection.5.49.1.4}%
+\contentsline {subsubsection}{\numberline {5.49.1.5}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [5/31]}}{67}{subsubsection.5.49.1.5}%
+\contentsline {subsubsection}{\numberline {5.49.1.6}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [6/31]}}{68}{subsubsection.5.49.1.6}%
+\contentsline {subsubsection}{\numberline {5.49.1.7}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [7/31]}}{68}{subsubsection.5.49.1.7}%
+\contentsline {subsubsection}{\numberline {5.49.1.8}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [8/31]}}{68}{subsubsection.5.49.1.8}%
+\contentsline {subsubsection}{\numberline {5.49.1.9}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [9/31]}}{68}{subsubsection.5.49.1.9}%
+\contentsline {subsubsection}{\numberline {5.49.1.10}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [10/31]}}{68}{subsubsection.5.49.1.10}%
+\contentsline {subsubsection}{\numberline {5.49.1.11}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [11/31]}}{68}{subsubsection.5.49.1.11}%
+\contentsline {subsubsection}{\numberline {5.49.1.12}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [12/31]}}{68}{subsubsection.5.49.1.12}%
+\contentsline {subsubsection}{\numberline {5.49.1.13}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [13/31]}}{68}{subsubsection.5.49.1.13}%
+\contentsline {subsubsection}{\numberline {5.49.1.14}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [14/31]}}{69}{subsubsection.5.49.1.14}%
+\contentsline {subsubsection}{\numberline {5.49.1.15}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [15/31]}}{69}{subsubsection.5.49.1.15}%
+\contentsline {subsubsection}{\numberline {5.49.1.16}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [16/31]}}{69}{subsubsection.5.49.1.16}%
+\contentsline {subsubsection}{\numberline {5.49.1.17}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [17/31]}}{69}{subsubsection.5.49.1.17}%
+\contentsline {subsubsection}{\numberline {5.49.1.18}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [18/31]}}{69}{subsubsection.5.49.1.18}%
+\contentsline {subsubsection}{\numberline {5.49.1.19}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [19/31]}}{69}{subsubsection.5.49.1.19}%
+\contentsline {subsubsection}{\numberline {5.49.1.20}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [20/31]}}{69}{subsubsection.5.49.1.20}%
+\contentsline {subsubsection}{\numberline {5.49.1.21}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [21/31]}}{69}{subsubsection.5.49.1.21}%
+\contentsline {subsubsection}{\numberline {5.49.1.22}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [22/31]}}{70}{subsubsection.5.49.1.22}%
+\contentsline {subsubsection}{\numberline {5.49.1.23}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [23/31]}}{70}{subsubsection.5.49.1.23}%
+\contentsline {subsubsection}{\numberline {5.49.1.24}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [24/31]}}{70}{subsubsection.5.49.1.24}%
+\contentsline {subsubsection}{\numberline {5.49.1.25}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [25/31]}}{70}{subsubsection.5.49.1.25}%
+\contentsline {subsubsection}{\numberline {5.49.1.26}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [26/31]}}{70}{subsubsection.5.49.1.26}%
+\contentsline {subsubsection}{\numberline {5.49.1.27}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [27/31]}}{70}{subsubsection.5.49.1.27}%
+\contentsline {subsubsection}{\numberline {5.49.1.28}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [28/31]}}{70}{subsubsection.5.49.1.28}%
+\contentsline {subsubsection}{\numberline {5.49.1.29}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [29/31]}}{70}{subsubsection.5.49.1.29}%
+\contentsline {subsubsection}{\numberline {5.49.1.30}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [30/31]}}{71}{subsubsection.5.49.1.30}%
+\contentsline {subsubsection}{\numberline {5.49.1.31}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [31/31]}}{71}{subsubsection.5.49.1.31}%
+\contentsline {section}{\numberline {5.50}src/test/unit-\/test/student-\/catch2-\/test.cpp File Reference}{71}{section.5.50}%
+\contentsline {subsection}{\numberline {5.50.1}Function Documentation}{72}{subsection.5.50.1}%
+\contentsline {subsubsection}{\numberline {5.50.1.1}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [1/10]}}{72}{subsubsection.5.50.1.1}%
+\contentsline {subsubsection}{\numberline {5.50.1.2}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [2/10]}}{72}{subsubsection.5.50.1.2}%
+\contentsline {subsubsection}{\numberline {5.50.1.3}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [3/10]}}{72}{subsubsection.5.50.1.3}%
+\contentsline {subsubsection}{\numberline {5.50.1.4}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [4/10]}}{72}{subsubsection.5.50.1.4}%
+\contentsline {subsubsection}{\numberline {5.50.1.5}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [5/10]}}{72}{subsubsection.5.50.1.5}%
+\contentsline {subsubsection}{\numberline {5.50.1.6}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [6/10]}}{72}{subsubsection.5.50.1.6}%
+\contentsline {subsubsection}{\numberline {5.50.1.7}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [7/10]}}{72}{subsubsection.5.50.1.7}%
+\contentsline {subsubsection}{\numberline {5.50.1.8}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [8/10]}}{73}{subsubsection.5.50.1.8}%
+\contentsline {subsubsection}{\numberline {5.50.1.9}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [9/10]}}{73}{subsubsection.5.50.1.9}%
+\contentsline {subsubsection}{\numberline {5.50.1.10}TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [10/10]}}{73}{subsubsection.5.50.1.10}%
+\contentsline {section}{\numberline {5.51}src/utils/grading-\/utils.cpp File Reference}{73}{section.5.51}%
+\contentsline {subsection}{\numberline {5.51.1}Function Documentation}{74}{subsection.5.51.1}%
+\contentsline {subsubsection}{\numberline {5.51.1.1}calculateFinalGradeAverage()}{74}{subsubsection.5.51.1.1}%
+\contentsline {subsubsection}{\numberline {5.51.1.2}calculateFinalGradeMedian()}{74}{subsubsection.5.51.1.2}%
+\contentsline {subsubsection}{\numberline {5.51.1.3}randomGrade()}{74}{subsubsection.5.51.1.3}%
+\contentsline {section}{\numberline {5.52}src/utils/input-\/utils.cpp File Reference}{74}{section.5.52}%
+\contentsline {subsection}{\numberline {5.52.1}Function Documentation}{75}{subsection.5.52.1}%
+\contentsline {subsubsection}{\numberline {5.52.1.1}readIntInRange()}{75}{subsubsection.5.52.1.1}%
+\contentsline {subsubsection}{\numberline {5.52.1.2}readSingleIntToken()}{75}{subsubsection.5.52.1.2}%
+\contentsline {subsubsection}{\numberline {5.52.1.3}readSingleStringToken()}{75}{subsubsection.5.52.1.3}%
+\contentsline {subsubsection}{\numberline {5.52.1.4}readYesOrNo()}{75}{subsubsection.5.52.1.4}%
+\contentsline {chapter}{Index}{77}{section*.96}%

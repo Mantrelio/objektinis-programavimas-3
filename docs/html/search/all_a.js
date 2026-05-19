@@ -1,13 +1,7 @@
 var searchData=
 [
-  ['randomgrade_0',['randomgrade',['../grading-utils_8cpp.html#ac1a66bb333b8f990cd899862e481ed36',1,'randomGrade(int min, int max):&#160;grading-utils.cpp'],['../grading-utils_8h.html#ad537b0503e77d5fe061234c4c7097ab9',1,'randomGrade(int min=1, int max=10):&#160;grading-utils.cpp']]],
-  ['randomname_1',['randomname',['../create-student_8cpp.html#affd767160ae12dbd38e4fcde966a7fac',1,'randomName():&#160;create-student.cpp'],['../create-student_8h.html#affd767160ae12dbd38e4fcde966a7fac',1,'randomName():&#160;create-student.cpp']]],
-  ['randomsurname_2',['randomsurname',['../create-student_8cpp.html#ab4609774ae5b93bd3b92dbfe78c75b95',1,'randomSurname():&#160;create-student.cpp'],['../create-student_8h.html#ab4609774ae5b93bd3b92dbfe78c75b95',1,'randomSurname():&#160;create-student.cpp']]],
-  ['readintinrange_3',['readintinrange',['../input-utils_8cpp.html#a675ca46d4793beb7c9a0f462e81996ba',1,'readIntInRange(const string &amp;prompt, int min, int max):&#160;input-utils.cpp'],['../input-utils_8h.html#a675ca46d4793beb7c9a0f462e81996ba',1,'readIntInRange(const string &amp;prompt, int min, int max):&#160;input-utils.cpp']]],
-  ['readsingleinttoken_4',['readsingleinttoken',['../input-utils_8h.html#ad6fc2f9eea294b269743bea84590b331',1,'readSingleIntToken(const string &amp;prompt):&#160;input-utils.cpp'],['../input-utils_8cpp.html#ad6fc2f9eea294b269743bea84590b331',1,'readSingleIntToken(const string &amp;prompt):&#160;input-utils.cpp']]],
-  ['readsinglestringtoken_5',['readsinglestringtoken',['../input-utils_8cpp.html#ada5ce1992225fd0e1c3807d48d7a1b8b',1,'readSingleStringToken(const string &amp;prompt):&#160;input-utils.cpp'],['../input-utils_8h.html#ada5ce1992225fd0e1c3807d48d7a1b8b',1,'readSingleStringToken(const string &amp;prompt):&#160;input-utils.cpp']]],
-  ['readstudent_6',['readStudent',['../classStudent.html#a9c5cbd2b4ce6628b671a1dfd54faa0f6',1,'Student']]],
-  ['readyesorno_7',['readyesorno',['../input-utils_8cpp.html#a7a86b3be92fb0fd600fa12d300bc5a6c',1,'readYesOrNo(const string &amp;prompt):&#160;input-utils.cpp'],['../input-utils_8h.html#a7a86b3be92fb0fd600fa12d300bc5a6c',1,'readYesOrNo(const string &amp;prompt):&#160;input-utils.cpp']]],
-  ['runsortstudentschoiceprompt_8',['runsortstudentschoiceprompt',['../sort-students_8cpp.html#a36bdccb0ad388bd83d8ccf43b3d70dff',1,'runSortStudentsChoicePrompt(T &amp;students):&#160;sort-students.cpp'],['../sort-students_8cpp.html#aded79582df9c9ac0af5058b9845e537c',1,'runSortStudentsChoicePrompt(vector&lt; Student &gt; &amp;):&#160;sort-students.cpp'],['../sort-students_8cpp.html#aff83ca0328628c04b9987005105969bf',1,'runSortStudentsChoicePrompt(std::list&lt; Student &gt; &amp;):&#160;sort-students.cpp'],['../sort-students_8cpp.html#ad6d6e1f570fd078143a644c6fdc0920d',1,'runSortStudentsChoicePrompt(std::deque&lt; Student &gt; &amp;):&#160;sort-students.cpp'],['../sort-students_8h.html#a36bdccb0ad388bd83d8ccf43b3d70dff',1,'runSortStudentsChoicePrompt(T &amp;students):&#160;sort-students.cpp']]],
-  ['runstudentapp_9',['runStudentApp',['../student-app_8h.html#ad91389062e0e41aab13a8ea27c4a0179',1,'student-app.h']]]
+  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['main_2dmenu_2ecpp_1',['main-menu.cpp',['../main-menu_8cpp.html',1,'']]],
+  ['main_2ecpp_2',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['max_5fsize_3',['max_size',['../classCustomVector.html#a7f50e3fc894f37f7c6ae482608912b6a',1,'CustomVector']]]
 ];

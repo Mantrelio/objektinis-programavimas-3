@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]]
+  ['finalgradeaverage_0',['finalGradeAverage',['../classStudent.html#ab521819e84810ba8441d821ea7710820',1,'Student']]],
+  ['finalgrademedian_1',['finalGradeMedian',['../classStudent.html#a37a67609edb41c95a920cef88964e706',1,'Student']]],
+  ['front_2',['front',['../classCustomVector.html#ae7529e338c3976fb60d12e70be23df27',1,'CustomVector']]]
 ];
