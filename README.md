@@ -38,24 +38,63 @@ g++ --version
 make --version
 ```
 
-## Kompiliavimas
+## Diegimas (Windows)
+
+Projekto šaknyje pateikiamas diegiklis **`setup.exe`**. Jis skirtas Windows ir diegia programą pagal VU reikalavimus.
+
+### Diegimo žingsniai
+
+1. Nukopijuokite `setup.exe` į Windows kompiuterį.
+2. Paleiskite **`setup.exe`** (dešiniuoju pelės mygtuku → *Run as administrator* / *Vykdyti kaip administratorius*, jei UAC to paprašo).
+3. Sekite diegimo vedlio nurodymus.
+4. Paleiskite programą vienu iš būdų:
+   - **Darbalaukio** nuoroda *Mantrimas-Kasparavičius*
+   - **Start meniu** → **VU** → *Mantrimas-Kasparavičius*
+
+### Kur įdiegiama
+
+| Vieta | Kelias |
+| --- | --- |
+| Programos aplankas | `C:\Program Files\VU\Mantrimas-Kasparavičius\` |
+| Vykdomasis failas | `main.exe` |
+| Duomenų failai | `students10000`, `students100000` |
+
+Diegimo metu į aukščiau nurodytą aplanką nukopijuojami `main.exe` ir du testiniai duomenų failai. Skaitant studentus iš failo (meniu punktas `4`), įveskite failo pavadinimą be kelio, pvz. `students10000` arba `students100000`.
+
+### Administratoriaus teisės
+
+- Diegiklis paleidžiamas su administratoriaus teisėmis.
+- Pati programa taip pat prašo UAC patvirtinimo paleidimo metu (reikalinga pagal užduoties reikalavimus).
+
+### Pastabos
+
+- `setup.exe` veikia tik **Windows**; Linux aplinkoje naudokite kompiliavimą iš šaltinių (žr. žemiau).
+- Jei konsolėje lietuviškos raidės rodomos neteisingai, paleiskite programą per **Windows Terminal** arba **Command Prompt** ir, jei reikia, prieš paleidimą vykdykite: `chcp 65001`.
+
+## Kompiliavimas iš šaltinių (Linux)
 
 1. Pereikite į projekto aplanką.
 2. Surinkite programą su `make`.
 
 ```bash
-cd /home/mantrimas/Documents/OOP/objektinis-programavimas
+cd objektinis-programavimas-3
 make
 ```
 
-Tai sukuria vykdomąjį failą `student-vector`.
+Tai sukuria vykdomuosius failus **`main`** (pagrindinė programa) ir **`test`** (vienetiniai testai).
 
-## Paleidimas
+## Paleidimas (Linux)
 
 Paleiskite programą:
 
 ```bash
-./student-vector
+./main
+```
+
+Vienetiniai testai:
+
+```bash
+./test
 ```
 
 Išvalymas (jei reikia pilno perkompiliavimo):
@@ -63,6 +102,8 @@ Išvalymas (jei reikia pilno perkompiliavimo):
 ```bash
 make clean
 ```
+
+Tai pašalina `main`, `test` ir `build/obj/`, `build/test-obj/` aplankus. **`setup.exe` ir `main.exe` (jei yra) šiuo metu nepašalinami** — juos ištrinkite rankiniu būdu, jei reikia.
 
 Pilnas perkompiliavimas:
 
