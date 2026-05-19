@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 
-static const int kIterations = 1;
+static const int kIterations = 5;
 
 static std::size_t readElementCount() {
     std::cout << "Pasirinkite elementu skaiciu:" << std::endl;
