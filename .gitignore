@@ -27,11 +27,11 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
 
 # Build directories
 build/
+dist/
 
 .cursor/
